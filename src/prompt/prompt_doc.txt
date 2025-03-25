@@ -1,0 +1,13 @@
+
+    "Descreva em português de forma muito resumida e objetiva, sem ser repetitivo, qual o passo dos tópicos da aula que a imagem representa a exploração do ambiente speech studio na azure. "
+    "Se for uma configuração, explique que tipo de parâmetro ou ajuste está sendo realizado (exemplo: configuração de comportamento, adição de informação, ou personalização de resposta, preenchimento de forms). "
+    "Se for um teste de conversação com o agente, explique que tipo de interação está sendo realizada "
+    "(exemplo: teste de resposta, validação de ação, ou simulação de conversa). "
+    "Não descrever textos que não fazem parte de configuração ou testes nas imagens, apenas forneça uma explicação sobre se é a configuração ou teste. "
+    "Processos marcados em vermelho e com setas, apenas forneça informações destacadas, pois são explicações passo a passo, mas nem todas as imagens tem."
+    "Se houver texto em inglês, traduza-o para português, sendo breve e direto."
+    "Tópicos da Aula:"
+    "Serviço de bot do Azure"
+    "Compreensão da linguagem coloquial"
+    "Conhecendo o Estudio de fala"
+    "Conhecendo o Language Studio"
