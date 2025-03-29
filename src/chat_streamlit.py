@@ -1,20 +1,40 @@
-# chat_streamlit.py
 import streamlit as st
+import time
+from datetime import datetime
 from core.handlers.gemini_handler import GeminiHandler
 from PIL import Image
 import os
-from datetime import datetime
+import io
 from core.config import ASSETS_DIR, PROMPT_CHAT_FILE
 
-st.title("💬 Chat Interativo com IA (Texto e Imagem)")
+st.set_page_config(page_title="Chat IA Inteligente", layout="wide")
 
-# Carrega prompt dinâmico do chat
+# Inicializa estados do session_state
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+if "processing" not in st.session_state:
+    st.session_state.processing = False
+if "uploaded_image" not in st.session_state:
+    st.session_state.uploaded_image = None
+if "clipboard_image_preview" not in st.session_state:
+    st.session_state.clipboard_image_preview = None
+if "clipboard_image_file" not in st.session_state:
+    st.session_state.clipboard_image_file = None
+if "last_message_time" not in st.session_state:
+    st.session_state.last_message_time = 0
+if "file_uploader_key" not in st.session_state:
+    st.session_state.file_uploader_key = "uploader_0"
+
+# Limite máximo de mensagens no histórico
+MAX_MESSAGES = 20
+
+# Função para carregar o prompt do chat
 def load_chat_prompt():
     try:
         with open(PROMPT_CHAT_FILE, "r", encoding="utf-8") as file:
             return file.read().strip()
     except FileNotFoundError:
-        return "Você é um assistente técnico especialista em desenvolvimento de software e IA."
+        return "Você é um assistente de IA versátil e útil. Você pode conversar sobre diversos assuntos e também analisar imagens quando elas forem fornecidas."
 
 chat_prompt = load_chat_prompt()
 
@@ -25,56 +45,244 @@ def get_gemini_handler():
 
 gemini_handler = get_gemini_handler()
 
-# Histórico da conversa
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+# Função para verificar e processar a área de transferência
+def check_clipboard():
+    try:
+        from PIL import ImageGrab
 
-# Exibe histórico
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        if message.get("image"):
-            st.image(message["image"])
-        st.markdown(message["content"])
+        # Tenta pegar imagem da área de transferência
+        img = ImageGrab.grabclipboard()
 
-# Entrada do usuário (texto e imagem)
-with st.form("chat_form", clear_on_submit=True):
-    user_input = st.text_area("Digite sua mensagem:")
-    uploaded_image = st.file_uploader("Opcional: envie uma imagem", type=["png", "jpg", "jpeg"])
-    submitted = st.form_submit_button("Enviar")
+        if img is not None and isinstance(img, Image.Image):
+            # Converte a imagem para bytes
+            img_byte_arr = io.BytesIO()
+            img.save(img_byte_arr, format='PNG')
+            img_byte_arr.seek(0)
 
-if submitted and user_input:
+            # Cria um objeto similar ao retornado pelo st.file_uploader
+            class ClipboardFile:
+                def __init__(self, bytes_data):
+                    self.bytes_data = bytes_data
+                    self.name = f"clipboard_{datetime.now().strftime('%Y%m%d%H%M%S')}.png"
+
+                def getbuffer(self):
+                    return self.bytes_data.getvalue()
+
+            return ClipboardFile(img_byte_arr), img
+        return None, None
+    except Exception as e:
+        st.sidebar.error(f"Erro ao acessar a área de transferência: {e}")
+        return None, None
+
+# Função para resetar o uploader alterando sua chave
+def reset_uploader():
+    # Extrai o número da chave atual
+    current_key = st.session_state.file_uploader_key
+    key_num = int(current_key.split("_")[1])
+    # Gera uma nova chave incrementando o número
+    st.session_state.file_uploader_key = f"uploader_{key_num + 1}"
+    # Limpa o estado do uploaded_image
+    st.session_state.uploaded_image = None
+
+# Função que processa a mensagem (com ou sem imagem)
+def process_message(user_input, image_data=None):
+    # Marca como processando para bloquear novos inputs
+    st.session_state.processing = True
+    st.session_state.current_prompt = user_input
+    st.session_state.current_image = image_data
+
+    # Força a reexecução para atualizar a UI e mostrar o indicador de processamento
+    st.rerun()
+
+def execute_processing():
+    user_input = st.session_state.current_prompt
+    image_data = st.session_state.current_image
+
+    current_time = time.time()
+    time_since_last_message = current_time - st.session_state.last_message_time
+    wait_time = max(0, 2 - time_since_last_message)
+    time.sleep(wait_time)
+
+    st.session_state.last_message_time = time.time()
+
     img_path = None
     img_display = None
 
-    if uploaded_image:
+    # Adiciona mensagem do usuário ao histórico
+    if image_data:
         os.makedirs(ASSETS_DIR, exist_ok=True)
-        img_name = f"{datetime.now().strftime('%Y%m%d%H%M%S')}_{uploaded_image.name}"
+        img_name = f"{datetime.now().strftime('%Y%m%d%H%M%S')}_{image_data.name}"
         img_path = os.path.join(ASSETS_DIR, img_name)
         with open(img_path, "wb") as f:
-            f.write(uploaded_image.getbuffer())
-        img_display = Image.open(img_path)
+            f.write(image_data.getbuffer())
+        with Image.open(img_path) as img:
+            img_display = img.copy()
 
-    # Exibe mensagem do usuário
-    st.session_state.messages.append({"role": "user", "content": user_input, "image": img_display})
-    with st.chat_message("user"):
-        if img_display:
-            st.image(img_display)
-        st.markdown(user_input)
+        # NÃO salve a imagem no histórico:
+        st.session_state.messages.append({"role": "user", "content": user_input})
+    else:
+        st.session_state.messages.append({"role": "user", "content": user_input})
+
+    # Garante que o histórico não exceda o limite
+    if len(st.session_state.messages) > MAX_MESSAGES:
+        st.session_state.messages = st.session_state.messages[-MAX_MESSAGES:]
+
+    # Constrói o prompt completo incluindo o histórico do chat
+    full_prompt = chat_prompt + "\n\n"  # Start with the base prompt
+
+    for message in st.session_state.messages[:-1]: # Exclude the last user message
+        role = message["role"]
+        content = message["content"]
+        full_prompt += f"{role.capitalize()}: {content}\n"
+
+    full_prompt += f"User: {user_input}" # Add current user message
 
     # Processa resposta da IA
-    with st.chat_message("assistant"):
-        with st.spinner("Gerando resposta..."):
-            try:
-                full_prompt = f"{chat_prompt}\n\n{user_input}"
-                response = gemini_handler.generate_content(img_path, full_prompt)
-                st.markdown(response)
-            except Exception as e:
-                response = f"❌ Erro ao gerar resposta: {str(e)}"
-                st.error(response)
+    try:
+        if img_path:
+            # Se tem imagem: usa o prompt específico para imagens
+            response = gemini_handler.generate_content(img_path, full_prompt)
+        else:
+            # Se não tem imagem: apenas conversa normal
+            response = gemini_handler.generate_content(None, full_prompt)
+    except Exception as e:
+        response = f"❌ Erro ao gerar resposta: {str(e)}"
 
-    # Salva resposta da IA no histórico
+    # Adiciona resposta ao histórico
     st.session_state.messages.append({"role": "assistant", "content": response})
 
-    # Opcional: remover imagem após uso
+    # Garante que o histórico não exceda o limite
+    if len(st.session_state.messages) > MAX_MESSAGES:
+        st.session_state.messages = st.session_state.messages[-MAX_MESSAGES:]
+
+    # Remove imagem temporária do disco após uso
     if img_path and os.path.exists(img_path):
         os.remove(img_path)
+
+    # Marca o processamento como concluído, mas NÃO limpa as imagens
+    st.session_state.processing = False
+    st.session_state.current_prompt = None
+    st.session_state.current_image = None
+
+# Callback quando o botão de colar da área de transferência é clicado
+def on_paste_click():
+    clipboard_file, clipboard_preview = check_clipboard()
+    if clipboard_file and clipboard_preview:
+        # Reseta o uploader para limpar o arquivo atual
+        reset_uploader()
+        # Define as imagens da área de transferência
+        st.session_state.clipboard_image_file = clipboard_file
+        st.session_state.clipboard_image_preview = clipboard_preview
+        return True
+    return False
+
+# Callback quando um arquivo é carregado
+def on_file_upload():
+    # Limpa qualquer imagem da área de transferência
+    st.session_state.clipboard_image_preview = None
+    st.session_state.clipboard_image_file = None
+
+# Callback para limpar todas as imagens
+def clear_all_images():
+    reset_uploader()
+    st.session_state.clipboard_image_preview = None
+    st.session_state.clipboard_image_file = None
+
+# Executa o processamento se estiver na fila
+if st.session_state.processing and hasattr(st.session_state, 'current_prompt'):
+    execute_processing()
+    st.rerun()
+
+# Configuração da barra lateral
+with st.sidebar:
+    st.title("Chat IA Inteligente")
+
+    # Seção de imagens (sempre visível)
+    st.markdown("### Adicionar Imagem (Opcional)")
+    st.caption("Adicione uma imagem se quiser fazer perguntas sobre ela")
+
+    # Layout em duas colunas para os botões de imagem
+    col1, col2 = st.columns(2)
+
+    with col1:
+        # Botão para verificar a área de transferência
+        if st.button("📋 Colar", use_container_width=True):
+            if on_paste_click():
+                st.success("Imagem colada!")
+                st.rerun()
+            else:
+                st.warning("Nada encontrado.")
+
+    with col2:
+        # Botão para limpar a imagem atual (se houver)
+        if st.session_state.clipboard_image_preview or st.session_state.uploaded_image:
+            if st.button("🗑️ Limpar", use_container_width=True):
+                clear_all_images()
+                st.rerun()
+        else:
+            # Placeholder para manter o layout alinhado
+            st.write("")
+
+    # Uploader de imagem com chave dinâmica
+    uploaded_file = st.file_uploader(
+        "📷 Ou faça upload de imagem",
+        type=["png", "jpg", "jpeg"],
+        label_visibility="visible",
+        key=st.session_state.file_uploader_key
+    )
+
+    # Atualiza o estado da imagem quando um arquivo é carregado
+    if uploaded_file:
+        st.session_state.uploaded_image = uploaded_file
+        on_file_upload()
+        st.success("Imagem carregada!")
+
+    # Exibe a imagem selecionada na barra lateral
+    if st.session_state.clipboard_image_preview:
+        st.image(st.session_state.clipboard_image_preview, use_container_width=True)
+        st.caption("Imagem da área de transferência")
+    elif st.session_state.uploaded_image:
+        st.image(st.session_state.uploaded_image, use_container_width=True)
+        st.caption("Imagem carregada")
+
+    st.markdown("---")
+
+    # Botão para limpar o histórico de conversa
+    if st.button("🧹 Limpar conversa", use_container_width=True):
+        st.session_state.messages = []
+        st.rerun()
+
+    st.caption("Desenvolvido com Streamlit e Gemini AI")
+
+# Exibição do histórico de mensagens
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        # Se houver imagem, exiba-a (se armazenada)
+        if message.get("image"):
+            st.image(message["image"], width=400)  # Ajuste o tamanho conforme necessário
+        # Exibe o conteúdo da mensagem (texto)
+        st.markdown(message["content"])
+
+# Adiciona indicador de digitação quando estiver processando
+if st.session_state.processing:
+    with st.chat_message("assistant"):
+        st.markdown("Gerando resposta...")
+
+# Input de texto - deixe-o como último elemento para manter o comportamento "fixo" natural
+if not st.session_state.processing:
+    # Verifica se há uma imagem disponível
+    current_image = st.session_state.clipboard_image_file or st.session_state.uploaded_image
+
+    # Adapta o placeholder com base na presença de imagem
+    if current_image:
+        placeholder = "Digite sua pergunta sobre a imagem ou qualquer outro assunto..."
+    else:
+        placeholder = "Digite sua mensagem..."
+
+    user_input = st.chat_input(placeholder)
+
+    if user_input:
+        # Processa a mensagem com a imagem (se houver) ou apenas texto
+        process_message(user_input, current_image)
+else:
+    st.chat_input("Aguarde o processamento...", disabled=True)

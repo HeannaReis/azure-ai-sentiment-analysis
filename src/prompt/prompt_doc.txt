@@ -1,13 +1,23 @@
+Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
 
-    "Descreva em português de forma muito resumida e objetiva, sem ser repetitivo, qual o passo dos tópicos da aula que a imagem representa a exploração do ambiente speech studio na azure. "
-    "Se for uma configuração, explique que tipo de parâmetro ou ajuste está sendo realizado (exemplo: configuração de comportamento, adição de informação, ou personalização de resposta, preenchimento de forms). "
-    "Se for um teste de conversação com o agente, explique que tipo de interação está sendo realizada "
-    "(exemplo: teste de resposta, validação de ação, ou simulação de conversa). "
-    "Não descrever textos que não fazem parte de configuração ou testes nas imagens, apenas forneça uma explicação sobre se é a configuração ou teste. "
-    "Processos marcados em vermelho e com setas, apenas forneça informações destacadas, pois são explicações passo a passo, mas nem todas as imagens tem."
-    "Se houver texto em inglês, traduza-o para português, sendo breve e direto."
-    "Tópicos da Aula:"
-    "Serviço de bot do Azure"
-    "Compreensão da linguagem coloquial"
-    "Conhecendo o Estudio de fala"
-    "Conhecendo o Language Studio"
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.

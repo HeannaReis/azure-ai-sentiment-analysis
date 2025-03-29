@@ -1,0 +1,2143 @@
+2025-03-29 16:08:35,576 [INFO] Modelo Gemini 'gemini-2.0-flash-exp' inicializado com sucesso.
+2025-03-29 16:08:35,628 [INFO] Prompt carregado com sucesso: Contexto: Análise de imagens do curso "Análise de Sentimentos com Language Studio no Azure AI". Objetivo: gerar documentação passo a passo para material de apoio no GitHub.
+
+Tarefa: Analisar a imagem fornecida e extrair informações para criar um passo a passo documentado do processo visualizado.
+
+Diretrizes para a Resposta:
+
+1. **Identificação de Etapas:**
+   - Listar cada etapa do processo visualizado na imagem de forma direta e concisa.
+   - Descrever as ações realizadas em cada etapa, incluindo:
+     - Elementos da interface (botões, campos, menus, etc.).
+     - Informações exibidas na tela.
+     - Dados de entrada necessários (se aplicável).
+
+2. **Formato do Passo a Passo:**
+   - Criar um guia passo a passo detalhado e fácil de seguir.
+   - Utilizar listas numeradas para indicar a ordem das etapas.
+   - Incluir:
+     - Instruções claras sobre onde clicar e o que digitar.
+     - Explicações sobre as opções disponíveis e seus resultados.
+     - Capturas de tela relevantes (se possível).
+
+3. **Contexto e Suposições:**
+   - Se a imagem não fornecer todas as informações necessárias, fazer suposições lógicas baseadas no contexto do curso "Análise de Sentimentos com Language Studio no Azure AI".
+   - Mencionar as suposições feitas para garantir a transparência.
+
+4. **Formatação:**
+   - Organizar a resposta usando títulos e subtítulos para facilitar a leitura.
+   - Utilizar Markdown para formatação (títulos, listas, negrito, itálico, etc.) para otimizar a apresentação no GitHub.
+
+5. **Foco na Documentação:**
+   - Pensar na resposta como parte de um material de apoio para usuários que estão aprendendo a usar o Language Studio.
+   - Incluir dicas úteis e informações adicionais que possam ajudar os usuários a concluir o processo com sucesso.
+
+Restrições:
+
+- Evitar frases genéricas como "A imagem representa...".
+- Evitar repetições e explicações vagas.
+- Limitar a associação com o conteúdo do curso apenas quando estritamente necessário.
+
+Exemplo de Resposta Esperada:
+
+### Configuração do Ambiente no Language Studio
+
+1. Acesse o Azure AI Language Studio em [URL do Language Studio].
+2. Selecione a opção "Criar novo recurso".
+3. Insira as seguintes informações:
+   - Nome: [Nome do recurso]
+   - Região: [Região do Azure]
+   - Tipo de preço: [Tipo de preço]
+4. Clique no botão "Criar".
+
+[Captura de tela da tela de configuração]
+
+Observações:
+
+- Certifique-se de ter uma assinatura ativa do Azure.
+- A escolha da região pode afetar a disponibilidade de alguns recursos.
+
+Dica:
+
+- Utilize um nome descritivo para o recurso para facilitar a identificação no futuro.
+2025-03-29 16:08:35,639 [INFO] Processando imagem 1/15: 1_baixar_relatorio.png
+2025-03-29 16:08:35,639 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\1_baixar_relatorio.png, Prompt: Contexto: Análise de imagens do curso "Análise de Sentimentos com Language Studio no Azure AI". Objetivo: gerar documentação passo a passo para material de apoio no GitHub.
+
+Tarefa: Analisar a imagem fornecida e extrair informações para criar um passo a passo documentado do processo visualizado.
+
+Diretrizes para a Resposta:
+
+1. **Identificação de Etapas:**
+   - Listar cada etapa do processo visualizado na imagem de forma direta e concisa.
+   - Descrever as ações realizadas em cada etapa, incluindo:
+     - Elementos da interface (botões, campos, menus, etc.).
+     - Informações exibidas na tela.
+     - Dados de entrada necessários (se aplicável).
+
+2. **Formato do Passo a Passo:**
+   - Criar um guia passo a passo detalhado e fácil de seguir.
+   - Utilizar listas numeradas para indicar a ordem das etapas.
+   - Incluir:
+     - Instruções claras sobre onde clicar e o que digitar.
+     - Explicações sobre as opções disponíveis e seus resultados.
+     - Capturas de tela relevantes (se possível).
+
+3. **Contexto e Suposições:**
+   - Se a imagem não fornecer todas as informações necessárias, fazer suposições lógicas baseadas no contexto do curso "Análise de Sentimentos com Language Studio no Azure AI".
+   - Mencionar as suposições feitas para garantir a transparência.
+
+4. **Formatação:**
+   - Organizar a resposta usando títulos e subtítulos para facilitar a leitura.
+   - Utilizar Markdown para formatação (títulos, listas, negrito, itálico, etc.) para otimizar a apresentação no GitHub.
+
+5. **Foco na Documentação:**
+   - Pensar na resposta como parte de um material de apoio para usuários que estão aprendendo a usar o Language Studio.
+   - Incluir dicas úteis e informações adicionais que possam ajudar os usuários a concluir o processo com sucesso.
+
+Restrições:
+
+- Evitar frases genéricas como "A imagem representa...".
+- Evitar repetições e explicações vagas.
+- Limitar a associação com o conteúdo do curso apenas quando estritamente necessário.
+
+Exemplo de Resposta Esperada:
+
+### Configuração do Ambiente no Language Studio
+
+1. Acesse o Azure AI Language Studio em [URL do Language Studio].
+2. Selecione a opção "Criar novo recurso".
+3. Insira as seguintes informações:
+   - Nome: [Nome do recurso]
+   - Região: [Região do Azure]
+   - Tipo de preço: [Tipo de preço]
+4. Clique no botão "Criar".
+
+[Captura de tela da tela de configuração]
+
+Observações:
+
+- Certifique-se de ter uma assinatura ativa do Azure.
+- A escolha da região pode afetar a disponibilidade de alguns recursos.
+
+Dica:
+
+- Utilize um nome descritivo para o recurso para facilitar a identificação no futuro.
+2025-03-29 16:08:41,683 [INFO] Resposta da IA (imagem): ### Navegação e Visualização de Dados na Interface
+
+1.  **Localize a barra de navegação superior**: Na barra de navegação principal, identifique e clique na opção "Relatórios". Esta ação o direcionará para a seção de relatórios.
+
+2.  **Visualize a seção "Estatísticas":** Na tela de relatórios, observe a opção "Estatísticas" destacada e clique para acessar informações estatísticas.
+
+3.  **Analise os resultados da pesquisa:** A interface exibe os "Resultados da Pesquisa", mostrando uma lista de itens relacionados a um ticket.
+
+4.  **Examine a tabela de dados:**
+
+    *   **Coluna de seleção:** A primeira coluna apresenta caixas de seleção para permitir a seleção de itens individuais ou em massa.
+    *   **Coluna de status:** A segunda coluna apresenta indicadores de status coloridos (laranja e amarelo), provavelmente representando o nível de prioridade ou tipo de status de cada item.
+    *   **Coluna "TICKET#":** Exibe o número de identificação do ticket (ex: 2025031885002969).
+    *   **Coluna "▲IDADE":** Mostra a idade ou tempo decorrido associado ao ticket (ex: 10 d 4 h).
+    *   **Coluna "REMETENTE":** Lista o remetente do ticket (ex: SAMARA CRISTINA LIMA CORREA).
+    *   **Coluna "TITULO":** Apresenta o título ou assunto do ticket (ex: FILIAL 113-COTAÇÃO NÃO GERA PEDIDO ARIBA).
+    *   **Coluna "ESTADO":** Indica o estado do ticket (ex: Aceito).
+    *   **Coluna "BLOQUEAR":** Informa o estado de bloqueio do ticket (ex: desbloqueado).
+    *   **Coluna "FILA":** Especifica a fila à qual o ticket pertence (ex: Tecnologia da Informação::0001 - SAP ARIBA).
+    *   **Coluna "SERVIÇO":** Detalha o serviço associado ao ticket (ex: Tecnologia da Informação::SAP Ariba::P2O: PO).
+    *   **Coluna "PROPRIETÁRIO":** Indica o proprietário do ticket (ex: \*a definir).
+    *   **Coluna "ID DO CLIENTE":** Mostra o ID do cliente associado ao ticket (ex: 0113).
+
+5.  **Navegue entre as páginas**: Utilize os controles de paginação "1-4 de 4" para navegar entre as páginas de resultados.
+
+6.  **Ajuste o tamanho da tela**: Utilize os botões "S", "M", e "L" para ajustar o tamanho da visualização na tela.
+
+7.  **Altere as opções de busca:** Use a opção "Alterar as Opções de Busca (Última-Pesquisa)" para modificar os critérios de pesquisa e refinar os resultados exibidos.
+
+2025-03-29 16:08:41,695 [INFO] Resumo gerado para '1_baixar_relatorio.png': ### Navegação e Visualização de Dados na Interface
+
+1.  **Localize a barra de navegação superior**: Na barra de navegação principal, identifique e clique na opção "Relatórios". Esta ação o direcionará para a seção de relatórios.
+
+2.  **Visualize a seção "Estatísticas":** Na tela de relatórios, observe a opção "Estatísticas" destacada e clique para acessar informações estatísticas.
+
+3.  **Analise os resultados da pesquisa:** A interface exibe os "Resultados da Pesquisa", mostrando uma lista de itens relacionados a um ticket.
+
+4.  **Examine a tabela de dados:**
+
+    *   **Coluna de seleção:** A primeira coluna apresenta caixas de seleção para permitir a seleção de itens individuais ou em massa.
+    *   **Coluna de status:** A segunda coluna apresenta indicadores de status coloridos (laranja e amarelo), provavelmente representando o nível de prioridade ou tipo de status de cada item.
+    *   **Coluna "TICKET#":** Exibe o número de identificação do ticket (ex: 2025031885002969).
+    *   **Coluna "▲IDADE":** Mostra a idade ou tempo decorrido associado ao ticket (ex: 10 d 4 h).
+    *   **Coluna "REMETENTE":** Lista o remetente do ticket (ex: SAMARA CRISTINA LIMA CORREA).
+    *   **Coluna "TITULO":** Apresenta o título ou assunto do ticket (ex: FILIAL 113-COTAÇÃO NÃO GERA PEDIDO ARIBA).
+    *   **Coluna "ESTADO":** Indica o estado do ticket (ex: Aceito).
+    *   **Coluna "BLOQUEAR":** Informa o estado de bloqueio do ticket (ex: desbloqueado).
+    *   **Coluna "FILA":** Especifica a fila à qual o ticket pertence (ex: Tecnologia da Informação::0001 - SAP ARIBA).
+    *   **Coluna "SERVIÇO":** Detalha o serviço associado ao ticket (ex: Tecnologia da Informação::SAP Ariba::P2O: PO).
+    *   **Coluna "PROPRIETÁRIO":** Indica o proprietário do ticket (ex: \*a definir).
+    *   **Coluna "ID DO CLIENTE":** Mostra o ID do cliente associado ao ticket (ex: 0113).
+
+5.  **Navegue entre as páginas**: Utilize os controles de paginação "1-4 de 4" para navegar entre as páginas de resultados.
+
+6.  **Ajuste o tamanho da tela**: Utilize os botões "S", "M", e "L" para ajustar o tamanho da visualização na tela.
+
+7.  **Altere as opções de busca:** Use a opção "Alterar as Opções de Busca (Última-Pesquisa)" para modificar os critérios de pesquisa e refinar os resultados exibidos.
+
+2025-03-29 16:08:41,737 [INFO] Imagem '1_baixar_relatorio.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:08:41,738 [INFO] Histórico atualizado com '1_baixar_relatorio.png'.
+2025-03-29 16:08:41,738 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:08:48,739 [INFO] Processando imagem 2/15: 2_baixar_relatorio.png
+2025-03-29 16:08:48,740 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\2_baixar_relatorio.png, Prompt: Contexto: Análise de imagens do curso "Análise de Sentimentos com Language Studio no Azure AI". Objetivo: gerar documentação passo a passo para material de apoio no GitHub.
+
+Tarefa: Analisar a imagem fornecida e extrair informações para criar um passo a passo documentado do processo visualizado.
+
+Diretrizes para a Resposta:
+
+1. **Identificação de Etapas:**
+   - Listar cada etapa do processo visualizado na imagem de forma direta e concisa.
+   - Descrever as ações realizadas em cada etapa, incluindo:
+     - Elementos da interface (botões, campos, menus, etc.).
+     - Informações exibidas na tela.
+     - Dados de entrada necessários (se aplicável).
+
+2. **Formato do Passo a Passo:**
+   - Criar um guia passo a passo detalhado e fácil de seguir.
+   - Utilizar listas numeradas para indicar a ordem das etapas.
+   - Incluir:
+     - Instruções claras sobre onde clicar e o que digitar.
+     - Explicações sobre as opções disponíveis e seus resultados.
+     - Capturas de tela relevantes (se possível).
+
+3. **Contexto e Suposições:**
+   - Se a imagem não fornecer todas as informações necessárias, fazer suposições lógicas baseadas no contexto do curso "Análise de Sentimentos com Language Studio no Azure AI".
+   - Mencionar as suposições feitas para garantir a transparência.
+
+4. **Formatação:**
+   - Organizar a resposta usando títulos e subtítulos para facilitar a leitura.
+   - Utilizar Markdown para formatação (títulos, listas, negrito, itálico, etc.) para otimizar a apresentação no GitHub.
+
+5. **Foco na Documentação:**
+   - Pensar na resposta como parte de um material de apoio para usuários que estão aprendendo a usar o Language Studio.
+   - Incluir dicas úteis e informações adicionais que possam ajudar os usuários a concluir o processo com sucesso.
+
+Restrições:
+
+- Evitar frases genéricas como "A imagem representa...".
+- Evitar repetições e explicações vagas.
+- Limitar a associação com o conteúdo do curso apenas quando estritamente necessário.
+
+Exemplo de Resposta Esperada:
+
+### Configuração do Ambiente no Language Studio
+
+1. Acesse o Azure AI Language Studio em [URL do Language Studio].
+2. Selecione a opção "Criar novo recurso".
+3. Insira as seguintes informações:
+   - Nome: [Nome do recurso]
+   - Região: [Região do Azure]
+   - Tipo de preço: [Tipo de preço]
+4. Clique no botão "Criar".
+
+[Captura de tela da tela de configuração]
+
+Observações:
+
+- Certifique-se de ter uma assinatura ativa do Azure.
+- A escolha da região pode afetar a disponibilidade de alguns recursos.
+
+Dica:
+
+- Utilize um nome descritivo para o recurso para facilitar a identificação no futuro.
+2025-03-29 16:08:52,950 [INFO] Resposta da IA (imagem): Com base na imagem fornecida, o passo a passo para executar uma estatística seria:
+
+### Executando uma Estatística
+
+1.  Na tela "Gestão de Estatísticas", localize a lista de estatísticas disponíveis. A lista exibe as colunas "STAT#", "TITULO", "OBJETO", "EXPORTAR", "EXCLUIR", e "EXECUTAR".
+
+2.  Identifique a estatística desejada na coluna "TITULO". No exemplo destacado, a estatística selecionada é "List of open tickets, sorted by time left until solution deadline expires" (STAT# 10003).
+
+3.  Na linha da estatística selecionada, localize a coluna "EXECUTAR".
+
+4.  Clique no ícone de "EXECUTAR" (um botão com um símbolo de "play"). Ao clicar, a estatística será executada.
+
+Observações:
+
+*   A coluna "EXPORTAR" permite exportar os resultados da estatística após a execução, provavelmente em um formato como CSV ou Excel (suposição).
+*   A coluna "EXCLUIR" permite excluir a estatística selecionada.
+*   A paginação no canto superior direito (1-50 de 132 - Página: 1 2 3) indica que existem várias páginas de estatísticas. Se a estatística desejada não estiver visível na página atual, navegue para a próxima página clicando nos números da paginação.
+* Existe um texto "Clicar na última página, nesse exemplo a 3", que sugere a ação de navegar para a última página de estatísticas, nesse caso, a página 3. Isso pode ser relevante se a estatística desejada estiver localizada na última página.
+
+2025-03-29 16:08:52,953 [INFO] Resumo gerado para '2_baixar_relatorio.png': Com base na imagem fornecida, o passo a passo para executar uma estatística seria:
+
+### Executando uma Estatística
+
+1.  Na tela "Gestão de Estatísticas", localize a lista de estatísticas disponíveis. A lista exibe as colunas "STAT#", "TITULO", "OBJETO", "EXPORTAR", "EXCLUIR", e "EXECUTAR".
+
+2.  Identifique a estatística desejada na coluna "TITULO". No exemplo destacado, a estatística selecionada é "List of open tickets, sorted by time left until solution deadline expires" (STAT# 10003).
+
+3.  Na linha da estatística selecionada, localize a coluna "EXECUTAR".
+
+4.  Clique no ícone de "EXECUTAR" (um botão com um símbolo de "play"). Ao clicar, a estatística será executada.
+
+Observações:
+
+*   A coluna "EXPORTAR" permite exportar os resultados da estatística após a execução, provavelmente em um formato como CSV ou Excel (suposição).
+*   A coluna "EXCLUIR" permite excluir a estatística selecionada.
+*   A paginação no canto superior direito (1-50 de 132 - Página: 1 2 3) indica que existem várias páginas de estatísticas. Se a estatística desejada não estiver visível na página atual, navegue para a próxima página clicando nos números da paginação.
+* Existe um texto "Clicar na última página, nesse exemplo a 3", que sugere a ação de navegar para a última página de estatísticas, nesse caso, a página 3. Isso pode ser relevante se a estatística desejada estiver localizada na última página.
+
+2025-03-29 16:08:52,984 [INFO] Imagem '2_baixar_relatorio.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:08:52,984 [INFO] Histórico atualizado com '2_baixar_relatorio.png'.
+2025-03-29 16:08:52,985 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:08:59,985 [INFO] Processando imagem 3/15: 3_baixar_relatorio_executar.png
+2025-03-29 16:08:59,986 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\3_baixar_relatorio_executar.png, Prompt: Contexto: Análise de imagens do curso "Análise de Sentimentos com Language Studio no Azure AI". Objetivo: gerar documentação passo a passo para material de apoio no GitHub.
+
+Tarefa: Analisar a imagem fornecida e extrair informações para criar um passo a passo documentado do processo visualizado.
+
+Diretrizes para a Resposta:
+
+1. **Identificação de Etapas:**
+   - Listar cada etapa do processo visualizado na imagem de forma direta e concisa.
+   - Descrever as ações realizadas em cada etapa, incluindo:
+     - Elementos da interface (botões, campos, menus, etc.).
+     - Informações exibidas na tela.
+     - Dados de entrada necessários (se aplicável).
+
+2. **Formato do Passo a Passo:**
+   - Criar um guia passo a passo detalhado e fácil de seguir.
+   - Utilizar listas numeradas para indicar a ordem das etapas.
+   - Incluir:
+     - Instruções claras sobre onde clicar e o que digitar.
+     - Explicações sobre as opções disponíveis e seus resultados.
+     - Capturas de tela relevantes (se possível).
+
+3. **Contexto e Suposições:**
+   - Se a imagem não fornecer todas as informações necessárias, fazer suposições lógicas baseadas no contexto do curso "Análise de Sentimentos com Language Studio no Azure AI".
+   - Mencionar as suposições feitas para garantir a transparência.
+
+4. **Formatação:**
+   - Organizar a resposta usando títulos e subtítulos para facilitar a leitura.
+   - Utilizar Markdown para formatação (títulos, listas, negrito, itálico, etc.) para otimizar a apresentação no GitHub.
+
+5. **Foco na Documentação:**
+   - Pensar na resposta como parte de um material de apoio para usuários que estão aprendendo a usar o Language Studio.
+   - Incluir dicas úteis e informações adicionais que possam ajudar os usuários a concluir o processo com sucesso.
+
+Restrições:
+
+- Evitar frases genéricas como "A imagem representa...".
+- Evitar repetições e explicações vagas.
+- Limitar a associação com o conteúdo do curso apenas quando estritamente necessário.
+
+Exemplo de Resposta Esperada:
+
+### Configuração do Ambiente no Language Studio
+
+1. Acesse o Azure AI Language Studio em [URL do Language Studio].
+2. Selecione a opção "Criar novo recurso".
+3. Insira as seguintes informações:
+   - Nome: [Nome do recurso]
+   - Região: [Região do Azure]
+   - Tipo de preço: [Tipo de preço]
+4. Clique no botão "Criar".
+
+[Captura de tela da tela de configuração]
+
+Observações:
+
+- Certifique-se de ter uma assinatura ativa do Azure.
+- A escolha da região pode afetar a disponibilidade de alguns recursos.
+
+Dica:
+
+- Utilize um nome descritivo para o recurso para facilitar a identificação no futuro.
+2025-03-29 16:09:04,098 [INFO] Resposta da IA (imagem): Aqui está um passo a passo baseado na imagem fornecida, detalhando a ação de execução de um item em uma lista:
+
+### Executando um Item na Lista de Estatísticas
+
+1.  **Localize o Item Desejado:** Na lista de estatísticas, procure pelo item que você deseja executar. Neste caso, estamos interessados em "Relatório SAP Ariba" (linha 10139).
+
+2.  **Encontre a Coluna "EXECUTAR":** Navegue horizontalmente na mesma linha do item "Relatório SAP Ariba" até encontrar a coluna intitulada "EXECUTAR".
+
+3.  **Clique no Ícone de Execução:** Na coluna "EXECUTAR" correspondente ao item "Relatório SAP Ariba", você verá um ícone que se assemelha a um botão "Play" (▶️). Clique neste ícone.
+
+**Observações:**
+
+*   **Ícone Indisponível:** Se o ícone de execução estiver desabilitado (aparecer acinzentado ou não clicável), significa que a execução do item não está disponível no momento ou requer outras condições.
+*   **Ações Após a Execução:**  O comportamento após clicar no ícone de execução dependerá da configuração do sistema. Pode ser que um relatório seja gerado, uma tarefa seja iniciada ou uma nova tela seja exibida.
+
+**Suposições:**
+
+*   Assume-se que a interface apresentada é parte de uma aplicação web para gerenciamento de estatísticas ou relatórios.
+*   Assume-se que o ícone de "play" na coluna "EXECUTAR" inicia o processo associado ao item da linha.
+
+**Dica:**
+
+*   Antes de executar, verifique o título do item para ter certeza de que é o relatório ou tarefa correta.
+*   Se a execução falhar, verifique se há mensagens de erro ou logs disponíveis para entender a causa do problema.
+
+2025-03-29 16:09:04,103 [INFO] Resumo gerado para '3_baixar_relatorio_executar.png': Aqui está um passo a passo baseado na imagem fornecida, detalhando a ação de execução de um item em uma lista:
+
+### Executando um Item na Lista de Estatísticas
+
+1.  **Localize o Item Desejado:** Na lista de estatísticas, procure pelo item que você deseja executar. Neste caso, estamos interessados em "Relatório SAP Ariba" (linha 10139).
+
+2.  **Encontre a Coluna "EXECUTAR":** Navegue horizontalmente na mesma linha do item "Relatório SAP Ariba" até encontrar a coluna intitulada "EXECUTAR".
+
+3.  **Clique no Ícone de Execução:** Na coluna "EXECUTAR" correspondente ao item "Relatório SAP Ariba", você verá um ícone que se assemelha a um botão "Play" (▶️). Clique neste ícone.
+
+**Observações:**
+
+*   **Ícone Indisponível:** Se o ícone de execução estiver desabilitado (aparecer acinzentado ou não clicável), significa que a execução do item não está disponível no momento ou requer outras condições.
+*   **Ações Após a Execução:**  O comportamento após clicar no ícone de execução dependerá da configuração do sistema. Pode ser que um relatório seja gerado, uma tarefa seja iniciada ou uma nova tela seja exibida.
+
+**Suposições:**
+
+*   Assume-se que a interface apresentada é parte de uma aplicação web para gerenciamento de estatísticas ou relatórios.
+*   Assume-se que o ícone de "play" na coluna "EXECUTAR" inicia o processo associado ao item da linha.
+
+**Dica:**
+
+*   Antes de executar, verifique o título do item para ter certeza de que é o relatório ou tarefa correta.
+*   Se a execução falhar, verifique se há mensagens de erro ou logs disponíveis para entender a causa do problema.
+
+2025-03-29 16:09:04,154 [INFO] Imagem '3_baixar_relatorio_executar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:09:04,154 [INFO] Histórico atualizado com '3_baixar_relatorio_executar.png'.
+2025-03-29 16:09:04,155 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:11:17,543 [INFO] Modelo Gemini 'gemini-2.0-flash-exp' inicializado com sucesso.
+2025-03-29 16:11:17,567 [INFO] Prompt carregado com sucesso: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:11:17,576 [INFO] Processando imagem 1/15: 1_baixar_relatorio.png
+2025-03-29 16:11:17,576 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\1_baixar_relatorio.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:11:20,062 [INFO] Resposta da IA (imagem): ### Dados Tabulares: Resultados de Busca
+
+A imagem exibe uma tabela com os resultados de uma pesquisa, contendo informações sobre tickets.
+
+*   **Colunas:** Cada coluna detalha atributos dos tickets, como ID do Cliente, Proprietário, Serviço, Fila, Bloqueio, Estado, Título, Remetente, Idade e Número do Ticket.
+*   **Dados:** As linhas mostram informações específicas para cada ticket.
+*   **Status:** Coluna Estado, apresenta o estado de cada ticket, "Aceito".
+2025-03-29 16:11:20,068 [INFO] Resumo gerado para '1_baixar_relatorio.png': ### Dados Tabulares: Resultados de Busca
+
+A imagem exibe uma tabela com os resultados de uma pesquisa, contendo informações sobre tickets.
+
+*   **Colunas:** Cada coluna detalha atributos dos tickets, como ID do Cliente, Proprietário, Serviço, Fila, Bloqueio, Estado, Título, Remetente, Idade e Número do Ticket.
+*   **Dados:** As linhas mostram informações específicas para cada ticket.
+*   **Status:** Coluna Estado, apresenta o estado de cada ticket, "Aceito".
+2025-03-29 16:11:20,094 [INFO] Imagem '1_baixar_relatorio.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:11:20,094 [INFO] Histórico atualizado com '1_baixar_relatorio.png'.
+2025-03-29 16:11:20,095 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:11:27,096 [INFO] Processando imagem 2/15: 2_baixar_relatorio.png
+2025-03-29 16:11:27,096 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\2_baixar_relatorio.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:11:28,972 [INFO] Resposta da IA (imagem): ### Executar Estatística
+
+A imagem destaca a linha da estatística 10003 "List of open tickets, sorted by time left until solution deadline expires" na tabela de estatísticas. O objetivo é executar essa estatística.
+
+2025-03-29 16:11:28,974 [INFO] Resumo gerado para '2_baixar_relatorio.png': ### Executar Estatística
+
+A imagem destaca a linha da estatística 10003 "List of open tickets, sorted by time left until solution deadline expires" na tabela de estatísticas. O objetivo é executar essa estatística.
+
+2025-03-29 16:11:29,035 [INFO] Imagem '2_baixar_relatorio.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:11:29,036 [INFO] Histórico atualizado com '2_baixar_relatorio.png'.
+2025-03-29 16:11:29,036 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:11:36,036 [INFO] Processando imagem 3/15: 3_baixar_relatorio_executar.png
+2025-03-29 16:11:36,037 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\3_baixar_relatorio_executar.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:11:37,737 [INFO] Resposta da IA (imagem): ### Executando o relatório SAP Ariba
+
+A imagem mostra a tela de execução de relatórios. O relatório "Relatório SAP Ariba" está sendo executado, conforme indicado pelo ícone de play na coluna "EXECUTAR".
+2025-03-29 16:11:37,739 [INFO] Resumo gerado para '3_baixar_relatorio_executar.png': ### Executando o relatório SAP Ariba
+
+A imagem mostra a tela de execução de relatórios. O relatório "Relatório SAP Ariba" está sendo executado, conforme indicado pelo ícone de play na coluna "EXECUTAR".
+2025-03-29 16:11:37,773 [INFO] Imagem '3_baixar_relatorio_executar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:11:37,774 [INFO] Histórico atualizado com '3_baixar_relatorio_executar.png'.
+2025-03-29 16:11:37,774 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:11:44,775 [INFO] Processando imagem 4/15: 4_baixar_relatorio_executar.png
+2025-03-29 16:11:44,775 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\4_baixar_relatorio_executar.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:11:47,236 [INFO] Resposta da IA (imagem): ### Configuração de Estatísticas de Ticket
+
+A imagem mostra a configuração de uma estatística para tickets, definindo quais informações serão exibidas e como os dados serão filtrados.
+
+- **Objeto:** Ticketlist.
+- **Atributos a serem impressos (Eixo-X):** Número, Ticket#, Idade, Título, Criado, Última Alteração, Hora de Fechamento, Fila, Estado, Prioridade, Usuário Clien.
+- **Filtro:** Fila de Tecnologia da Informação e status Aceito e Agendado (e mais 10 outros).
+- **Período de Criação:** Entre 2023-06-01 e 2025-12-31.
+
+Ao clicar em "Executar agora", a estatística será gerada com base nas configurações definidas.
+
+2025-03-29 16:11:47,240 [INFO] Resumo gerado para '4_baixar_relatorio_executar.png': ### Configuração de Estatísticas de Ticket
+
+A imagem mostra a configuração de uma estatística para tickets, definindo quais informações serão exibidas e como os dados serão filtrados.
+
+- **Objeto:** Ticketlist.
+- **Atributos a serem impressos (Eixo-X):** Número, Ticket#, Idade, Título, Criado, Última Alteração, Hora de Fechamento, Fila, Estado, Prioridade, Usuário Clien.
+- **Filtro:** Fila de Tecnologia da Informação e status Aceito e Agendado (e mais 10 outros).
+- **Período de Criação:** Entre 2023-06-01 e 2025-12-31.
+
+Ao clicar em "Executar agora", a estatística será gerada com base nas configurações definidas.
+
+2025-03-29 16:11:47,268 [INFO] Imagem '4_baixar_relatorio_executar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:11:47,268 [INFO] Histórico atualizado com '4_baixar_relatorio_executar.png'.
+2025-03-29 16:11:47,269 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:11:54,270 [INFO] Processando imagem 5/15: 5_salvar_relatorio_pasta_correta.png
+2025-03-29 16:11:54,271 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\5_salvar_relatorio_pasta_correta.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:11:56,467 [INFO] Resposta da IA (imagem): ### Movendo um arquivo para a pasta dashboard_csc
+
+O usuário está arrastando um arquivo da pasta "Downloads" para a pasta "dashboard_csc" dentro da pasta "Documents". O cursor indica a ação de "Mover para dashboard_csc".
+2025-03-29 16:11:56,468 [INFO] Resumo gerado para '5_salvar_relatorio_pasta_correta.png': ### Movendo um arquivo para a pasta dashboard_csc
+
+O usuário está arrastando um arquivo da pasta "Downloads" para a pasta "dashboard_csc" dentro da pasta "Documents". O cursor indica a ação de "Mover para dashboard_csc".
+2025-03-29 16:11:56,493 [INFO] Imagem '5_salvar_relatorio_pasta_correta.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:11:56,494 [INFO] Histórico atualizado com '5_salvar_relatorio_pasta_correta.png'.
+2025-03-29 16:11:56,494 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:12:03,495 [INFO] Processando imagem 6/15: 6_deletar_relatorios_sap_relatorio_novo.png
+2025-03-29 16:12:03,496 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\6_deletar_relatorios_sap_relatorio_novo.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:12:04,950 [INFO] Resposta da IA (imagem): ### Seleção de arquivos para exclusão
+
+Os arquivos "relatorio_novo.xlsx" e "sap.xlsx" foram selecionados para serem excluídos do sistema.
+2025-03-29 16:12:04,950 [INFO] Resumo gerado para '6_deletar_relatorios_sap_relatorio_novo.png': ### Seleção de arquivos para exclusão
+
+Os arquivos "relatorio_novo.xlsx" e "sap.xlsx" foram selecionados para serem excluídos do sistema.
+2025-03-29 16:12:04,976 [INFO] Imagem '6_deletar_relatorios_sap_relatorio_novo.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:12:04,977 [INFO] Histórico atualizado com '6_deletar_relatorios_sap_relatorio_novo.png'.
+2025-03-29 16:12:04,977 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:12:11,978 [INFO] Processando imagem 7/15: 7_abrir_vs_code.png
+2025-03-29 16:12:11,979 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\7_abrir_vs_code.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:12:13,466 [INFO] Resposta da IA (imagem): ### Abertura do VS Code no diretório dashboard_csc
+
+O terminal exibe os seguintes passos:
+
+1.  Comando `pwd` para exibir o diretório de trabalho atual, que é `/c/Users/jfreis/Documents/dashboard_csc`.
+2.  Comando `code .` para abrir o VS Code no diretório atual.
+2025-03-29 16:12:13,468 [INFO] Resumo gerado para '7_abrir_vs_code.png': ### Abertura do VS Code no diretório dashboard_csc
+
+O terminal exibe os seguintes passos:
+
+1.  Comando `pwd` para exibir o diretório de trabalho atual, que é `/c/Users/jfreis/Documents/dashboard_csc`.
+2.  Comando `code .` para abrir o VS Code no diretório atual.
+2025-03-29 16:12:13,493 [INFO] Imagem '7_abrir_vs_code.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:12:13,493 [INFO] Histórico atualizado com '7_abrir_vs_code.png'.
+2025-03-29 16:12:13,494 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:12:20,494 [INFO] Processando imagem 8/15: 8_executar_script_merge_csc_report.png
+2025-03-29 16:12:20,495 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\8_executar_script_merge_csc_report.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:12:22,807 [INFO] Resposta da IA (imagem): ### Executando o script merge\_csc\_report.py
+
+O script `merge_csc_report.py` utiliza a biblioteca pandas para mesclar dois relatórios em formato Excel: "sap.xlsx" e "relatorio_novo.xlsx". O script carrega os dois relatórios, define a coluna "Ticket#" como chave de mesclagem e realiza a mesclagem, mantendo as informações da coluna "Serviço" do relatório antigo. Em seguida, o script trata os valores existentes nas colunas "Serviço_x" e "Serviço_y", removendo as colunas duplicadas resultantes do merge. Por fim, o script salva o resultado.
+2025-03-29 16:12:22,812 [INFO] Resumo gerado para '8_executar_script_merge_csc_report.png': ### Executando o script merge\_csc\_report.py
+
+O script `merge_csc_report.py` utiliza a biblioteca pandas para mesclar dois relatórios em formato Excel: "sap.xlsx" e "relatorio_novo.xlsx". O script carrega os dois relatórios, define a coluna "Ticket#" como chave de mesclagem e realiza a mesclagem, mantendo as informações da coluna "Serviço" do relatório antigo. Em seguida, o script trata os valores existentes nas colunas "Serviço_x" e "Serviço_y", removendo as colunas duplicadas resultantes do merge. Por fim, o script salva o resultado.
+2025-03-29 16:12:22,846 [INFO] Imagem '8_executar_script_merge_csc_report.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:12:22,847 [INFO] Histórico atualizado com '8_executar_script_merge_csc_report.png'.
+2025-03-29 16:12:22,849 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:12:29,850 [INFO] Processando imagem 9/15: 9_relatorio_final_gerado.png
+2025-03-29 16:12:29,851 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\9_relatorio_final_gerado.png, Prompt: Contexto: Você está analisando imagens relacionadas ao curso Análise de Sentimentos com Language Studio no Azure AI. 
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Se necessário, associe a resposta com o conteúdo do curso, mas sem forçar a conexão.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+
+A imagem ilustra [ação ou conceito principal]. O objetivo é [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:12:32,868 [INFO] Resposta da IA (imagem): Aqui estão as regiões de interesse marcadas:
+
+- **Arquivos no projeto:** `relatorio_final.xlsx`
+- **Mensagem de sucesso:** `Relatório final gerado com sucesso!`
+
+**Integração de Dados com Pandas no Python**
+
+O script Python usa a biblioteca Pandas para integrar dados de dois arquivos Excel: `sap.xlsx` e `relatorio_novo.xlsx`, gerando um relatório final.
+
+- Carrega os dois relatórios em dataframes Pandas: `relatorio_antigo` e `relatorio_novo`.
+- Realiza um merge dos dois dataframes usando a coluna `Ticket#` como chave, mantendo os dados de `relatorio_antigo` para a coluna `Serviço`.
+- Se o valor de `Ticket#` existir no dataframe antigo, o serviço é mantido do arquivo antigo, senão, o serviço é atualizado com o valor do dataframe novo.
+- Remove as colunas duplicadas `Serviço_x` e `Serviço_y` do dataframe resultante.
+- A mensagem `Relatório final gerado com sucesso!` indica a conclusão bem-sucedida do processo de merge e limpeza dos dados.
+2025-03-29 16:12:32,875 [INFO] Resumo gerado para '9_relatorio_final_gerado.png': Aqui estão as regiões de interesse marcadas:
+
+- **Arquivos no projeto:** `relatorio_final.xlsx`
+- **Mensagem de sucesso:** `Relatório final gerado com sucesso!`
+
+**Integração de Dados com Pandas no Python**
+
+O script Python usa a biblioteca Pandas para integrar dados de dois arquivos Excel: `sap.xlsx` e `relatorio_novo.xlsx`, gerando um relatório final.
+
+- Carrega os dois relatórios em dataframes Pandas: `relatorio_antigo` e `relatorio_novo`.
+- Realiza um merge dos dois dataframes usando a coluna `Ticket#` como chave, mantendo os dados de `relatorio_antigo` para a coluna `Serviço`.
+- Se o valor de `Ticket#` existir no dataframe antigo, o serviço é mantido do arquivo antigo, senão, o serviço é atualizado com o valor do dataframe novo.
+- Remove as colunas duplicadas `Serviço_x` e `Serviço_y` do dataframe resultante.
+- A mensagem `Relatório final gerado com sucesso!` indica a conclusão bem-sucedida do processo de merge e limpeza dos dados.
+2025-03-29 16:12:32,913 [INFO] Imagem '9_relatorio_final_gerado.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:12:32,916 [INFO] Histórico atualizado com '9_relatorio_final_gerado.png'.
+2025-03-29 16:12:32,916 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:17:35,782 [INFO] Modelo Gemini 'gemini-2.0-flash-exp' inicializado com sucesso.
+2025-03-29 16:17:35,810 [INFO] Prompt carregado com sucesso: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:17:35,817 [INFO] Processando imagem 1/15: 1_baixar_relatorio.png
+2025-03-29 16:17:35,817 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\1_baixar_relatorio.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:17:38,583 [INFO] Resposta da IA (imagem): ### Acesso aos Relatórios na Plataforma
+Acesse a seção de "Relatórios" na plataforma, destacada em vermelho, para visualizar dados e estatísticas. Logo abaixo, clique em "Estatísticas" para acessar informações detalhadas.
+
+2025-03-29 16:17:38,584 [INFO] Resumo gerado para '1_baixar_relatorio.png': ### Acesso aos Relatórios na Plataforma
+Acesse a seção de "Relatórios" na plataforma, destacada em vermelho, para visualizar dados e estatísticas. Logo abaixo, clique em "Estatísticas" para acessar informações detalhadas.
+
+2025-03-29 16:17:38,611 [INFO] Imagem '1_baixar_relatorio.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:17:38,611 [INFO] Histórico atualizado com '1_baixar_relatorio.png'.
+2025-03-29 16:17:38,612 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:17:45,613 [INFO] Processando imagem 2/15: 2_baixar_relatorio.png
+2025-03-29 16:17:45,613 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\2_baixar_relatorio.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:17:47,502 [INFO] Resposta da IA (imagem): ### Navegação para a última página de estatísticas
+Clique no número "3" para acessar a última página das estatísticas.
+
+2025-03-29 16:17:47,502 [INFO] Resumo gerado para '2_baixar_relatorio.png': ### Navegação para a última página de estatísticas
+Clique no número "3" para acessar a última página das estatísticas.
+
+2025-03-29 16:17:47,536 [INFO] Imagem '2_baixar_relatorio.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:17:47,537 [INFO] Histórico atualizado com '2_baixar_relatorio.png'.
+2025-03-29 16:17:47,537 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:17:54,538 [INFO] Processando imagem 3/15: 3_baixar_relatorio_executar.png
+2025-03-29 16:17:54,539 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\3_baixar_relatorio_executar.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:17:55,928 [INFO] Resposta da IA (imagem): ### Execução do relatório SAP Ariba
+Clique no botão "Executar" correspondente à linha "Relatório SAP Ariba".
+2025-03-29 16:17:55,930 [INFO] Resumo gerado para '3_baixar_relatorio_executar.png': ### Execução do relatório SAP Ariba
+Clique no botão "Executar" correspondente à linha "Relatório SAP Ariba".
+2025-03-29 16:17:55,962 [INFO] Imagem '3_baixar_relatorio_executar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:17:55,962 [INFO] Histórico atualizado com '3_baixar_relatorio_executar.png'.
+2025-03-29 16:17:55,963 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:18:02,963 [INFO] Processando imagem 4/15: 4_baixar_relatorio_executar.png
+2025-03-29 16:18:02,964 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\4_baixar_relatorio_executar.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:18:04,988 [INFO] Resposta da IA (imagem): ### Executar Relatório de Ticketlist
+Executar o relatório com os seguintes parâmetros:
+
+*   **Objeto:** Ticketlist.
+*   **Descrição:** ATACADAO:: Lista de ticket SAP Ariba.
+*   **Formato:** Excel.
+*   **Fuso Horário:** America/Sao\_Paulo.
+*   **Eixo-X:** Número, Ticket#, Idade, Titulo, Criado, Última Alteração, Hora de Fechamento, Fila, Estado, Prioridade, Usuário Clien...
+*   **Filtro:**
+    *   **Fila:** Tecnologia da Informação::0001 - SAP ARIBA
+    *   **Estado:** Aceito, Agendado e mais.
+    *   **Hora de Criação:** Entre 2023-06-01 00:00:00 e 2025-12-31 23:59:59.
+
+Clique em "Executar agora" para gerar o relatório.
+2025-03-29 16:18:04,992 [INFO] Resumo gerado para '4_baixar_relatorio_executar.png': ### Executar Relatório de Ticketlist
+Executar o relatório com os seguintes parâmetros:
+
+*   **Objeto:** Ticketlist.
+*   **Descrição:** ATACADAO:: Lista de ticket SAP Ariba.
+*   **Formato:** Excel.
+*   **Fuso Horário:** America/Sao\_Paulo.
+*   **Eixo-X:** Número, Ticket#, Idade, Titulo, Criado, Última Alteração, Hora de Fechamento, Fila, Estado, Prioridade, Usuário Clien...
+*   **Filtro:**
+    *   **Fila:** Tecnologia da Informação::0001 - SAP ARIBA
+    *   **Estado:** Aceito, Agendado e mais.
+    *   **Hora de Criação:** Entre 2023-06-01 00:00:00 e 2025-12-31 23:59:59.
+
+Clique em "Executar agora" para gerar o relatório.
+2025-03-29 16:18:05,039 [INFO] Imagem '4_baixar_relatorio_executar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:18:05,040 [INFO] Histórico atualizado com '4_baixar_relatorio_executar.png'.
+2025-03-29 16:18:05,040 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:18:12,041 [INFO] Processando imagem 5/15: 5_salvar_relatorio_pasta_correta.png
+2025-03-29 16:18:12,042 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\5_salvar_relatorio_pasta_correta.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:18:13,880 [INFO] Resposta da IA (imagem): ### Movendo Arquivos para a Pasta "dashboard_csc"
+
+O arquivo está sendo arrastado da pasta "Downloads" para a pasta "dashboard_csc", localizada em "Documents".
+2025-03-29 16:18:13,882 [INFO] Resumo gerado para '5_salvar_relatorio_pasta_correta.png': ### Movendo Arquivos para a Pasta "dashboard_csc"
+
+O arquivo está sendo arrastado da pasta "Downloads" para a pasta "dashboard_csc", localizada em "Documents".
+2025-03-29 16:18:13,915 [INFO] Imagem '5_salvar_relatorio_pasta_correta.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:18:13,917 [INFO] Histórico atualizado com '5_salvar_relatorio_pasta_correta.png'.
+2025-03-29 16:18:13,917 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:18:20,918 [INFO] Processando imagem 6/15: 6_deletar_relatorios_sap_relatorio_novo.png
+2025-03-29 16:18:20,919 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\6_deletar_relatorios_sap_relatorio_novo.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:18:21,960 [INFO] Resposta da IA (imagem): ### Seleção dos arquivos para exclusão
+Seleciona os arquivos "sap.xlsx" e "relatorio_novo.xlsx" para serem deletados.
+2025-03-29 16:18:21,961 [INFO] Resumo gerado para '6_deletar_relatorios_sap_relatorio_novo.png': ### Seleção dos arquivos para exclusão
+Seleciona os arquivos "sap.xlsx" e "relatorio_novo.xlsx" para serem deletados.
+2025-03-29 16:18:21,991 [INFO] Imagem '6_deletar_relatorios_sap_relatorio_novo.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:18:21,992 [INFO] Histórico atualizado com '6_deletar_relatorios_sap_relatorio_novo.png'.
+2025-03-29 16:18:21,992 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:18:28,993 [INFO] Processando imagem 7/15: 7_abrir_vs_code.png
+2025-03-29 16:18:28,994 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\7_abrir_vs_code.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:18:30,081 [INFO] Resposta da IA (imagem): ### Abrir o Vs Code pelo Terminal
+- O comando `pwd` mostra o caminho atual do diretório: `c/Users/jfreis/Documents/dashboard_csc`.
+- O comando `code .` abre o Vs Code no diretório atual.
+2025-03-29 16:18:30,084 [INFO] Resumo gerado para '7_abrir_vs_code.png': ### Abrir o Vs Code pelo Terminal
+- O comando `pwd` mostra o caminho atual do diretório: `c/Users/jfreis/Documents/dashboard_csc`.
+- O comando `code .` abre o Vs Code no diretório atual.
+2025-03-29 16:18:30,123 [INFO] Imagem '7_abrir_vs_code.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:18:30,123 [INFO] Histórico atualizado com '7_abrir_vs_code.png'.
+2025-03-29 16:18:30,124 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:18:37,124 [INFO] Processando imagem 8/15: 8_executar_script_merge_csc_report.png
+2025-03-29 16:18:37,125 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\8_executar_script_merge_csc_report.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:18:38,682 [INFO] Resposta da IA (imagem): ### Executando o Script Python
+Executa o script Python "merge_csc_report.py" no VsCode através do botão "Executar Python".
+
+2025-03-29 16:18:38,683 [INFO] Resumo gerado para '8_executar_script_merge_csc_report.png': ### Executando o Script Python
+Executa o script Python "merge_csc_report.py" no VsCode através do botão "Executar Python".
+
+2025-03-29 16:18:38,719 [INFO] Imagem '8_executar_script_merge_csc_report.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:18:38,720 [INFO] Histórico atualizado com '8_executar_script_merge_csc_report.png'.
+2025-03-29 16:18:38,721 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:18:45,722 [INFO] Processando imagem 9/15: 9_relatorio_final_gerado.png
+2025-03-29 16:18:45,723 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\9_relatorio_final_gerado.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:18:47,570 [INFO] Resposta da IA (imagem): ### Salvando arquivo "relatorio_final.xlsx" com sucesso.
+
+*   Arquivo foi criado e salvo com sucesso na pasta local do projeto.
+*   Mensagem de confirmação "Relatório final gerado com sucesso!" indica a conclusão bem-sucedida da execução do script Python.
+2025-03-29 16:18:47,571 [INFO] Resumo gerado para '9_relatorio_final_gerado.png': ### Salvando arquivo "relatorio_final.xlsx" com sucesso.
+
+*   Arquivo foi criado e salvo com sucesso na pasta local do projeto.
+*   Mensagem de confirmação "Relatório final gerado com sucesso!" indica a conclusão bem-sucedida da execução do script Python.
+2025-03-29 16:18:47,597 [INFO] Imagem '9_relatorio_final_gerado.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:18:47,599 [INFO] Histórico atualizado com '9_relatorio_final_gerado.png'.
+2025-03-29 16:18:47,600 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:18:54,601 [INFO] Processando imagem 10/15: 11_filtrar_planilha_por_Estado.png
+2025-03-29 16:18:54,601 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\11_filtrar_planilha_por_Estado.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:18:56,819 [INFO] Resposta da IA (imagem): ### Filtrando dados na planilha
+
+Na coluna "Estado", está sendo aplicado um filtro para exibir apenas os registros que correspondem às seguintes opções:
+
+- Cancelado
+- Em atendimento
+- Fechado
+- Solucionado
+
+2025-03-29 16:18:56,821 [INFO] Resumo gerado para '11_filtrar_planilha_por_Estado.png': ### Filtrando dados na planilha
+
+Na coluna "Estado", está sendo aplicado um filtro para exibir apenas os registros que correspondem às seguintes opções:
+
+- Cancelado
+- Em atendimento
+- Fechado
+- Solucionado
+
+2025-03-29 16:18:56,853 [INFO] Imagem '11_filtrar_planilha_por_Estado.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:18:56,854 [INFO] Histórico atualizado com '11_filtrar_planilha_por_Estado.png'.
+2025-03-29 16:18:56,854 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:19:03,855 [INFO] Processando imagem 11/15: 10_abrir_relatorio_final.png
+2025-03-29 16:19:03,855 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\10_abrir_relatorio_final.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:19:05,482 [INFO] Resposta da IA (imagem): ### Abrir Arquivo
+Ao clicar com o botão direito do mouse sobre o arquivo "relatorio_final", o menu de contexto é aberto, e a opção "Abrir" é selecionada para abrir o arquivo.
+
+2025-03-29 16:19:05,483 [INFO] Resumo gerado para '10_abrir_relatorio_final.png': ### Abrir Arquivo
+Ao clicar com o botão direito do mouse sobre o arquivo "relatorio_final", o menu de contexto é aberto, e a opção "Abrir" é selecionada para abrir o arquivo.
+
+2025-03-29 16:19:05,510 [INFO] Imagem '10_abrir_relatorio_final.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:19:05,510 [INFO] Histórico atualizado com '10_abrir_relatorio_final.png'.
+2025-03-29 16:19:05,510 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:19:12,511 [INFO] Processando imagem 12/15: 12_filtrar_planilha_por_Servico.png
+2025-03-29 16:19:12,512 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\12_filtrar_planilha_por_Servico.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:19:15,180 [INFO] Resposta da IA (imagem): ### Filtragem de dados na coluna "Serviço" no LibreOffice Calc
+
+A janela de filtro está aberta na coluna "Serviço".
+
+*   **Dados da Classificação Anterior:** As opções "SAP: Dúvidas Gerais", "SAP: SLP Fornecedores", "SAP: Usuários", "SAP: Workflow" e "SI: Tabela RH" estão marcadas, indicando que esses dados foram previamente selecionados para filtragem.
+*   **Dados novos para Classificação:** As opções "Tecnologia da Informação::SAP Ariba", "Tecnologia da Informação::SAP Ariba::Dados: Alteração de WorkFlow de Aprovação", "Tecnologia da Informação::SAP Ariba::Dados: Solicitação de Perfil de Usuário" e "Tecnologia da Informação::SAP Ariba::P2O: PO" estão marcadas, indicando que esses dados serão incluídos na nova filtragem.
+*   **Ação Final:** Ao clicar em "OK", o filtro será aplicado com os dados selecionados.
+2025-03-29 16:19:15,185 [INFO] Resumo gerado para '12_filtrar_planilha_por_Servico.png': ### Filtragem de dados na coluna "Serviço" no LibreOffice Calc
+
+A janela de filtro está aberta na coluna "Serviço".
+
+*   **Dados da Classificação Anterior:** As opções "SAP: Dúvidas Gerais", "SAP: SLP Fornecedores", "SAP: Usuários", "SAP: Workflow" e "SI: Tabela RH" estão marcadas, indicando que esses dados foram previamente selecionados para filtragem.
+*   **Dados novos para Classificação:** As opções "Tecnologia da Informação::SAP Ariba", "Tecnologia da Informação::SAP Ariba::Dados: Alteração de WorkFlow de Aprovação", "Tecnologia da Informação::SAP Ariba::Dados: Solicitação de Perfil de Usuário" e "Tecnologia da Informação::SAP Ariba::P2O: PO" estão marcadas, indicando que esses dados serão incluídos na nova filtragem.
+*   **Ação Final:** Ao clicar em "OK", o filtro será aplicado com os dados selecionados.
+2025-03-29 16:19:15,219 [INFO] Imagem '12_filtrar_planilha_por_Servico.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:19:15,219 [INFO] Histórico atualizado com '12_filtrar_planilha_por_Servico.png'.
+2025-03-29 16:19:15,220 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:19:22,221 [INFO] Processando imagem 13/15: 13_clasificando_planilha_por_Servico.png
+2025-03-29 16:19:22,222 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\13_clasificando_planilha_por_Servico.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:19:24,158 [INFO] Resposta da IA (imagem): ### Filtro de dados na planilha
+- Filtrar os dados na coluna "A - Serviço" pela descrição "Tecnologia da Informação::SAP Ariba::P2O: PO".
+- O filtro foi aplicado nas linhas 5, 10 e 17.
+- Nos títulos da coluna "E - Titulo" consta "portal comercial", alterando o valor da coluna "A - Serviço" para "ERP Almox".
+
+2025-03-29 16:19:24,160 [INFO] Resumo gerado para '13_clasificando_planilha_por_Servico.png': ### Filtro de dados na planilha
+- Filtrar os dados na coluna "A - Serviço" pela descrição "Tecnologia da Informação::SAP Ariba::P2O: PO".
+- O filtro foi aplicado nas linhas 5, 10 e 17.
+- Nos títulos da coluna "E - Titulo" consta "portal comercial", alterando o valor da coluna "A - Serviço" para "ERP Almox".
+
+2025-03-29 16:19:24,192 [INFO] Imagem '13_clasificando_planilha_por_Servico.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:19:24,193 [INFO] Histórico atualizado com '13_clasificando_planilha_por_Servico.png'.
+2025-03-29 16:19:24,194 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:19:31,195 [INFO] Processando imagem 14/15: 14_exemplo_apos_classificacao.png
+2025-03-29 16:19:31,196 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\14_exemplo_apos_classificacao.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:19:32,800 [INFO] Resposta da IA (imagem): ### Dados em tabela
+A imagem exibe uma planilha com informações sobre serviços, tickets, idade, título, datas de criação e alteração, fila e estado, com destaque para as linhas 5 e 10, que apresentam "ERP: ALMOX" no campo de serviço.
+2025-03-29 16:19:32,801 [INFO] Resumo gerado para '14_exemplo_apos_classificacao.png': ### Dados em tabela
+A imagem exibe uma planilha com informações sobre serviços, tickets, idade, título, datas de criação e alteração, fila e estado, com destaque para as linhas 5 e 10, que apresentam "ERP: ALMOX" no campo de serviço.
+2025-03-29 16:19:32,834 [INFO] Imagem '14_exemplo_apos_classificacao.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:19:32,835 [INFO] Histórico atualizado com '14_exemplo_apos_classificacao.png'.
+2025-03-29 16:19:32,835 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:19:39,836 [INFO] Processando imagem 15/15: 15_apos_classificar_salvar.png
+2025-03-29 16:19:39,836 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\15_apos_classificar_salvar.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:19:41,830 [INFO] Resposta da IA (imagem): ### Filtro na Coluna "Serviço" no Excel
+
+1.  **Acesso ao filtro:** Clique no filtro da coluna "Serviço" (A1).
+2.  **Seleção de itens:** Escolha os itens desejados na lista apresentada.
+3.  **Confirmação:** Clique em "OK" para aplicar o filtro.
+2025-03-29 16:19:41,833 [INFO] Resumo gerado para '15_apos_classificar_salvar.png': ### Filtro na Coluna "Serviço" no Excel
+
+1.  **Acesso ao filtro:** Clique no filtro da coluna "Serviço" (A1).
+2.  **Seleção de itens:** Escolha os itens desejados na lista apresentada.
+3.  **Confirmação:** Clique em "OK" para aplicar o filtro.
+2025-03-29 16:19:41,878 [INFO] Imagem '15_apos_classificar_salvar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:19:41,879 [INFO] Histórico atualizado com '15_apos_classificar_salvar.png'.
+2025-03-29 16:53:49,564 [INFO] Modelo Gemini 'gemini-2.0-flash-exp' inicializado com sucesso.
+2025-03-29 16:53:49,626 [INFO] Prompt carregado com sucesso: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:53:49,638 [INFO] Processando imagem 1/22: 1_baixar_relatorio.png
+2025-03-29 16:53:49,639 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\1_baixar_relatorio.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:53:52,405 [INFO] Resposta da IA (imagem): ### Navegação para a seção de Relatórios
+Navegação da página inicial para a seção de "Relatórios" e "Estatísticas".
+
+2025-03-29 16:53:52,406 [INFO] Resumo gerado para '1_baixar_relatorio.png': ### Navegação para a seção de Relatórios
+Navegação da página inicial para a seção de "Relatórios" e "Estatísticas".
+
+2025-03-29 16:53:52,442 [INFO] Imagem '1_baixar_relatorio.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:53:52,443 [INFO] Histórico atualizado com '1_baixar_relatorio.png'.
+2025-03-29 16:53:52,443 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:53:59,444 [INFO] Processando imagem 2/22: 2_baixar_relatorio.png
+2025-03-29 16:53:59,444 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\2_baixar_relatorio.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:54:01,153 [INFO] Resposta da IA (imagem): ### Navegação para a última página de estatísticas
+Clique na última página de estatísticas (exemplo: página 3) para acessar os dados mais recentes.
+2025-03-29 16:54:01,154 [INFO] Resumo gerado para '2_baixar_relatorio.png': ### Navegação para a última página de estatísticas
+Clique na última página de estatísticas (exemplo: página 3) para acessar os dados mais recentes.
+2025-03-29 16:54:01,183 [INFO] Imagem '2_baixar_relatorio.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:54:01,184 [INFO] Histórico atualizado com '2_baixar_relatorio.png'.
+2025-03-29 16:54:01,184 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:54:08,185 [INFO] Processando imagem 3/22: 3_baixar_relatorio_executar.png
+2025-03-29 16:54:08,186 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\3_baixar_relatorio_executar.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:54:09,751 [INFO] Resposta da IA (imagem): ### Executar Relatório SAP Ariba
+Clique no ícone de play para executar o relatório SAP Ariba.
+2025-03-29 16:54:09,752 [INFO] Resumo gerado para '3_baixar_relatorio_executar.png': ### Executar Relatório SAP Ariba
+Clique no ícone de play para executar o relatório SAP Ariba.
+2025-03-29 16:54:09,788 [INFO] Imagem '3_baixar_relatorio_executar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:54:09,789 [INFO] Histórico atualizado com '3_baixar_relatorio_executar.png'.
+2025-03-29 16:54:09,789 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:54:16,790 [INFO] Processando imagem 4/22: 4_baixar_relatorio_executar.png
+2025-03-29 16:54:16,790 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\4_baixar_relatorio_executar.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:54:18,107 [INFO] Resposta da IA (imagem): ### Executar Estatísticas
+Clique em "Executar agora" para gerar a estatística com as configurações atuais.
+2025-03-29 16:54:18,108 [INFO] Resumo gerado para '4_baixar_relatorio_executar.png': ### Executar Estatísticas
+Clique em "Executar agora" para gerar a estatística com as configurações atuais.
+2025-03-29 16:54:18,144 [INFO] Imagem '4_baixar_relatorio_executar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:54:18,144 [INFO] Histórico atualizado com '4_baixar_relatorio_executar.png'.
+2025-03-29 16:54:18,145 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:54:25,146 [INFO] Processando imagem 5/22: 5_salvar_relatorio_pasta_correta.png
+2025-03-29 16:54:25,146 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\5_salvar_relatorio_pasta_correta.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:54:26,786 [INFO] Resposta da IA (imagem): ### Movendo Arquivo para Pasta Específica
+
+O arquivo está sendo movido da pasta "Downloads" para a pasta "dashboard_csc", localizada em "Documentos" dentro da pasta do usuário "Joel Ferreira Heanna Dos Reis".
+2025-03-29 16:54:26,787 [INFO] Resumo gerado para '5_salvar_relatorio_pasta_correta.png': ### Movendo Arquivo para Pasta Específica
+
+O arquivo está sendo movido da pasta "Downloads" para a pasta "dashboard_csc", localizada em "Documentos" dentro da pasta do usuário "Joel Ferreira Heanna Dos Reis".
+2025-03-29 16:54:26,810 [INFO] Imagem '5_salvar_relatorio_pasta_correta.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:54:26,811 [INFO] Histórico atualizado com '5_salvar_relatorio_pasta_correta.png'.
+2025-03-29 16:54:26,811 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:54:33,812 [INFO] Processando imagem 6/22: 6_deletar_relatorios_sap_relatorio_novo.png
+2025-03-29 16:54:33,813 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\6_deletar_relatorios_sap_relatorio_novo.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:54:35,111 [INFO] Resposta da IA (imagem): ### Selecionar e deletar arquivos
+
+*   Os arquivos "relatorio\_novo.xlsx" e "sap.xlsx" estão destacados em vermelho, indicando que devem ser selecionados e excluídos.
+2025-03-29 16:54:35,113 [INFO] Resumo gerado para '6_deletar_relatorios_sap_relatorio_novo.png': ### Selecionar e deletar arquivos
+
+*   Os arquivos "relatorio\_novo.xlsx" e "sap.xlsx" estão destacados em vermelho, indicando que devem ser selecionados e excluídos.
+2025-03-29 16:54:35,144 [INFO] Imagem '6_deletar_relatorios_sap_relatorio_novo.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:54:35,145 [INFO] Histórico atualizado com '6_deletar_relatorios_sap_relatorio_novo.png'.
+2025-03-29 16:54:35,145 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:54:42,146 [INFO] Processando imagem 7/22: 7_abrir_vs_code.png
+2025-03-29 16:54:42,147 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\7_abrir_vs_code.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:54:43,191 [INFO] Resposta da IA (imagem): ### Abertura do VS Code via Terminal
+
+1.  **Comando `pwd`**: Exibe o caminho absoluto do diretório atual.
+2.  **Comando `code .`**: Abre o VS Code no diretório exibido pelo comando `pwd`.
+2025-03-29 16:54:43,192 [INFO] Resumo gerado para '7_abrir_vs_code.png': ### Abertura do VS Code via Terminal
+
+1.  **Comando `pwd`**: Exibe o caminho absoluto do diretório atual.
+2.  **Comando `code .`**: Abre o VS Code no diretório exibido pelo comando `pwd`.
+2025-03-29 16:54:43,224 [INFO] Imagem '7_abrir_vs_code.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:54:43,225 [INFO] Histórico atualizado com '7_abrir_vs_code.png'.
+2025-03-29 16:54:43,225 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:54:50,226 [INFO] Processando imagem 8/22: 8_executar_script_merge_csc_report.png
+2025-03-29 16:54:50,227 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\8_executar_script_merge_csc_report.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:54:51,777 [INFO] Resposta da IA (imagem): ### Executando Script Python no VS Code
+O arquivo `merge_csc_report.py` está aberto no VS Code. Clique no botão "Run Python File in Terminal" (seta vermelha) para executar o script.
+
+2025-03-29 16:54:51,778 [INFO] Resumo gerado para '8_executar_script_merge_csc_report.png': ### Executando Script Python no VS Code
+O arquivo `merge_csc_report.py` está aberto no VS Code. Clique no botão "Run Python File in Terminal" (seta vermelha) para executar o script.
+
+2025-03-29 16:54:51,808 [INFO] Imagem '8_executar_script_merge_csc_report.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:54:51,809 [INFO] Histórico atualizado com '8_executar_script_merge_csc_report.png'.
+2025-03-29 16:54:51,809 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:54:58,810 [INFO] Processando imagem 9/22: 9_relatorio_final_gerado.png
+2025-03-29 16:54:58,810 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\9_relatorio_final_gerado.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:55:00,230 [INFO] Resposta da IA (imagem): ### Arquivo de saída e execução do script
+O script Python "merge_csc_report.py" foi executado com sucesso. O arquivo "relatorio_final.xlsx" foi gerado na pasta do projeto.
+2025-03-29 16:55:00,232 [INFO] Resumo gerado para '9_relatorio_final_gerado.png': ### Arquivo de saída e execução do script
+O script Python "merge_csc_report.py" foi executado com sucesso. O arquivo "relatorio_final.xlsx" foi gerado na pasta do projeto.
+2025-03-29 16:55:00,255 [INFO] Imagem '9_relatorio_final_gerado.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:55:00,255 [INFO] Histórico atualizado com '9_relatorio_final_gerado.png'.
+2025-03-29 16:55:00,256 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:55:07,256 [INFO] Processando imagem 10/22: 11_filtrar_planilha_por_Estado.png
+2025-03-29 16:55:07,257 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\11_filtrar_planilha_por_Estado.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:55:09,251 [INFO] Resposta da IA (imagem): ### Filtrando status "Solucionado" na coluna "Estad"
+Filtrar a coluna "Estad" da planilha para exibir apenas os registros com o status "Solucionado".
+
+- Desmarcar todas as opções de status.
+- Marcar a opção "Solucionado".
+- Clicar em "OK" para aplicar o filtro.
+
+2025-03-29 16:55:09,252 [INFO] Resumo gerado para '11_filtrar_planilha_por_Estado.png': ### Filtrando status "Solucionado" na coluna "Estad"
+Filtrar a coluna "Estad" da planilha para exibir apenas os registros com o status "Solucionado".
+
+- Desmarcar todas as opções de status.
+- Marcar a opção "Solucionado".
+- Clicar em "OK" para aplicar o filtro.
+
+2025-03-29 16:55:09,280 [INFO] Imagem '11_filtrar_planilha_por_Estado.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:55:09,281 [INFO] Histórico atualizado com '11_filtrar_planilha_por_Estado.png'.
+2025-03-29 16:55:09,283 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:55:16,285 [INFO] Processando imagem 11/22: 10_abrir_relatorio_final.png
+2025-03-29 16:55:16,286 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\10_abrir_relatorio_final.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:55:17,475 [INFO] Resposta da IA (imagem): ### Abrir Arquivo "relatorio_final"
+Abrir arquivo selecionado.
+2025-03-29 16:55:17,476 [INFO] Resumo gerado para '10_abrir_relatorio_final.png': ### Abrir Arquivo "relatorio_final"
+Abrir arquivo selecionado.
+2025-03-29 16:55:17,507 [INFO] Imagem '10_abrir_relatorio_final.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:55:17,508 [INFO] Histórico atualizado com '10_abrir_relatorio_final.png'.
+2025-03-29 16:55:17,508 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:55:24,509 [INFO] Processando imagem 12/22: 12_filtrar_planilha_por_Servico.png
+2025-03-29 16:55:24,510 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\12_filtrar_planilha_por_Servico.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:55:27,355 [INFO] Resposta da IA (imagem): ### Filtro da coluna "Serviço" no LibreOffice Calc
+
+*   Na coluna "Serviço", um filtro está sendo aplicado.
+
+*   Os itens marcados indicam os dados que serão exibidos após a aplicação do filtro.
+    *   "Dados da Classificação Anterior": SAP - Dúvidas Gerais, SAP - SLP Fornecedores, SAP - Usuários, SAP - Workflow, SI - Tabela RH.
+    *   "Dados novos para Classificação": Tecnologia da Informação::SAP Ariba, Tecnologia da Informação::SAP Ariba::Dados: Alteração de Workflow de Aprovação, Tecnologia da Informação::SAP Ariba::Dados: Solicitação de Perfil de Usuário, Tecnologia da Informação::SAP Ariba::P2O: PO.
+
+*   Após selecionar os dados desejados, clica-se em "OK" para aplicar o filtro.
+2025-03-29 16:55:27,357 [INFO] Resumo gerado para '12_filtrar_planilha_por_Servico.png': ### Filtro da coluna "Serviço" no LibreOffice Calc
+
+*   Na coluna "Serviço", um filtro está sendo aplicado.
+
+*   Os itens marcados indicam os dados que serão exibidos após a aplicação do filtro.
+    *   "Dados da Classificação Anterior": SAP - Dúvidas Gerais, SAP - SLP Fornecedores, SAP - Usuários, SAP - Workflow, SI - Tabela RH.
+    *   "Dados novos para Classificação": Tecnologia da Informação::SAP Ariba, Tecnologia da Informação::SAP Ariba::Dados: Alteração de Workflow de Aprovação, Tecnologia da Informação::SAP Ariba::Dados: Solicitação de Perfil de Usuário, Tecnologia da Informação::SAP Ariba::P2O: PO.
+
+*   Após selecionar os dados desejados, clica-se em "OK" para aplicar o filtro.
+2025-03-29 16:55:27,384 [INFO] Imagem '12_filtrar_planilha_por_Servico.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:55:27,384 [INFO] Histórico atualizado com '12_filtrar_planilha_por_Servico.png'.
+2025-03-29 16:55:27,384 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:55:34,386 [INFO] Processando imagem 13/22: 13_clasificando_planilha_por_Servico.png
+2025-03-29 16:55:34,386 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\13_clasificando_planilha_por_Servico.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:55:35,845 [INFO] Resposta da IA (imagem): ### Filtragem de Dados no LibreOffice Calc
+
+- **Serviço:** Filtrando dados na coluna "Serviço" para mostrar apenas linhas que contêm "Tecnologia da Informação::SAP Ariba::P2O: PO".
+- **Título:** Observando a coluna "Título" para identificar chamados com "portal comercial".
+
+2025-03-29 16:55:35,846 [INFO] Resumo gerado para '13_clasificando_planilha_por_Servico.png': ### Filtragem de Dados no LibreOffice Calc
+
+- **Serviço:** Filtrando dados na coluna "Serviço" para mostrar apenas linhas que contêm "Tecnologia da Informação::SAP Ariba::P2O: PO".
+- **Título:** Observando a coluna "Título" para identificar chamados com "portal comercial".
+
+2025-03-29 16:55:35,873 [INFO] Imagem '13_clasificando_planilha_por_Servico.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:55:35,874 [INFO] Histórico atualizado com '13_clasificando_planilha_por_Servico.png'.
+2025-03-29 16:55:35,874 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:55:42,875 [INFO] Processando imagem 14/22: 14_exemplo_apos_classificacao.png
+2025-03-29 16:55:42,875 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\14_exemplo_apos_classificacao.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:55:44,237 [INFO] Resposta da IA (imagem): ### Dados em planilha
+Os serviços ERP: ALMOX de linhas 5 e 10, possuem os números de tickets 2025032885003574 e 2025032885002521, respectivamente. O serviço Tecnologia da Informação::SAP Ariba::P2O: PO, na linha 17, possui o ticket 2025032885001361.
+2025-03-29 16:55:44,238 [INFO] Resumo gerado para '14_exemplo_apos_classificacao.png': ### Dados em planilha
+Os serviços ERP: ALMOX de linhas 5 e 10, possuem os números de tickets 2025032885003574 e 2025032885002521, respectivamente. O serviço Tecnologia da Informação::SAP Ariba::P2O: PO, na linha 17, possui o ticket 2025032885001361.
+2025-03-29 16:55:44,271 [INFO] Imagem '14_exemplo_apos_classificacao.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:55:44,271 [INFO] Histórico atualizado com '14_exemplo_apos_classificacao.png'.
+2025-03-29 16:55:44,272 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:55:51,272 [INFO] Processando imagem 15/22: 15_apos_classificar_salvar.png
+2025-03-29 16:55:51,273 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\15_apos_classificar_salvar.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:55:52,820 [INFO] Resposta da IA (imagem): ### Filtrando dados na coluna "Serviço"
+Filtrando os dados da coluna "Serviço" na planilha.
+
+*   Desmarcando a opção "Todos" e selecionando itens específicos para filtrar os dados exibidos na coluna.
+*   Clicando em "OK" para aplicar o filtro selecionado.
+2025-03-29 16:55:52,821 [INFO] Resumo gerado para '15_apos_classificar_salvar.png': ### Filtrando dados na coluna "Serviço"
+Filtrando os dados da coluna "Serviço" na planilha.
+
+*   Desmarcando a opção "Todos" e selecionando itens específicos para filtrar os dados exibidos na coluna.
+*   Clicando em "OK" para aplicar o filtro selecionado.
+2025-03-29 16:55:52,857 [INFO] Imagem '15_apos_classificar_salvar.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:55:52,858 [INFO] Histórico atualizado com '15_apos_classificar_salvar.png'.
+2025-03-29 16:55:52,858 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:55:59,859 [INFO] Processando imagem 16/22: 16_executar_dasboard_streamlit.png
+2025-03-29 16:55:59,860 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\16_executar_dasboard_streamlit.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:56:01,357 [INFO] Resposta da IA (imagem): ### Verificando o diretório atual e executando o script Streamlit
+- **`pwd`**: Mostra o diretório atual, que é `/c/Users/jfreis/Documents/dashboard_csc`.
+- **`streamlit run analitics_incidents.py`**: Executa o script Python `analitics_incidents.py` usando o Streamlit.
+
+2025-03-29 16:56:01,358 [INFO] Resumo gerado para '16_executar_dasboard_streamlit.png': ### Verificando o diretório atual e executando o script Streamlit
+- **`pwd`**: Mostra o diretório atual, que é `/c/Users/jfreis/Documents/dashboard_csc`.
+- **`streamlit run analitics_incidents.py`**: Executa o script Python `analitics_incidents.py` usando o Streamlit.
+
+2025-03-29 16:56:01,389 [INFO] Imagem '16_executar_dasboard_streamlit.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:56:01,390 [INFO] Histórico atualizado com '16_executar_dasboard_streamlit.png'.
+2025-03-29 16:56:01,390 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:56:08,391 [INFO] Processando imagem 17/22: 17_executando_dashboard.png
+2025-03-29 16:56:08,392 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\17_executando_dashboard.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:56:09,960 [INFO] Resposta da IA (imagem): ### Executando o Streamlit
+Executa o comando `streamlit run analitics_incidents.py` para iniciar a aplicação Streamlit.
+
+- A aplicação Streamlit estará acessível através dos seguintes URLs:
+  - Local URL: `http://localhost:8502`
+  - Network URL: `http://192.168.0.106:8502`
+
+2025-03-29 16:56:09,962 [INFO] Resumo gerado para '17_executando_dashboard.png': ### Executando o Streamlit
+Executa o comando `streamlit run analitics_incidents.py` para iniciar a aplicação Streamlit.
+
+- A aplicação Streamlit estará acessível através dos seguintes URLs:
+  - Local URL: `http://localhost:8502`
+  - Network URL: `http://192.168.0.106:8502`
+
+2025-03-29 16:56:09,989 [INFO] Imagem '17_executando_dashboard.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:56:09,990 [INFO] Histórico atualizado com '17_executando_dashboard.png'.
+2025-03-29 16:56:09,990 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:56:16,991 [INFO] Processando imagem 18/22: 18_interface_dashboard.png
+2025-03-29 16:56:16,992 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\18_interface_dashboard.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:56:19,211 [INFO] Resposta da IA (imagem): ### Análise de Incidentes
+O painel exibe estatísticas de incidentes para o mês de março de 2025, incluindo:
+
+- Total de incidentes abertos no mês: 928
+- Total de incidentes encerrados: 1071
+- Total de incidentes sem atendente: 5
+- Total de incidentes em backlog: 2
+- Total de incidentes abertos: 186
+- Incidentes em atendimento: 17
+- Incidentes aguardando terceiros: 128
+- Incidentes aguardando cliente: 31
+- Incidentes agendados: 0
+- Gráfico de incidentes encerrados por analista com total de 1247.
+2025-03-29 16:56:19,216 [INFO] Resumo gerado para '18_interface_dashboard.png': ### Análise de Incidentes
+O painel exibe estatísticas de incidentes para o mês de março de 2025, incluindo:
+
+- Total de incidentes abertos no mês: 928
+- Total de incidentes encerrados: 1071
+- Total de incidentes sem atendente: 5
+- Total de incidentes em backlog: 2
+- Total de incidentes abertos: 186
+- Incidentes em atendimento: 17
+- Incidentes aguardando terceiros: 128
+- Incidentes aguardando cliente: 31
+- Incidentes agendados: 0
+- Gráfico de incidentes encerrados por analista com total de 1247.
+2025-03-29 16:56:19,254 [INFO] Imagem '18_interface_dashboard.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:56:19,255 [INFO] Histórico atualizado com '18_interface_dashboard.png'.
+2025-03-29 16:56:19,255 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:56:26,257 [INFO] Processando imagem 19/22: 19_opcao_download_imagem.png
+2025-03-29 16:56:26,257 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\19_opcao_download_imagem.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:56:27,927 [INFO] Resposta da IA (imagem): ### Gráfico de chamados abertos por serviço
+Gráfico de chamados abertos por serviço, mostrando o total de chamados e o chamado mais antigo por serviço.
+- No canto superior direito, há um botão para baixar o plot como um arquivo PNG.
+2025-03-29 16:56:27,928 [INFO] Resumo gerado para '19_opcao_download_imagem.png': ### Gráfico de chamados abertos por serviço
+Gráfico de chamados abertos por serviço, mostrando o total de chamados e o chamado mais antigo por serviço.
+- No canto superior direito, há um botão para baixar o plot como um arquivo PNG.
+2025-03-29 16:56:27,961 [INFO] Imagem '19_opcao_download_imagem.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:56:27,962 [INFO] Histórico atualizado com '19_opcao_download_imagem.png'.
+2025-03-29 16:56:27,962 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:56:34,963 [INFO] Processando imagem 20/22: 20_opcao_download_tabela_csv.png
+2025-03-29 16:56:34,964 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\20_opcao_download_tabela_csv.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:56:36,501 [INFO] Resposta da IA (imagem): ### Download do relatório
+Clique no botão "Download as CSV" para baixar o relatório exibido na tela em formato CSV.
+2025-03-29 16:56:36,502 [INFO] Resumo gerado para '20_opcao_download_tabela_csv.png': ### Download do relatório
+Clique no botão "Download as CSV" para baixar o relatório exibido na tela em formato CSV.
+2025-03-29 16:56:36,538 [INFO] Imagem '20_opcao_download_tabela_csv.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:56:36,538 [INFO] Histórico atualizado com '20_opcao_download_tabela_csv.png'.
+2025-03-29 16:56:36,539 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:56:43,539 [INFO] Processando imagem 21/22: 21_opcao_grafico_tela_cheia.png
+2025-03-29 16:56:43,540 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\21_opcao_grafico_tela_cheia.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:56:44,998 [INFO] Resposta da IA (imagem): ### Gráfico de Chamados Criados por Mês
+Acesso à opção de visualização em tela cheia do gráfico, clicando no botão "Fullscreen" destacado em vermelho.
+2025-03-29 16:56:45,000 [INFO] Resumo gerado para '21_opcao_grafico_tela_cheia.png': ### Gráfico de Chamados Criados por Mês
+Acesso à opção de visualização em tela cheia do gráfico, clicando no botão "Fullscreen" destacado em vermelho.
+2025-03-29 16:56:45,022 [INFO] Imagem '21_opcao_grafico_tela_cheia.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:56:45,023 [INFO] Histórico atualizado com '21_opcao_grafico_tela_cheia.png'.
+2025-03-29 16:56:45,023 [INFO] Aguardando 7 segundos para próxima requisição...
+2025-03-29 16:56:52,024 [INFO] Processando imagem 22/22: 22_resultado_grafico_tela_cheia.png
+2025-03-29 16:56:52,024 [INFO] Enviando para IA - Imagem: c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\assets\22_resultado_grafico_tela_cheia.png, Prompt: Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
+manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
+abrir uma planilha e fazer filtros e alterar dados da planilha.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-03-29 16:56:54,204 [INFO] Resposta da IA (imagem): ### Gráfico de Chamados Criados por Mês
+O gráfico apresenta o total de chamados criados por mês, variando de Março de 2024 a Março de 2025.
+
+- **Março de 2024:** 11 chamados
+- **Abril de 2024:** 2 chamados
+- **Maio de 2024:** 1 chamado
+- **Julho de 2024:** 79 chamados
+- **Setembro de 2024:** 133 chamados
+- **Novembro de 2024:** 1730 chamados
+- **Janeiro de 2025:** 1869 chamados
+- **Março de 2025:** 928 chamados
+
+2025-03-29 16:56:54,207 [INFO] Resumo gerado para '22_resultado_grafico_tela_cheia.png': ### Gráfico de Chamados Criados por Mês
+O gráfico apresenta o total de chamados criados por mês, variando de Março de 2024 a Março de 2025.
+
+- **Março de 2024:** 11 chamados
+- **Abril de 2024:** 2 chamados
+- **Maio de 2024:** 1 chamado
+- **Julho de 2024:** 79 chamados
+- **Setembro de 2024:** 133 chamados
+- **Novembro de 2024:** 1730 chamados
+- **Janeiro de 2025:** 1869 chamados
+- **Março de 2025:** 928 chamados
+
+2025-03-29 16:56:54,242 [INFO] Imagem '22_resultado_grafico_tela_cheia.png' movida para 'c:\Users\jfreis\Documents\azure-ai-sentiment-analysis\processed_images'.
+2025-03-29 16:56:54,242 [INFO] Histórico atualizado com '22_resultado_grafico_tela_cheia.png'.
