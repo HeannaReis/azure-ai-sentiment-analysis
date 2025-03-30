@@ -49,6 +49,10 @@ class ImageProcessor:
 
     def _process_image(self, image_name):
         img_path = os.path.join(ASSETS_DIR, image_name)
+        # Primeiro, copia a imagem para o diretório de processados
+        processed_path = os.path.join(PROCESSED_DIR, image_name)
+        shutil.copy2(img_path, processed_path)
+        
         try:
             response_text = self.gemini_handler.generate_content(img_path, self.prompt)
             logger.info(f"Resumo gerado para '{image_name}': {response_text}")

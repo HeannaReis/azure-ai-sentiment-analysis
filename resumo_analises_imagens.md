@@ -1,187 +1,299 @@
 # Resumo das Análises das Imagens
 
-## Imagem: 1_baixar_relatorio.png
-![1_baixar_relatorio.png](/processed_images/1_baixar_relatorio.png)
+## Imagem: 1_acessar_configuracoes.png
+![1_acessar_configuracoes.png](/processed_images/1_acessar_configuracoes.png)
 
-### Navegação para a seção de Relatórios
-Navegação da página inicial para a seção de "Relatórios" e "Estatísticas".
+### Abrir as configurações do Speech Studio.
+Clique no ícone de engrenagem para abrir as configurações.
 
+## Imagem: 2_criar_novo_recurso.png
+![2_criar_novo_recurso.png](/processed_images/2_criar_novo_recurso.png)
 
-## Imagem: 2_baixar_relatorio.png
-![2_baixar_relatorio.png](/processed_images/2_baixar_relatorio.png)
+### Criar novo recurso
+Clique em "+ Criar novo recurso" para iniciar o processo de criação de um novo recurso no Azure.
 
-### Navegação para a última página de estatísticas
-Clique na última página de estatísticas (exemplo: página 3) para acessar os dados mais recentes.
+## Imagem: taxas.png
+![taxas.png](/processed_images/taxas.png)
 
-## Imagem: 3_baixar_relatorio_executar.png
-![3_baixar_relatorio_executar.png](/processed_images/3_baixar_relatorio_executar.png)
+### Plano Gratuito do Azure AI Speech
 
-### Executar Relatório SAP Ariba
-Clique no ícone de play para executar o relatório SAP Ariba.
+A tabela demonstra as características do plano gratuito, discriminando:
 
-## Imagem: 4_baixar_relatorio_executar.png
-![4_baixar_relatorio_executar.png](/processed_images/4_baixar_relatorio_executar.png)
+*   **Categoria**: Tipo de serviço (Conversão de fala em Texto, Texto em Fala, etc.).
+*   **Funcionalidades**: Detalhes específicos do serviço.
+*   **Preço**: Limites e condições de uso gratuito.
 
-### Executar Estatísticas
-Clique em "Executar agora" para gerar a estatística com as configurações atuais.
+## Imagem: 3_criar_recurso_fala.png
+![3_criar_recurso_fala.png](/processed_images/3_criar_recurso_fala.png)
 
-## Imagem: 5_salvar_relatorio_pasta_correta.png
-![5_salvar_relatorio_pasta_correta.png](/processed_images/5_salvar_relatorio_pasta_correta.png)
+### Criar recurso Fala
 
-### Movendo Arquivo para Pasta Específica
+Preenchimento dos detalhes para criar um recurso Fala no Azure:
 
-O arquivo está sendo movido da pasta "Downloads" para a pasta "dashboard_csc", localizada em "Documentos" dentro da pasta do usuário "Joel Ferreira Heanna Dos Reis".
+*   **Nome do novo recurso:** Inserir um nome para o novo recurso, no exemplo `test_azure_speech`.
+*   **Assinatura:** Selecionar a assinatura do Azure desejada, no exemplo `Assinatura do Azure 1`.
+*   **Região:** Escolher a região para o recurso, no exemplo `Leste dos EUA`.
+*   **Tipo de preço:** Selecionar o tipo de preço, no exemplo `Gratuito F0`.
+*   **Grupo de recursos:** Escolher o grupo de recursos, no exemplo `NetworkWatcherRG`.
+*   Clicar em `Criar um recurso`.
 
-## Imagem: 6_deletar_relatorios_sap_relatorio_novo.png
-![6_deletar_relatorios_sap_relatorio_novo.png](/processed_images/6_deletar_relatorios_sap_relatorio_novo.png)
+## Imagem: 4_recursos_criados_em_uso.png
+![4_recursos_criados_em_uso.png](/processed_images/4_recursos_criados_em_uso.png)
 
-### Selecionar e deletar arquivos
+### Fechar Configurações
+Clique no botão "Fechar" para sair da tela de configurações.
 
-*   Os arquivos "relatorio\_novo.xlsx" e "sap.xlsx" estão destacados em vermelho, indicando que devem ser selecionados e excluídos.
+## Imagem: 5_selecionar_modelo.png
+![5_selecionar_modelo.png](/processed_images/5_selecionar_modelo.png)
 
-## Imagem: 7_abrir_vs_code.png
-![7_abrir_vs_code.png](/processed_images/7_abrir_vs_code.png)
+### Conversão de fala em texto em tempo real
+Clique em "Conversão de fala em texto em tempo real" para testar rapidamente os recursos de transcrição ao vivo.
 
-### Abertura do VS Code via Terminal
+## Imagem: 6_configuracoes_modelo.png
+![6_configuracoes_modelo.png](/processed_images/6_configuracoes_modelo.png)
 
-1.  **Comando `pwd`**: Exibe o caminho absoluto do diretório atual.
-2.  **Comando `code .`**: Abre o VS Code no diretório exibido pelo comando `pwd`.
+### Configuração de Conversão de Fala em Texto em Tempo Real
 
-## Imagem: 8_executar_script_merge_csc_report.png
-![8_executar_script_merge_csc_report.png](/processed_images/8_executar_script_merge_csc_report.png)
+Configure as opções para a conversão de fala em texto:
 
-### Executando Script Python no VS Code
-O arquivo `merge_csc_report.py` está aberto no VS Code. Clique no botão "Run Python File in Terminal" (seta vermelha) para executar o script.
+*   Clique em "Ver a documentação", "Exibir exemplo de código" ou "Usar o CLI de Fala" para obter informações adicionais.
+*   Marque a opção "Reconheço que este aplicativo usa o recurso aiassistspeech e incorrerá no uso da minha conta".
+*   Selecione o idioma desejado na lista suspensa.
+*   Escolha a plataforma entre "Contêiner do Docker" e "Nuvem".
 
+## Imagem: 7_playground_modelo.png
+![7_playground_modelo.png](/processed_images/7_playground_modelo.png)
 
-## Imagem: 9_relatorio_final_gerado.png
-![9_relatorio_final_gerado.png](/processed_images/9_relatorio_final_gerado.png)
+### Arraste e solte um arquivo de áudio para iniciar a conversão
+Arraste e solte um arquivo de áudio na área indicada para iniciar o processo de conversão de fala em texto. Os resultados serão exibidos na área "Resultados de teste" assim que o áudio for carregado.
 
-### Arquivo de saída e execução do script
-O script Python "merge_csc_report.py" foi executado com sucesso. O arquivo "relatorio_final.xlsx" foi gerado na pasta do projeto.
+## Imagem: 8_resultado_audio_para_texto.png
+![8_resultado_audio_para_texto.png](/processed_images/8_resultado_audio_para_texto.png)
 
-## Imagem: 11_filtrar_planilha_por_Estado.png
-![11_filtrar_planilha_por_Estado.png](/processed_images/11_filtrar_planilha_por_Estado.png)
+### Transcrição do Áudio Convertido em Texto
+Exibe o texto transcrito do arquivo de áudio selecionado.
 
-### Filtrando status "Solucionado" na coluna "Estad"
-Filtrar a coluna "Estad" da planilha para exibir apenas os registros com o status "Solucionado".
+## Imagem: 9_proximas_etapas_introducao.png
+![9_proximas_etapas_introducao.png](/processed_images/9_proximas_etapas_introducao.png)
 
-- Desmarcar todas as opções de status.
-- Marcar a opção "Solucionado".
-- Clicar em "OK" para aplicar o filtro.
+### Selecionar Recurso Cognitivo no Azure para Fala
 
+Selecione um recurso para exibir chaves e região para configuração de fala:
 
-## Imagem: 10_abrir_relatorio_final.png
-![10_abrir_relatorio_final.png](/processed_images/10_abrir_relatorio_final.png)
+- Recurso de fala: aiassistspeech (SpeechServices, Leste dos EUA, FO).
+- Região: eastus.
+- Chave de recurso: ---.
+- Fala ponto de extremidade: https://eastus.api.cognitive.microsoft.com/.
 
-### Abrir Arquivo "relatorio_final"
-Abrir arquivo selecionado.
+Seguir o início rápido:
 
-## Imagem: 12_filtrar_planilha_por_Servico.png
-![12_filtrar_planilha_por_Servico.png](/processed_images/12_filtrar_planilha_por_Servico.png)
+- Depois de criar os recursos, execute o código de exemplo seguindo as etapas no início rápido.
+- Abrir o início rápido.
+- Veja o código de exemplo no GitHub.
 
-### Filtro da coluna "Serviço" no LibreOffice Calc
+## Imagem: 10_proximas_etapas_cenarios_cumuns.png
+![10_proximas_etapas_cenarios_cumuns.png](/processed_images/10_proximas_etapas_cenarios_cumuns.png)
 
-*   Na coluna "Serviço", um filtro está sendo aplicado.
+### Cenários comuns
 
-*   Os itens marcados indicam os dados que serão exibidos após a aplicação do filtro.
-    *   "Dados da Classificação Anterior": SAP - Dúvidas Gerais, SAP - SLP Fornecedores, SAP - Usuários, SAP - Workflow, SI - Tabela RH.
-    *   "Dados novos para Classificação": Tecnologia da Informação::SAP Ariba, Tecnologia da Informação::SAP Ariba::Dados: Alteração de Workflow de Aprovação, Tecnologia da Informação::SAP Ariba::Dados: Solicitação de Perfil de Usuário, Tecnologia da Informação::SAP Ariba::P2O: PO.
+Na seção "Próximas etapas", clique em "Cenários comuns".
 
-*   Após selecionar os dados desejados, clica-se em "OK" para aplicar o filtro.
+## Imagem: 11_proximas_etapas_servicos_relacionados.png
+![11_proximas_etapas_servicos_relacionados.png](/processed_images/11_proximas_etapas_servicos_relacionados.png)
 
-## Imagem: 13_clasificando_planilha_por_Servico.png
-![13_clasificando_planilha_por_Servico.png](/processed_images/13_clasificando_planilha_por_Servico.png)
+### Serviços Relacionados
+Selecione "Serviços relacionados" para explorar opções como Fala Personalizada, Galeria de Serviço de Voz e Avaliação de Pronúncia.
 
-### Filtragem de Dados no LibreOffice Calc
+## Imagem: 12_proximas_etapas_avaliar_preco.png
+![12_proximas_etapas_avaliar_preco.png](/processed_images/12_proximas_etapas_avaliar_preco.png)
 
-- **Serviço:** Filtrando dados na coluna "Serviço" para mostrar apenas linhas que contêm "Tecnologia da Informação::SAP Ariba::P2O: PO".
-- **Título:** Observando a coluna "Título" para identificar chamados com "portal comercial".
+### Avaliar o preço
+Para obter informações sobre preços, consulte os links "Preços dos serviços do Fala do Azure" ou "Calculadora de preços do Azure". Caso necessite de uma cotação personalizada, clique em "Converse com um especialista de vendas".
 
+## Imagem: 13_proximas_etapas_uso_responsavel_ia.png
+![13_proximas_etapas_uso_responsavel_ia.png](/processed_images/13_proximas_etapas_uso_responsavel_ia.png)
 
-## Imagem: 14_exemplo_apos_classificacao.png
-![14_exemplo_apos_classificacao.png](/processed_images/14_exemplo_apos_classificacao.png)
+### Acessar Uso responsável da IA
+Clique na opção "Uso responsável da IA" no menu lateral para visualizar informações sobre as políticas e diretrizes de uso responsável da inteligência artificial.
 
-### Dados em planilha
-Os serviços ERP: ALMOX de linhas 5 e 10, possuem os números de tickets 2025032885003574 e 2025032885002521, respectivamente. O serviço Tecnologia da Informação::SAP Ariba::P2O: PO, na linha 17, possui o ticket 2025032885001361.
+## Imagem: 14_Portal_azure_servico_inicial.png
+![14_Portal_azure_servico_inicial.png](/processed_images/14_Portal_azure_servico_inicial.png)
 
-## Imagem: 15_apos_classificar_salvar.png
-![15_apos_classificar_salvar.png](/processed_images/15_apos_classificar_salvar.png)
-
-### Filtrando dados na coluna "Serviço"
-Filtrando os dados da coluna "Serviço" na planilha.
-
-*   Desmarcando a opção "Todos" e selecionando itens específicos para filtrar os dados exibidos na coluna.
-*   Clicando em "OK" para aplicar o filtro selecionado.
-
-## Imagem: 16_executar_dasboard_streamlit.png
-![16_executar_dasboard_streamlit.png](/processed_images/16_executar_dasboard_streamlit.png)
-
-### Verificando o diretório atual e executando o script Streamlit
-- **`pwd`**: Mostra o diretório atual, que é `/c/Users/jfreis/Documents/dashboard_csc`.
-- **`streamlit run analitics_incidents.py`**: Executa o script Python `analitics_incidents.py` usando o Streamlit.
-
-
-## Imagem: 17_executando_dashboard.png
-![17_executando_dashboard.png](/processed_images/17_executando_dashboard.png)
-
-### Executando o Streamlit
-Executa o comando `streamlit run analitics_incidents.py` para iniciar a aplicação Streamlit.
-
-- A aplicação Streamlit estará acessível através dos seguintes URLs:
-  - Local URL: `http://localhost:8502`
-  - Network URL: `http://192.168.0.106:8502`
+### Selecionar o serviço Azure AI Services
+Clique na opção "Azure AI services".
 
 
-## Imagem: 18_interface_dashboard.png
-![18_interface_dashboard.png](/processed_images/18_interface_dashboard.png)
+## Imagem: 15_Portal_azure_servico_linguagem.png
+![15_Portal_azure_servico_linguagem.png](/processed_images/15_Portal_azure_servico_linguagem.png)
 
-### Análise de Incidentes
-O painel exibe estatísticas de incidentes para o mês de março de 2025, incluindo:
+### Criar Language Service
+Clicar em "Create" para criar o serviço de linguagem.
 
-- Total de incidentes abertos no mês: 928
-- Total de incidentes encerrados: 1071
-- Total de incidentes sem atendente: 5
-- Total de incidentes em backlog: 2
-- Total de incidentes abertos: 186
-- Incidentes em atendimento: 17
-- Incidentes aguardando terceiros: 128
-- Incidentes aguardando cliente: 31
-- Incidentes agendados: 0
-- Gráfico de incidentes encerrados por analista com total de 1247.
 
-## Imagem: 19_opcao_download_imagem.png
-![19_opcao_download_imagem.png](/processed_images/19_opcao_download_imagem.png)
+## Imagem: 16_Portal_azure_funcoes_criacao.png
+![16_Portal_azure_funcoes_criacao.png](/processed_images/16_Portal_azure_funcoes_criacao.png)
 
-### Gráfico de chamados abertos por serviço
-Gráfico de chamados abertos por serviço, mostrando o total de chamados e o chamado mais antigo por serviço.
-- No canto superior direito, há um botão para baixar o plot como um arquivo PNG.
+### Configurar funcionalidades adicionais do Azure AI services
+Clique em "Continue to create your resource" para continuar a criação do recurso.
 
-## Imagem: 20_opcao_download_tabela_csv.png
-![20_opcao_download_tabela_csv.png](/processed_images/20_opcao_download_tabela_csv.png)
+## Imagem: 18_Portal_azure_criar_idioma_2.png
+![18_Portal_azure_criar_idioma_2.png](/processed_images/18_Portal_azure_criar_idioma_2.png)
 
-### Download do relatório
-Clique no botão "Download as CSV" para baixar o relatório exibido na tela em formato CSV.
+### Concordância com o Aviso de IA Responsável
+Marque a caixa de seleção para confirmar que você leu e concorda com os termos do Aviso de IA Responsável.
 
-## Imagem: 21_opcao_grafico_tela_cheia.png
-![21_opcao_grafico_tela_cheia.png](/processed_images/21_opcao_grafico_tela_cheia.png)
+## Imagem: 17_Portal_azure_criar_idioma.png
+![17_Portal_azure_criar_idioma.png](/processed_images/17_Portal_azure_criar_idioma.png)
 
-### Gráfico de Chamados Criados por Mês
-Acesso à opção de visualização em tela cheia do gráfico, clicando no botão "Fullscreen" destacado em vermelho.
+### Criação de recurso de linguagem
+Preencha os campos:
 
-## Imagem: 22_resultado_grafico_tela_cheia.png
-![22_resultado_grafico_tela_cheia.png](/processed_images/22_resultado_grafico_tela_cheia.png)
+*   Em Subscription, selecione a assinatura.
+*   Em Resource group, selecione um grupo de recursos existente ou crie um novo.
+*   Em Region, escolha a região East US.
+*   Em Name, defina um nome para o recurso.
+*   Em Pricing tier, escolha o plano Free F0.
 
-### Gráfico de Chamados Criados por Mês
-O gráfico apresenta o total de chamados criados por mês, variando de Março de 2024 a Março de 2025.
+## Imagem: 19_Portal_azure_validacao_create.png
+![19_Portal_azure_validacao_create.png](/processed_images/19_Portal_azure_validacao_create.png)
 
-- **Março de 2024:** 11 chamados
-- **Abril de 2024:** 2 chamados
-- **Maio de 2024:** 1 chamado
-- **Julho de 2024:** 79 chamados
-- **Setembro de 2024:** 133 chamados
-- **Novembro de 2024:** 1730 chamados
-- **Janeiro de 2025:** 1869 chamados
-- **Março de 2025:** 928 chamados
+### Criar Recurso de Linguagem
+Clique no botão "Create" para criar o recurso de linguagem.
 
+## Imagem: 20_azure_studio_select_resources.png
+![20_azure_studio_select_resources.png](/processed_images/20_azure_studio_select_resources.png)
+
+### Seleção de Recurso do Azure
+Para acessar o Language Studio, é necessário selecionar um recurso do Azure:
+
+1.  **Azure directory:** Selecione o diretório "Canal da Cloud".
+2.  **Azure subscription:** Selecione sua assinatura do Azure.
+3.  **Resource type:** Escolha o tipo de recurso "Language".
+4.  **Resource name:** Selecione um recurso existente ou crie um novo.
+5.  Clique em "Done" para concluir a seleção.
+
+## Imagem: 22_azure_studio_select_resources_done.png
+![22_azure_studio_select_resources_done.png](/processed_images/22_azure_studio_select_resources_done.png)
+
+### Concluir a seleção do recurso do Azure
+Clique no botão "Done" para concluir a seleção do recurso do Azure.
+
+## Imagem: 21_azure_studio_criar_nova_solucao.png
+![21_azure_studio_criar_nova_solucao.png](/processed_images/21_azure_studio_criar_nova_solucao.png)
+
+### Criar novo projeto no Language Studio
+Clique no botão "Create new" para iniciar a criação de um novo projeto no Language Studio.
+
+## Imagem: 23_azure_studio_-recursos_disponiveis.png
+![23_azure_studio_-recursos_disponiveis.png](/processed_images/23_azure_studio_-recursos_disponiveis.png)
+
+### Criar novo projeto
+Criar um novo projeto:
+
+*   Clique em "Create new".
+*   Escolha o tipo de projeto entre as opções: Conversational language understanding, Orchestration workflow, Custom question answering, Custom text classification, Custom named entity recognition, Custom conversation summarization, Custom abstractive summarization.
+
+## Imagem: 24_azure_studio_-escolha_modelo.png
+![24_azure_studio_-escolha_modelo.png](/processed_images/24_azure_studio_-escolha_modelo.png)
+
+### Classificar texto
+Clique em "Classificar texto" para iniciar a classificação de textos.
+
+## Imagem: 25_azure_studio_digitar_mensagem.png
+![25_azure_studio_digitar_mensagem.png](/processed_images/25_azure_studio_digitar_mensagem.png)
+
+### Configurar Análise de Sentimentos e Mineração de Opinião no Language Studio
+
+- **Selecionar idioma do texto:** Defina o idioma do texto a ser analisado, neste caso, "Inglês".
+- **Selecionar recurso do Azure:** Escolha o recurso do Azure para utilizar, com a opção "Free tier (F0)" recomendada.
+- **Inserir texto para análise:** Digite ou carregue o texto desejado na área designada. No exemplo, um texto sobre um hotel é utilizado.
+- **Habilitar mineração de opinião:** Ative a opção "Enable opinion mining" para obter análises detalhadas das opiniões expressas no texto.
+
+## Imagem: 26_azure_studio_run_model.png
+![26_azure_studio_run_model.png](/processed_images/26_azure_studio_run_model.png)
+
+### Confirmar e executar o serviço
+- Marcar a caixa de seleção para confirmar que a execução do demo irá gerar custos na sua conta Azure.
+- Clicar no botão "Run" para executar o serviço.
+
+## Imagem: 27_azure_studio_resultado1.png
+![27_azure_studio_resultado1.png](/processed_images/27_azure_studio_resultado1.png)
+
+### Análise de Sentimento do Texto
+O texto foi analisado e apresenta as seguintes características:
+
+-   **Sentimento Geral:** Negativo com 96% de confiança.
+-   **Polaridade:**
+    -   Positivo: 0.00%.
+    -   Neutro: 3.00%.
+    -   Negativo: 96.00%.
+-   **Análise:** O modelo identificou "hotel cansado com mau serviço" como avaliação negativa do hotel.
+
+## Imagem: 28_azure_studio_resultado2.png
+![28_azure_studio_resultado2.png](/processed_images/28_azure_studio_resultado2.png)
+
+### Análise de Sentimentos e Opiniões
+A análise revela:
+
+- **Sentimento geral:** Negativo, com 98% de confiança.
+- **Opinião sobre o hotel:** Considerado "cansado" com 99% de certeza.
+- **Opinião sobre o serviço:** Avaliado como "ruim" com 99% de certeza.
+
+
+## Imagem: 29_azure_studio_resultado3.png
+![29_azure_studio_resultado3.png](/processed_images/29_azure_studio_resultado3.png)
+
+### Análise de Sentimento da Sentença
+A análise de sentimento da sentença indica uma polaridade negativa com uma confiança de 0.00%, onde 0.00% é positivo, 1.00% é neutro e 98.00% é negativo. A opinião sobre o hotel é "cansado" (negativo, 99.00%) e sobre o serviço é "ruim" (negativo, 99.00%).
+
+
+## Imagem: 30_azure_studio_resultado4.png
+![30_azure_studio_resultado4.png](/processed_images/30_azure_studio_resultado4.png)
+
+### Avaliação de sentimentos no Language Studio
+
+O Language Studio identifica que o "internet" é o alvo da análise de sentimentos, e a avaliação é de que "não funciona".
+
+
+## Imagem: 31_azure_proximos_passos.png
+![31_azure_proximos_passos.png](/processed_images/31_azure_proximos_passos.png)
+
+### Criar um Recurso de Linguagem no Azure
+Para utilizar a análise de sentimentos, você precisará de uma conta Azure com um recurso pago de Linguagem ou Serviços Cognitivos.
+- Selecione ou crie um recurso de linguagem.
+- Copie a chave de subscrição.
+- Copie o ponto final da linguagem.
+- Clique em “Open the quick start” para seguir o guia de início rápido e configurar o ambiente.
+
+
+## Imagem: 32_azure_analise_codigo.png
+![32_azure_analise_codigo.png](/processed_images/32_azure_analise_codigo.png)
+
+### Execute o código para Sentiment and opinion mining tryout
+
+- Clique em "Run the code" no menu lateral esquerdo.
+- No item 1, "Get SDK & Code samples", clique no botão "Get SDK".
+- Também é possível visualizar os samples no GitHub, clicando no botão "View samples on GitHub".
+- No item 2, "Use the code in your own environment", execute o código no seu ambiente de desenvolvimento usando uma requisição CURL ou verifique as referências da API para outras linguagens.
+
+## Imagem: 33_azure_cobranca.png
+![33_azure_cobranca.png](/processed_images/33_azure_cobranca.png)
+
+### Verificação de Preços no Azure Language Studio
+
+Para visualizar os preços dos serviços de linguagem no Azure Language Studio:
+
+- Clique na opção "See pricing" para acessar informações sobre os preços dos serviços de linguagem.
+- Visite "Azure Language services pricing" ou utilize a "Azure pricing calculator" para obter detalhes de preços.
+- Para solicitar um orçamento e obter respostas para perguntas sobre preços, clique em "Talk to a sales specialist".
+
+
+## Imagem: 34_azure_resposabilidade.png
+![34_azure_resposabilidade.png](/processed_images/34_azure_resposabilidade.png)
+
+### Responsabilidade no Uso de IA
+Apresenta o compromisso da Microsoft com o avanço da IA, guiado por princípios éticos.
+
+- A Microsoft oferece orientações para o uso responsável de suas capacidades, baseadas em princípios de justiça, confiabilidade, segurança, privacidade, inclusão, transparência e responsabilidade humana.
+- Links para "Uso Responsável de IA com os Serviços Cognitivos" e os "Princípios de IA da Microsoft" estão disponíveis para mais informações.
 

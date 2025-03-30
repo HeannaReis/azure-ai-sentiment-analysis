@@ -1,7 +1,5 @@
-Contexto: Você está analisando imagens relacionadas a um passo a passo de tração de relatório em uma ferramenta web, 
-manipulação de arquivos excel em uma pasta, abrir o VsCode pelo terminal direto da pasta do projeto, Executar Sctip Python,
-abrir uma planilha e fazer filtros e alterar dados da planilha.
-As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações importantes e que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas.
+Contexto: Você está analisando imagens relacionadas a um passo a passo, para gerar documentação de processos.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações que precisam ser documentadas estão em vermelhos e marcados com Setas vermelhas, geralmente são cliques ou processo a ser executado.
 
 Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
 
