@@ -24,5 +24,16 @@ class RateLimiter:
                 return False
 
     def wait_for_slot(self):
+        """Aguarda o próximo slot disponível, ajustando a espera conforme necessário."""
         while not self.allow_request():
-            time.sleep(1)
+            # Calcula o tempo de espera baseado no número de requisições feitas
+            # tempo necessário para respeitar o limite
+            current_time = time.time()
+            if self.requests:  # Verifica se a lista não está vazia
+                earliest_request_time = self.requests[0] 
+                remaining_time = max(0, self.period_seconds - (current_time - earliest_request_time))
+            else:
+                remaining_time = 1  # Espera um segundo se não houver requisições
+
+            # Aguarda o tempo necessário para garantir que a próxima requisição pode ser feita
+            time.sleep(remaining_time)

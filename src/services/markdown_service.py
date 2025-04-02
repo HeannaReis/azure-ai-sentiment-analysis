@@ -1,5 +1,5 @@
 import os
-from core.config import OUTPUT_MD, PROCESSED_DIR
+from config import OUTPUT_MD, PROCESSED_DIR
 
 class MarkdownService:
     def __init__(self):

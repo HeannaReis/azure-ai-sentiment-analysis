@@ -1,0 +1,142 @@
+[
+    {
+        "image_name": "1_acessar_configuracoes.png",
+        "summary": "### Acessar configura\u00e7\u00f5es\nAcesse as configura\u00e7\u00f5es do servi\u00e7o."
+    },
+    {
+        "image_name": "2_criar_novo_recurso.png",
+        "summary": "### Criar novo recurso\nClique em \"+ Criar novo recurso\" para iniciar a cria\u00e7\u00e3o de um novo recurso.\n"
+    },
+    {
+        "image_name": "taxas.png",
+        "summary": "### Taxas de uso gratuito dos servi\u00e7os\nA tabela detalha as taxas de uso gratuito para cada servi\u00e7o, listadas em \"Categoria\", \"Funcionalidades\" e \"Pre\u00e7o\"."
+    },
+    {
+        "image_name": "3_criar_recurso_fala.png",
+        "summary": "### Criar recurso Fala\nCrie um novo recurso de Fala preenchendo os seguintes dados:\n\n*   **Nome do novo recurso:** Defina o nome como \"test\\_azure\\_speech\".\n*   **Assinatura:** Selecione a assinatura \"Assinatura do Azure 1\".\n*   **Regi\u00e3o:** Escolha a regi\u00e3o \"Leste dos EUA\".\n*   **Tipo de pre\u00e7o:** Opte pelo plano \"Gratuito F0\".\n*   **Grupo de recursos:** Selecione \"NetworkWatcherRG\".\n\nAp\u00f3s preencher os dados, clique em \"Criar um recurso\"."
+    },
+    {
+        "image_name": "4_recursos_criados_em_uso.png",
+        "summary": "### Recursos criados em uso\n*   Selecione um recurso da lista.\n*   Clique em \"Fechar\".\n*   Clique em \"Usar o recurso\"."
+    },
+    {
+        "image_name": "5_selecionar_modelo.png",
+        "summary": "### Selecionar modelo de fala em texto em tempo real\nSelecione o modelo \"Convers\u00e3o de fala em texto em tempo real\" para testar os recursos de transcri\u00e7\u00e3o de \u00e1udio."
+    },
+    {
+        "image_name": "6_configuracoes_modelo.png",
+        "summary": "### Configura\u00e7\u00f5es do modelo de fala em texto em tempo real\n\nAjuste as configura\u00e7\u00f5es do modelo de fala em texto em tempo real:\n\n*   **Ver a documenta\u00e7\u00e3o**: Acesse a documenta\u00e7\u00e3o do modelo.\n*   **Exibir exemplo de c\u00f3digo**: Exiba exemplos de c\u00f3digo.\n*   **Usar o CLI de Fala**: Utilize a interface de linha de comando para interagir com o servi\u00e7o de fala.\n*   **Usar com o seu recurso**: Use o recurso aiassistspeech e incorrer\u00e1 no uso da minha conta.\n*   **Escolher um idioma**: Escolha o idioma Ingl\u00eas (Estados Unidos).\n*   **Plataformas**: Escolha Cont\u00eainer do Docker ou Nuvem."
+    },
+    {
+        "image_name": "7_playground_modelo.png",
+        "summary": "### Playground do modelo de fala em texto\n\nUtilize a \u00e1rea de testes do modelo de fala em texto:\n\n*   Arraste e solte arquivos de \u00e1udio na \u00e1rea indicada ou selecione um arquivo do computador.\n*   Grave \u00e1udio com um microfone.\n*   Visualize os resultados da convers\u00e3o de fala em texto na \u00e1rea de \"Resultados de teste\"."
+    },
+    {
+        "image_name": "8_resultado_audio_para_texto.png",
+        "summary": "### Resultado da convers\u00e3o de \u00e1udio para texto\nO arquivo de \u00e1udio \"Be Simple Past.mp3\" foi transcrito para o texto exibido na \u00e1rea de \"Resultados de teste\"."
+    },
+    {
+        "image_name": "9_proximas_etapas_introducao.png",
+        "summary": "### Pr\u00f3ximas etapas - Introdu\u00e7\u00e3o\nSelecione um recurso do servi\u00e7o cognitivo do Azure para fala e siga o in\u00edcio r\u00e1pido:\n\n*   **1. Selecionar um recurso do Servi\u00e7o Cognitivo do Azure para Fala:** Selecione um recurso para exibir chaves e regi\u00e3o para configura\u00e7\u00e3o de fala.\n*   **2. Seguir o in\u00edcio r\u00e1pido:** Depois de criar os recursos, execute o c\u00f3digo de exemplo seguindo as etapas no in\u00edcio r\u00e1pido."
+    },
+    {
+        "image_name": "10_proximas_etapas_cenarios_cumuns.png",
+        "summary": "### Pr\u00f3ximas etapas - Cen\u00e1rios comuns\nTeste a convers\u00e3o de fala em texto usando os cen\u00e1rios comuns:\n\n*   **Tente legendar com a convers\u00e3o de fala em texto:** Use o aplicativo de exemplo do Servi\u00e7o Cognitivo do Azure para Fala para legendar automaticamente conte\u00fado em tempo real e offline.\n*   **Transcri\u00e7\u00e3o e an\u00e1lise de call center com o Fala e Idioma do Azure:** Transcreva grava\u00e7\u00f5es de call center, extraia informa\u00e7\u00f5es valiosas e analise as conversas usando os servi\u00e7os de Fala e Idioma."
+    },
+    {
+        "image_name": "11_proximas_etapas_servicos_relacionados.png",
+        "summary": "### Pr\u00f3ximas etapas - Servi\u00e7os relacionados\nExplore os servi\u00e7os relacionados:\n\n*   **Fala Personalizada**: Melhore o reconhecimento de fala adaptando o servi\u00e7o ao vocabul\u00e1rio e estilo de fala dos seus usu\u00e1rios.\n*   **Galeria de Servi\u00e7o de Voz**: Encontre o locutor perfeito para seu projeto, com uma variedade de vozes em diversos idiomas.\n*   **Avalia\u00e7\u00e3o de Pron\u00fancia**: Obtenha feedback instant\u00e2neo sobre a precis\u00e3o e flu\u00eancia da pron\u00fancia."
+    },
+    {
+        "image_name": "12_proximas_etapas_avaliar_preco.png",
+        "summary": "### Pr\u00f3ximas etapas - Avaliar o pre\u00e7o\nAcesse informa\u00e7\u00f5es sobre pre\u00e7os e op\u00e7\u00f5es de contato:\n\n*   **Pre\u00e7o padr\u00e3o para fala em texto:** Obtenha informa\u00e7\u00f5es sobre os pre\u00e7os dos servi\u00e7os de fala do Azure ou utilize a calculadora de pre\u00e7os do Azure.\n*   **Converse com um especialista de vendas:** Solicite uma cota\u00e7\u00e3o e obtenha respostas para suas perguntas sobre pre\u00e7os.\n"
+    },
+    {
+        "image_name": "13_proximas_etapas_uso_responsavel_ia.png",
+        "summary": "### Pr\u00f3ximas etapas - Uso respons\u00e1vel da IA\n\nAcesse a documenta\u00e7\u00e3o sobre o uso respons\u00e1vel da IA."
+    },
+    {
+        "image_name": "14_Portal_azure_servico_inicial.png",
+        "summary": "### Acessar Azure Al services\nClique em \"Azure Al services\" para acessar os servi\u00e7os de intelig\u00eancia artificial do Azure.\n"
+    },
+    {
+        "image_name": "15_Portal_azure_servico_linguagem.png",
+        "summary": "### Criar Language Service\nClique em \"+ Create\" para criar um novo Language Service."
+    },
+    {
+        "image_name": "16_Portal_azure_funcoes_criacao.png",
+        "summary": "### Criar recurso\nClique em \"Continue to create your resource\" para criar um recurso de linguagem.\n"
+    },
+    {
+        "image_name": "18_Portal_azure_criar_idioma_2.png",
+        "summary": "### Certificar termos do aviso de IA respons\u00e1vel\nMarque a caixa para confirmar que voc\u00ea revisou e concorda com os termos do Aviso de IA Respons\u00e1vel."
+    },
+    {
+        "image_name": "17_Portal_azure_criar_idioma.png",
+        "summary": "### Criar recurso de linguagem\n\nConfigure os detalhes do novo recurso de linguagem:\n\n*   **Project Details:**\n    *   **Subscription:** Escolha a assinatura \"Assinatura de Plataformas MSDN\".\n    *   **Resource group:** Selecione \"LABAI-900\".\n\n*   **Instance Details:**\n    *   **Region:** Escolha a regi\u00e3o \"East US\".\n    *   **Name:** Defina o nome como \"idiomalanguage\".\n    *   **Pricing tier:** Opte pelo plano \"Free F0 (5K Transactions per 30 days)\"."
+    },
+    {
+        "image_name": "19_Portal_azure_validacao_create.png",
+        "summary": "### Criar recurso\nClique em \"Create\" para criar o recurso de linguagem com as configura\u00e7\u00f5es especificadas."
+    },
+    {
+        "image_name": "20_azure_studio_select_resources.png",
+        "summary": "### Selecionar um recurso Azure\nSelecione um recurso Azure para acessar o Language Studio. Preencha os campos:\n\n*   **Azure directory:** Selecione \"Canal da Cloud\".\n*   **Azure subscription:** Selecione sua assinatura.\n*   **Resource type:** Escolha \"Language\".\n*   **Resource name:** Selecione seu recurso.\n"
+    },
+    {
+        "image_name": "22_azure_studio_select_resources_done.png",
+        "summary": "### Selecionar e concluir a configura\u00e7\u00e3o do recurso Azure\nClique em \"Done\" para aplicar as configura\u00e7\u00f5es do recurso selecionado.\n"
+    },
+    {
+        "image_name": "21_azure_studio_criar_nova_solucao.png",
+        "summary": "### Criar nova solu\u00e7\u00e3o\nClique em \"Create new\" para criar uma nova solu\u00e7\u00e3o.\n"
+    },
+    {
+        "image_name": "23_azure_studio_-recursos_disponiveis.png",
+        "summary": "Imagem: 23_azure_studio_-recursos_disponiveis.png, Resumo: ### Criar novo recurso\nClique em \"Create new\" para selecionar um tipo de projeto.\n\n*   **Conversational language understanding:** Construir linguagem natural em aplicativos, bots e dispositivos IoT.\n*   **Orchestration workflow:** Conectar e orquestrar CLU, Custom question answering & LUIS project.\n*   **Custom question answering:** Customize a lista de perguntas e respostas extra\u00eddas do seu conte\u00fado.\n*   **Custom text classification:** Treine um modelo de classifica\u00e7\u00e3o para classificar texto usando seus pr\u00f3prios dados.\n*   **Custom named entity recognition:** Treine um modelo de extra\u00e7\u00e3o para identificar as categorias de dom\u00ednio usando seu o...\n*   **Custom conversation summarization:** Treine um modelo de sumariza\u00e7\u00e3o para criar ou gerar resumos de conversas.\n*   **Custom abstractive summarization:** Treine um modelo de sumariza\u00e7\u00e3o para criar ou gerar resumos de docume...\n"
+    },
+    {
+        "image_name": "24_azure_studio_-escolha_modelo.png",
+        "summary": "### Classificar texto\nClique em \"Classify text\" para detectar a linguagem ou classificar o sentimento de um texto, personalizando o modelo com seus dados.\n"
+    },
+    {
+        "image_name": "25_azure_studio_digitar_mensagem.png",
+        "summary": "### Configurar an\u00e1lise de texto\nConfigure a an\u00e1lise de texto para obter insights sobre o conte\u00fado:\n\n*   **Select text language:** Selecione o idioma do texto como \"English\".\n*   **Select your Azure resource:** Escolha seu recurso Azure como \"idiomalanguage\".\n*   **Enter your own text:** Digite o texto que deseja analisar na caixa de texto fornecida.\n*   **Enable opinion mining:** Ative a op\u00e7\u00e3o \"Enable opinion mining\" para extrair opini\u00f5es do texto.\n"
+    },
+    {
+        "image_name": "26_azure_studio_run_model.png",
+        "summary": "### Executar modelo\n*   Marque a caixa de sele\u00e7\u00e3o para confirmar que voc\u00ea est\u00e1 ciente de que a execu\u00e7\u00e3o desta demonstra\u00e7\u00e3o incorrer\u00e1 em uso e poss\u00edveis custos em seus recursos do Azure.\n*   Clique em \"Run\" para executar o modelo de an\u00e1lise de texto com as configura\u00e7\u00f5es especificadas.\n"
+    },
+    {
+        "image_name": "27_azure_studio_resultado1.png",
+        "summary": "### Analisar resultados de sentimento\n\nO texto analisado demonstra um sentimento negativo com 96% de confian\u00e7a, originado principalmente das express\u00f5es \"Tired hotel\" e \"poor service\"."
+    },
+    {
+        "image_name": "28_azure_studio_resultado2.png",
+        "summary": "### Analisar resultados de sentimento\n\nA frase analisada demonstra um sentimento negativo com 98% de confian\u00e7a, com 0% de sentimento positivo, 1% de sentimento neutro e 98% de sentimento negativo, originado principalmente das express\u00f5es \"Tired hotel\" e \"poor service\"."
+    },
+    {
+        "image_name": "29_azure_studio_resultado3.png",
+        "summary": "### Analisar resultados de sentimento\n\nA frase analisada demonstra um sentimento negativo com 98% de confian\u00e7a, originado principalmente das express\u00f5es \"Tired hotel\" e \"poor service\":\n\n*   **Sentence sentiment**: O sentimento geral da frase \u00e9 negativo, com uma confian\u00e7a de 98%.\n*   **Opinion**: O alvo \"hotel\" \u00e9 avaliado como \"Tired\" (negativo, 99.00%).\n*   **Opinion**: O alvo \"service\" \u00e9 avaliado como \"poor\" (negativo, 99.00%)."
+    },
+    {
+        "image_name": "30_azure_studio_resultado4.png",
+        "summary": "### Analisar resultados de sentimento\n*   O alvo \"internet\" est\u00e1 sendo avaliado como \"work\", indicando que n\u00e3o funcionou.\n*   A avalia\u00e7\u00e3o do \"internet\" \u00e9 identificada como \"assessment\"."
+    },
+    {
+        "image_name": "31_azure_proximos_passos.png",
+        "summary": "### Pr\u00f3ximos passos - Introdu\u00e7\u00e3o\n\nSelecione um recurso do servi\u00e7o cognitivo do Azure para linguagem e siga o in\u00edcio r\u00e1pido:\n\n*   **1. Criar um recurso de linguagem:** Crie um recurso de linguagem para utilizar os servi\u00e7os.\n*   **2. Seguir o in\u00edcio r\u00e1pido:** Ap\u00f3s criar o recurso, execute o c\u00f3digo de exemplo seguindo as etapas no in\u00edcio r\u00e1pido."
+    },
+    {
+        "image_name": "32_azure_analise_codigo.png",
+        "summary": "### Pr\u00f3ximos passos - Obter SDK e amostras de c\u00f3digo\nObtenha o SDK e amostras de c\u00f3digo para utilizar os servi\u00e7os:\n\n*   **1. Get SDK & Code samples:** Use a ferramenta Analyze Sentiment em seu pr\u00f3prio aplicativo. Comece com um c\u00f3digo de exemplo e ent\u00e3o implemente o recurso em seu aplicativo com o Analyze Sentiment SDK.\n*   **2. Use the code in your own environment:** Rode este c\u00f3digo em seu pr\u00f3prio ambiente de desenvolvimento utilizando uma requisi\u00e7\u00e3o CURL ou verifique as refer\u00eancias da API para outras linguagens."
+    },
+    {
+        "image_name": "33_azure_cobranca.png",
+        "summary": "### Pr\u00f3ximos passos - Avaliar o pre\u00e7o\nAcesse informa\u00e7\u00f5es sobre pre\u00e7os e op\u00e7\u00f5es de contato:\n\n*   **Pre\u00e7o padr\u00e3o para recursos de linguagem:** Obtenha informa\u00e7\u00f5es sobre os pre\u00e7os dos servi\u00e7os de linguagem do Azure ou utilize a calculadora de pre\u00e7os do Azure.\n*   **Converse com um especialista de vendas:** Solicite uma cota\u00e7\u00e3o e obtenha respostas para suas perguntas sobre pre\u00e7os."
+    },
+    {
+        "image_name": "34_azure_resposabilidade.png",
+        "summary": "### Pr\u00f3ximos passos - Uso respons\u00e1vel da IA\n\nAcesse a documenta\u00e7\u00e3o sobre o uso respons\u00e1vel da IA:\n\n*   \"Responsible use of AI with Cognitive Services\".\n*   \"Microsoft's AI principles\"."
+    }
+]

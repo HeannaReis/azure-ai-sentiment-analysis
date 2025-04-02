@@ -4,8 +4,9 @@ from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.enum.style import WD_STYLE_TYPE
 from docx.oxml.ns import qn
-from core.config import OUTPUT_DOCX, PROCESSED_DIR
+from config import OUTPUT_DOCX, PROCESSED_DIR
 import os
+from core.logger_config import logger  # Importação correta
 
 class DocumentService:
     def __init__(self):
@@ -55,19 +56,20 @@ class DocumentService:
             font.size = Pt(11)
             paragraph_format = summary_style.paragraph_format
             paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
+            paragraph_format.space_before = Pt(0)  # Reduzir o espaçamento antes do resumo
             paragraph_format.space_after = Pt(12)
             paragraph_format.first_line_indent = Pt(18)  # Recuo na primeira linha
 
     def add_image_summary(self, image_name, summary):
-        # Adiciona título com o nome da imagem usando estilo personalizado
-        # title = self.doc.add_paragraph(f"Análise da imagem: {image_name}", style='Image Title')
-        # title.alignment = WD_ALIGN_PARAGRAPH.CENTER  # Garante que o título esteja centralizado
+        image_path = os.path.join(PROCESSED_DIR, image_name)
+        logger.info(f"Caminho da imagem para o Word: {image_path}")  # Uso correto do logger
 
-        # Adiciona uma linha horizontal decorativa
-        self._add_horizontal_line()
+        # Adiciona o título da imagem
+        p = self.doc.add_paragraph(image_name, style='Image Title')  # Adiciona o título antes da imagem
+
 
         # Adiciona a imagem ao documento com tamanho de página inteira
-        if os.path.exists(os.path.join(PROCESSED_DIR, image_name)):
+        if os.path.exists(image_path):
             paragraph = self.doc.add_paragraph()
             paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
             run = paragraph.add_run()
@@ -85,20 +87,16 @@ class DocumentService:
             available_width = page_width - left_margin - right_margin
 
             # Adiciona a imagem com a largura disponível
-            picture = run.add_picture(os.path.join(PROCESSED_DIR, image_name), width=available_width)
+            picture = run.add_picture(image_path, width=available_width)
 
-            # Adiciona espaçamento após a imagem
-            self.doc.add_paragraph()
+            # Remover a linha que adiciona o parágrafo vazio
+            # self.doc.add_paragraph()
 
         # Formata o resumo com estilo personalizado
-        # Remove marcações markdown que possam estar no texto
         clean_summary = self._clean_markdown(summary)
 
         # Adiciona o resumo com estilo personalizado
         p = self.doc.add_paragraph(clean_summary, style='Summary Text')
-
-        # # Adiciona uma quebra de página após cada resumo
-        # self.doc.add_page_break()
 
     def _add_horizontal_line(self):
         """Adiciona uma linha horizontal decorativa"""
