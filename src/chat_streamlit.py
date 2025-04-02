@@ -2,7 +2,7 @@ import streamlit as st
 import time
 from datetime import datetime
 from core.handlers.gemini_handler import GeminiHandler
-from PIL import Image
+from PIL import Image   
 import os
 import io
 from config import ASSETS_DIR, PROMPT_CHAT_FILE
@@ -48,6 +48,8 @@ def load_chat_prompt():
             return file.read().strip()
     except FileNotFoundError:
         return "Você é um assistente de IA versátil e útil. Você pode conversar sobre diversos assuntos e também analisar imagens quando elas forem fornecidas."
+
+chat_prompt = load_chat_prompt()
 
 # Inicializa GeminiHandler
 @st.cache_resource
@@ -146,9 +148,6 @@ def execute_processing():
         st.session_state.messages = st.session_state.messages[-MAX_MESSAGES:]
 
     # Constrói o prompt completo incluindo o histórico do chat
-    # Carrega o prompt do arquivo aqui
-    chat_prompt = load_chat_prompt()
-
     full_prompt = chat_prompt + "\n\n"  # Start with the base prompt
 
     for message in st.session_state.messages[:-1]: # Exclude the last user message
@@ -158,10 +157,11 @@ def execute_processing():
 
     full_prompt += f"User: {user_input}" # Add current user message
 
+    # Processa resposta da IA
     try:
         if img_path:
             # Se tem imagem: usa o prompt específico para imagens
-            response = gemini_handler.generate_content(img_path, full_prompt) #full_prompt
+            response = gemini_handler.generate_content(img_path, full_prompt)
         elif generated_image:
              # Salvando a imagem gerada para ser lida pelo GeminiHandler
              os.makedirs(ASSETS_DIR, exist_ok=True)
@@ -169,10 +169,10 @@ def execute_processing():
              img_path = os.path.join(ASSETS_DIR, img_name)
              generated_image.save(img_path)
 
-             response = gemini_handler.generate_content(img_path, full_prompt) #full_prompt
+             response = gemini_handler.generate_content(img_path, full_prompt)
         else:
             # Se não tem imagem: apenas conversa normal
-            response = gemini_handler.generate_content(None, full_prompt) #full_prompt
+            response = gemini_handler.generate_content(None, full_prompt)
     except Exception as e:
         response = f"❌ Erro ao gerar resposta: {str(e)}"
 
