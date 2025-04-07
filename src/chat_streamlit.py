@@ -2,10 +2,10 @@ import streamlit as st
 import time
 from datetime import datetime
 from core.handlers.gemini_handler import GeminiHandler
-from PIL import Image   
+from PIL import Image
 import os
 import io
-from config import ASSETS_DIR, PROMPT_CHAT_FILE
+from config import Config
 from core.rate_limiter import RateLimiter  # Importe a classe RateLimiter
 from google import genai
 from google.genai import types
@@ -44,7 +44,7 @@ MAX_MESSAGES = 20
 # Função para carregar o prompt do chat
 def load_chat_prompt():
     try:
-        with open(PROMPT_CHAT_FILE, "r", encoding="utf-8") as file:
+        with open(Config.PROMPT_CHAT_FILE, "r", encoding="utf-8") as file:
             return file.read().strip()
     except FileNotFoundError:
         return "Você é um assistente de IA versátil e útil. Você pode conversar sobre diversos assuntos e também analisar imagens quando elas forem fornecidas."
@@ -129,9 +129,9 @@ def execute_processing():
 
     # Adiciona mensagem do usuário ao histórico
     if image_data:
-        os.makedirs(ASSETS_DIR, exist_ok=True)
+        os.makedirs(Config.ASSETS_DIR, exist_ok=True)
         img_name = f"{datetime.now().strftime('%Y%m%d%H%M%S')}_{image_data.name}"
-        img_path = os.path.join(ASSETS_DIR, img_name)
+        img_path = os.path.join(Config.ASSETS_DIR, img_name)
         with open(img_path, "wb") as f:
             f.write(image_data.getbuffer())
         with Image.open(img_path) as img:
@@ -164,9 +164,9 @@ def execute_processing():
             response = gemini_handler.generate_content(img_path, full_prompt)
         elif generated_image:
              # Salvando a imagem gerada para ser lida pelo GeminiHandler
-             os.makedirs(ASSETS_DIR, exist_ok=True)
+             os.makedirs(Config.ASSETS_DIR, exist_ok=True)
              img_name = f"{datetime.now().strftime('%Y%m%d%H%M%S')}_generated_image.png"
-             img_path = os.path.join(ASSETS_DIR, img_name)
+             img_path = os.path.join(Config.ASSETS_DIR, img_name)
              generated_image.save(img_path)
 
              response = gemini_handler.generate_content(img_path, full_prompt)
@@ -255,6 +255,7 @@ if st.session_state.processing and hasattr(st.session_state, 'current_prompt'):
 
 # Configuração da barra lateral
 with st.sidebar:
+    st.title("Chat IA Inteligente")
 
     # Seção de geração de imagem
     st.markdown("### Gerar Imagem")
@@ -330,7 +331,7 @@ with st.sidebar:
 
 # Removendo a exibição da imagem gerada aqui (ela será exibida no histórico de mensagens)
 #if st.session_state.generated_image:
-#    st.image(st.session_state.generated_image, caption="Imagem Gerada", use_container_width=True)
+#    st.image(st.session_state.generated_image, caption="Imagem Gerada", use_column_width=True)
 
 # Exibição do histórico de mensagens
 for message in st.session_state.messages:

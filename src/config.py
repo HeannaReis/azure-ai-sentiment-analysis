@@ -1,14 +1,33 @@
 # config.py
 import os
-from datetime import datetime
+from pathlib import Path
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-ASSETS_DIR = os.path.join(BASE_DIR, "assets")
-IMAGE_GENERATED_DIR = os.path.join(BASE_DIR, "assets", "image_generated")
-PROCESSED_DIR = os.path.join(BASE_DIR, 'processed_images')
-OUTPUT_DOCX = os.path.join(BASE_DIR, "resumo_analises_imagens.docx")
-OUTPUT_MD = os.path.join(BASE_DIR, "resumo_analises_imagens.md")
-
-# Caminhos para prompts dinâmicos
-PROMPT_DOC_FILE = os.path.join(BASE_DIR, 'src', 'prompt', "prompt_doc.txt")
-PROMPT_CHAT_FILE = os.path.join(BASE_DIR, 'src', 'prompt', "prompt_chat.txt")
+class Config:
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    ASSETS_DIR = BASE_DIR / "assets"
+    IMAGE_GENERATED_DIR = ASSETS_DIR / "image_generated"
+    PROCESSED_DIR = BASE_DIR / "processed_images"
+    OUTPUT_DOCX = BASE_DIR / "resumo_analises_imagens.docx"
+    OUTPUT_MD = BASE_DIR / "resumo_analises_imagens.md"
+    
+    # Caminhos para prompts dinâmicos
+    PROMPT_DIR = BASE_DIR / "src" / "prompt"
+    PROMPT_DOC_FILE = PROMPT_DIR / "prompt_doc.txt"
+    PROMPT_CHAT_FILE = PROMPT_DIR / "prompt_chat.txt"
+    
+    # Configuração de logs
+    LOG_DIR = BASE_DIR / "logs"
+    
+    # Configuração de histórico
+    HISTORY_FILE = BASE_DIR / "historico_analises.json"
+    
+    # Configuração de rate limiting
+    CHAT_RATE_LIMIT = {"max_requests": 9, "period_seconds": 60}
+    API_RATE_LIMIT = {"max_requests": 14, "period_seconds": 60}
+    
+    @classmethod
+    def ensure_directories(cls):
+        """Garante que todos os diretórios necessários existam."""
+        for directory in [cls.ASSETS_DIR, cls.IMAGE_GENERATED_DIR, 
+                         cls.PROCESSED_DIR, cls.LOG_DIR, cls.PROMPT_DIR]:
+            directory.mkdir(parents=True, exist_ok=True)
