@@ -1,7 +1,7 @@
 # core/logger_config.py
 import logging
 from datetime import datetime
-from config import Config
+from config.config import Config
 
 class LoggerSetup:
     @staticmethod

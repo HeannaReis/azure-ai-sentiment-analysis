@@ -3,13 +3,13 @@ import os
 import time
 import shutil
 import json
-from src import config
-from src.services.gpt_services import GenerativeModelHandler
-from src.services.document_service import DocumentService
-from src.services.markdown_service import MarkdownService
-from src.utils.file_utils import list_images
-from src.core.logger_config import logger
-from src.core.rate_limiter import RateLimiter
+from config.config import config
+from services.gpt_services import GenerativeModelHandler
+from services.document_service import DocumentService
+from services.markdown_service import MarkdownService
+from utils.file_utils import list_images
+from core.logger_config import logger
+from core.rate_limiter import RateLimiter
 
 class ImageProcessor:
     def __init__(self, rate_limiter: RateLimiter):

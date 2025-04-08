@@ -5,12 +5,13 @@ from core.handlers.gemini_handler import GeminiHandler
 from PIL import Image
 import os
 import io
-from config import Config
+from config.config import Config
 from core.rate_limiter import RateLimiter  # Importe a classe RateLimiter
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 import base64
+from services.search_files import ler_todos_arquivos_python
 
 # Carrega as variáveis de ambiente
 load_dotenv()
@@ -49,7 +50,9 @@ def load_chat_prompt():
     except FileNotFoundError:
         return "Você é um assistente de IA versátil e útil. Você pode conversar sobre diversos assuntos e também analisar imagens quando elas forem fornecidas."
 
-chat_prompt = load_chat_prompt()
+# Adicione o conteúdo dos arquivos Python como contexto
+codigo_fonte = ler_todos_arquivos_python()
+chat_prompt = f"{load_chat_prompt()}\n\nContexto:\n\n{codigo_fonte}"
 
 # Inicializa GeminiHandler
 @st.cache_resource
@@ -260,7 +263,7 @@ with st.sidebar:
     # Seção de geração de imagem
     st.markdown("### Gerar Imagem")
     image_prompt = st.text_input("Digite o prompt para gerar uma imagem:", key="image_prompt")
-    if st.button("Gerar Imagem"):
+    if st.button("Gerar Imagem"):   
         if image_prompt:
             generated_image = generate_image(image_prompt)
 

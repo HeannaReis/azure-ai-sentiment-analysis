@@ -1,5 +1,5 @@
 import os
-from config import OUTPUT_MD, PROCESSED_DIR
+from config.config import Config
 
 class MarkdownService:
     def __init__(self):
@@ -13,11 +13,11 @@ class MarkdownService:
 
     def save_markdown(self):
         """Salva os resumos no arquivo Markdown, garantindo que o novo conteúdo seja anexado sem sobrescrever."""
-        if not os.path.exists(OUTPUT_MD):  # Se o arquivo não existir, cria o cabeçalho
-            with open(OUTPUT_MD, 'w', encoding='utf-8') as f:
+        if not os.path.exists(Config.OUTPUT_MD):  # Se o arquivo não existir, cria o cabeçalho
+            with open(Config.OUTPUT_MD, 'w', encoding='utf-8') as f:
                 f.write("# Resumo das Análises das Imagens\n\n")
 
-        with open(OUTPUT_MD, 'a', encoding='utf-8') as f:  # Modo 'a' (append)
+        with open(Config.OUTPUT_MD, 'a', encoding='utf-8') as f:  # Modo 'a' (append)
             f.write("\n".join(self.content) + "\n")  # Adiciona novas entradas
 
         self.content = []  # Limpa a lista após salvar para evitar duplicação

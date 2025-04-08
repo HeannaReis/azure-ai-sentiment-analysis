@@ -8,7 +8,7 @@ def main():
     setup_signal_handler()
 
     # Inicializa o RateLimiter com o número máximo de requisições e o período
-    rate_limiter = RateLimiter(max_requests=14, period_seconds=60)  # 9 requisições por minuto
+    rate_limiter = RateLimiter(max_requests=9, period_seconds=60)  # 9 requisições por minuto
 
     # Passa o RateLimiter para o ImageProcessor
     processor = ImageProcessor(rate_limiter)
