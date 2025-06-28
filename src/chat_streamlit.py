@@ -10,8 +10,8 @@ from core.rate_limiter import RateLimiter  # Importe a classe RateLimiter
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
-import base64
 from services.search_files import ler_todos_arquivos_python
+from services.gemini_image_generator import GeminiImageGenerator
 
 # Carrega as variáveis de ambiente
 load_dotenv()
@@ -40,7 +40,7 @@ if "image_prompt" not in st.session_state:
     st.session_state.image_prompt = None
 
 # Limite máximo de mensagens no histórico
-MAX_MESSAGES = 20
+MAX_MESSAGES = 15
 
 # Função para carregar o prompt do chat
 def load_chat_prompt():
@@ -57,10 +57,15 @@ chat_prompt = f"{load_chat_prompt()}\n\nContexto:\n\n{codigo_fonte}"
 # Inicializa GeminiHandler
 @st.cache_resource
 def get_gemini_handler():
-    return GeminiHandler("gemini-2.0-flash-exp")
+    return GeminiHandler("gemini-2.5-flash")
 
 gemini_handler = get_gemini_handler()
 
+@st.cache_resource
+def get_image_generator():
+    return GeminiImageGenerator()
+
+image_generator = get_image_generator()
 # Função para verificar e processar a área de transferência
 def check_clipboard():
     try:
@@ -220,37 +225,6 @@ def clear_all_images():
     st.session_state.clipboard_image_preview = None
     st.session_state.clipboard_image_file = None
 
-# Função para gerar imagem com Gemini
-def generate_image(prompt):
-    # Verifica se a chave da API foi carregada corretamente
-    api_key = os.getenv("API_KEY_GEMINI")
-
-    if not api_key:
-        raise ValueError("API_KEY_GEMINI não encontrada no arquivo .env")
-
-    client = genai.Client(api_key=api_key)
-
-    try:
-        response = client.models.generate_content(
-            model='gemini-2.0-flash-exp-image-generation',
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_modalities=['Text', 'Image']
-            )
-        )
-
-        for part in response.candidates[0].content.parts:
-            if part.text is not None:
-                print(part.text)
-            elif part.inline_data is not None:
-                image = Image.open(io.BytesIO(part.inline_data.data))
-                st.session_state.generated_image = image
-                return image
-
-    except Exception as e:
-        st.error(f"Erro ao gerar imagem: {e}")
-        return None
-
 # Executa o processamento se estiver na fila
 if st.session_state.processing and hasattr(st.session_state, 'current_prompt'):
     execute_processing()
@@ -265,7 +239,8 @@ with st.sidebar:
     image_prompt = st.text_input("Digite o prompt para gerar uma imagem:", key="image_prompt")
     if st.button("Gerar Imagem"):   
         if image_prompt:
-            generated_image = generate_image(image_prompt)
+            generated_image = image_generator.generate_image(image_prompt)
+
 
             if generated_image:
                 st.session_state.messages.append({"role": "assistant", "image": generated_image, "content": f"Imagem gerada com o prompt: {image_prompt}"})

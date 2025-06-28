@@ -13,7 +13,7 @@ from core.rate_limiter import RateLimiter
 
 class ImageProcessor:
     def __init__(self, rate_limiter: RateLimiter):
-        self.gpt_handler = GenerativeModelHandler("gemini-2.0-flash-exp")
+        self.gpt_handler = GenerativeModelHandler("gemini-2.5-flash")
         self.document_service = DocumentService()
         self.markdown_service = MarkdownService()
         os.makedirs(config.PROCESSED_DIR, exist_ok=True)
