@@ -1,0 +1,1448 @@
+2025-12-16 22:25:42,756 [INFO] ✅ Configurações validadas com sucesso
+2025-12-16 22:25:42,765 [INFO] SaiDocumentationService inicializado com API key válida
+2025-12-16 22:25:42,766 [INFO] SaiDocumentationService API Rate Limiter: 14 reqs/60s
+2025-12-16 22:25:42,767 [INFO] SaiDocumentationService inicializado.
+2025-12-16 22:25:42,900 [WARNING] Arquivo de prompt não encontrado em C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\src\prompt\prompt_doc.txt. Usando prompt vazio.
+2025-12-16 22:25:42,925 [WARNING] Nenhuma imagem encontrada em 'assets/'.
+2025-12-16 22:26:35,021 [INFO] ✅ Configurações validadas com sucesso
+2025-12-16 22:26:35,022 [INFO] SaiDocumentationService inicializado com API key válida
+2025-12-16 22:26:35,022 [INFO] SaiDocumentationService API Rate Limiter: 14 reqs/60s
+2025-12-16 22:26:35,022 [INFO] SaiDocumentationService inicializado.
+2025-12-16 22:26:35,059 [INFO] Prompt carregado com sucesso: Contexto: Você está analisando imagens relacionadas a um passo a passo, para gerar documentação de processos.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações que precisam ser documentadas estão com marcações em vermelho e
+com Setas vermelhas, geralmente são cliques ou processo a ser executado.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-12-16 22:26:35,061 [WARNING] Nenhuma imagem encontrada em 'assets/'.
+2025-12-16 22:28:00,486 [INFO] ✅ Configurações validadas com sucesso
+2025-12-16 22:28:00,487 [INFO] SaiDocumentationService inicializado com API key válida
+2025-12-16 22:28:00,488 [INFO] SaiDocumentationService API Rate Limiter: 14 reqs/60s
+2025-12-16 22:28:00,488 [INFO] SaiDocumentationService inicializado.
+2025-12-16 22:28:00,569 [INFO] Prompt carregado com sucesso: Contexto: Você está analisando imagens relacionadas a um passo a passo, para gerar documentação de processos.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações que precisam ser documentadas estão com marcações em vermelho e
+com Setas vermelhas, geralmente são cliques ou processo a ser executado.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-12-16 22:28:00,583 [INFO] Processando imagem 1/35: 10_proximas_etapas_cenarios_cumuns.png
+2025-12-16 22:28:00,624 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:28:00,625 [INFO] ================================================================================
+2025-12-16 22:28:00,626 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:28:00,627 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:28:00,628 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:28:00,628 [INFO] Timeout: 500s
+2025-12-16 22:28:00,637 [INFO] ================================================================================
+2025-12-16 22:28:09,481 [INFO] 📥 Status: 200
+2025-12-16 22:28:09,491 [INFO] Documentação gerada para '10_proximas_etapas_cenarios_cumuns.png': ### Selecionar "Cenários comuns"
+Clicar no item "Cenários comuns" no menu lateral dentro da seção "Próximas etapas".
+
+- Local: menu à esquerda, abaixo de "Introdução".
+- Ação: clique no botão/linha marcada como "Cenários comuns".
+- Resultado visível: painel à direita exibe conteúdos relacionados (ex.: "Tente legendar com a conversão de fala em texto", "Transcrição e análise de call center").
+2025-12-16 22:28:09,495 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\10_proximas_etapas_cenarios_cumuns.png
+2025-12-16 22:28:09,619 [INFO] Imagem '10_proximas_etapas_cenarios_cumuns.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:28:09,620 [INFO] Histórico de análises anteriores atualizado com '10_proximas_etapas_cenarios_cumuns.png'.
+2025-12-16 22:28:13,626 [INFO] Preparando a próxima análise...
+2025-12-16 22:28:13,626 [INFO] Processando imagem 2/35: 11_proximas_etapas_servicos_relacionados.png
+2025-12-16 22:28:13,633 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:28:13,633 [INFO] ================================================================================
+2025-12-16 22:28:13,634 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:28:13,634 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:28:13,634 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:28:13,635 [INFO] Timeout: 500s
+2025-12-16 22:28:13,637 [INFO] ================================================================================
+2025-12-16 22:28:22,548 [INFO] 📥 Status: 200
+2025-12-16 22:28:22,551 [INFO] Documentação gerada para '11_proximas_etapas_servicos_relacionados.png': ### Selecionar "Serviços relacionados"
+Clicar em "Serviços relacionados" no menu lateral da seção "Próximas etapas".
+
+- Local: item "Serviços relacionados" destacado no painel esquerdo.
+- Resultado imediato: painel direito mostra opções relacionadas:
+  - "Fala Personalizada" — link "Iniciar um projeto de Fala Personalizada >"
+  - "Galeria de Serviço de Voz" — link "Explorar a Galeria de Vozes >"
+  - "Avaliação de Pronúncia" — link "Experimente a Avaliação de Pronúncia >"
+2025-12-16 22:28:22,552 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\11_proximas_etapas_servicos_relacionados.png
+2025-12-16 22:28:22,624 [INFO] Imagem '11_proximas_etapas_servicos_relacionados.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:28:22,625 [INFO] Histórico de análises anteriores atualizado com '11_proximas_etapas_servicos_relacionados.png'.
+2025-12-16 22:28:26,635 [INFO] Preparando a próxima análise...
+2025-12-16 22:28:26,640 [INFO] Processando imagem 3/35: 12_proximas_etapas_avaliar_preco.png
+2025-12-16 22:28:26,678 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:28:26,680 [INFO] ================================================================================
+2025-12-16 22:28:26,681 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:28:26,682 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:28:26,691 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:28:26,694 [INFO] Timeout: 500s
+2025-12-16 22:28:26,702 [INFO] ================================================================================
+2025-12-16 22:28:34,686 [INFO] 📥 Status: 200
+2025-12-16 22:28:34,689 [INFO] Documentação gerada para '12_proximas_etapas_avaliar_preco.png': ### Selecionar "Avaliar o preço" e acessar contato de vendas
+Clicar no item "Avaliar o preço" no menu lateral para abrir o painel de preços; em seguida clicar no botão azul "Converse com um especialista de vendas" para solicitar cotação.
+
+- Local: menu à esquerda, item "Avaliar o preço" destacado.
+- Ações:
+  - Selecionar "Avaliar o preço".
+  - Clicar em "Converse com um especialista de vendas".
+- Conteúdo visível no painel direito:
+  - Links para "Preços dos serviços do Fala do Azure" e "Calculadora de preços do Azure".
+2025-12-16 22:28:34,689 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\12_proximas_etapas_avaliar_preco.png
+2025-12-16 22:28:34,752 [INFO] Imagem '12_proximas_etapas_avaliar_preco.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:28:34,753 [INFO] Histórico de análises anteriores atualizado com '12_proximas_etapas_avaliar_preco.png'.
+2025-12-16 22:28:38,756 [INFO] Preparando a próxima análise...
+2025-12-16 22:28:38,757 [INFO] Processando imagem 4/35: 13_proximas_etapas_uso_responsavel_ia.png
+2025-12-16 22:28:38,763 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:28:38,763 [INFO] ================================================================================
+2025-12-16 22:28:38,763 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:28:38,764 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:28:38,764 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:28:38,765 [INFO] Timeout: 500s
+2025-12-16 22:28:38,767 [INFO] ================================================================================
+2025-12-16 22:28:46,055 [INFO] 📥 Status: 200
+2025-12-16 22:28:46,061 [INFO] Documentação gerada para '13_proximas_etapas_uso_responsavel_ia.png': ### Selecionar "Uso responsável da IA"
+Clicar no item "Uso responsável da IA" no menu lateral da seção "Próximas etapas" para abrir o painel correspondente.
+
+- Local: menu à esquerda, item destacado com ícone de escudo.
+- Resultado imediato: painel direito exibe o conteúdo sobre uso responsável da IA e os links:
+  - "Uso responsável da IA com os Serviços Cognitivos"
+  - "Princípios de IA da Microsoft"
+2025-12-16 22:28:46,063 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\13_proximas_etapas_uso_responsavel_ia.png
+2025-12-16 22:28:46,132 [INFO] Imagem '13_proximas_etapas_uso_responsavel_ia.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:28:46,133 [INFO] Histórico de análises anteriores atualizado com '13_proximas_etapas_uso_responsavel_ia.png'.
+2025-12-16 22:28:50,136 [INFO] Preparando a próxima análise...
+2025-12-16 22:28:50,137 [INFO] Processando imagem 5/35: 14_Portal_azure_servico_inicial.png
+2025-12-16 22:28:50,162 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:28:50,164 [INFO] ================================================================================
+2025-12-16 22:28:50,165 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:28:50,166 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:28:50,167 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:28:50,168 [INFO] Timeout: 500s
+2025-12-16 22:28:50,177 [INFO] ================================================================================
+2025-12-16 22:28:57,327 [INFO] 📥 Status: 200
+2025-12-16 22:28:57,334 [INFO] Documentação gerada para '14_Portal_azure_servico_inicial.png': ### Selecionar "Azure AI services"
+Clicar no ícone "Azure AI services" localizado na seção "Serviços do Azure" (item destacado em vermelho). 
+
+- Ação: clique no bloco/ícone rotulado "Azure AI services".
+2025-12-16 22:28:57,335 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\14_Portal_azure_servico_inicial.png
+2025-12-16 22:28:57,411 [INFO] Imagem '14_Portal_azure_servico_inicial.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:28:57,412 [INFO] Histórico de análises anteriores atualizado com '14_Portal_azure_servico_inicial.png'.
+2025-12-16 22:29:01,415 [INFO] Preparando a próxima análise...
+2025-12-16 22:29:01,416 [INFO] Processando imagem 6/35: 15_Portal_azure_servico_linguagem.png
+2025-12-16 22:29:01,428 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:29:01,429 [INFO] ================================================================================
+2025-12-16 22:29:01,432 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:29:01,435 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:29:01,436 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:29:01,437 [INFO] Timeout: 500s
+2025-12-16 22:29:01,443 [INFO] ================================================================================
+2025-12-16 22:29:08,010 [INFO] 📥 Status: 200
+2025-12-16 22:29:08,013 [INFO] Documentação gerada para '15_Portal_azure_servico_linguagem.png': ### Criar instância do "Language Service"
+Clicar no botão "Create" no bloco "Language Service" para iniciar a criação do serviço.
+
+- Local: tile "Language Service" destacado na grade de serviços do Azure AI services.
+- Ação: clicar em "+ Create" (botão abaixo do título do tile).
+- Resultado imediato esperado: abertura do formulário/assistente de criação do serviço.
+2025-12-16 22:29:08,014 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\15_Portal_azure_servico_linguagem.png
+2025-12-16 22:29:08,085 [INFO] Imagem '15_Portal_azure_servico_linguagem.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:29:08,085 [INFO] Histórico de análises anteriores atualizado com '15_Portal_azure_servico_linguagem.png'.
+2025-12-16 22:29:12,088 [INFO] Preparando a próxima análise...
+2025-12-16 22:29:12,089 [INFO] Processando imagem 7/35: 16_Portal_azure_funcoes_criacao.png
+2025-12-16 22:29:12,098 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:29:12,099 [INFO] ================================================================================
+2025-12-16 22:29:12,100 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:29:12,100 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:29:12,101 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:29:12,103 [INFO] Timeout: 500s
+2025-12-16 22:29:12,106 [INFO] ================================================================================
+2025-12-16 22:29:18,511 [INFO] 📥 Status: 200
+2025-12-16 22:29:18,513 [INFO] Documentação gerada para '16_Portal_azure_funcoes_criacao.png': ### Prosseguir para criar o recurso
+Clicar no botão "Continue to create your resource" no canto inferior esquerdo para avançar para a criação do recurso.
+
+- Botão clicado: Continue to create your resource (azul, destacado).
+2025-12-16 22:29:18,514 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\16_Portal_azure_funcoes_criacao.png
+2025-12-16 22:29:18,585 [INFO] Imagem '16_Portal_azure_funcoes_criacao.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:29:18,586 [INFO] Histórico de análises anteriores atualizado com '16_Portal_azure_funcoes_criacao.png'.
+2025-12-16 22:29:22,589 [INFO] Preparando a próxima análise...
+2025-12-16 22:29:22,589 [INFO] Processando imagem 8/35: 17_Portal_azure_criar_idioma.png
+2025-12-16 22:29:22,597 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:29:22,597 [INFO] ================================================================================
+2025-12-16 22:29:22,598 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:29:22,598 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:29:22,599 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:29:22,599 [INFO] Timeout: 500s
+2025-12-16 22:29:22,602 [INFO] ================================================================================
+2025-12-16 22:29:30,109 [INFO] 📥 Status: 200
+2025-12-16 22:29:30,113 [INFO] Documentação gerada para '17_Portal_azure_criar_idioma.png': ### Preencher Project Details e Instance Details
+Preencher os campos de projeto e instância do formulário de criação do Language Service conforme exibido.
+
+- Project Details:
+  - Subscription: selecionar "Assinatura de Plataformas MSDN".
+  - Resource group: selecionar "LABAI-900" (opção "Create new" visível).
+- Instance Details:
+  - Region: selecionar "East US".
+  - Name: inserir "idiomalanguage".
+  - Pricing tier: selecionar "Free F0 (5K Transactions per 30 days)".
+2025-12-16 22:29:30,114 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\17_Portal_azure_criar_idioma.png
+2025-12-16 22:29:30,221 [INFO] Imagem '17_Portal_azure_criar_idioma.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:29:30,221 [INFO] Histórico de análises anteriores atualizado com '17_Portal_azure_criar_idioma.png'.
+2025-12-16 22:29:34,225 [INFO] Preparando a próxima análise...
+2025-12-16 22:29:34,225 [INFO] Processando imagem 9/35: 18_Portal_azure_criar_idioma_2.png
+2025-12-16 22:29:34,237 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:29:34,238 [INFO] ================================================================================
+2025-12-16 22:29:34,238 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:29:34,239 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:29:34,240 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:29:34,240 [INFO] Timeout: 500s
+2025-12-16 22:29:34,246 [INFO] ================================================================================
+2025-12-16 22:29:41,924 [INFO] 📥 Status: 200
+2025-12-16 22:29:41,927 [INFO] Documentação gerada para '18_Portal_azure_criar_idioma_2.png': ### Marcar a certificação do Responsible AI Notice
+Clicar na caixa de seleção ao lado de "By checking this box I certify that I have reviewed and acknowledge the terms in the Responsible AI Notice." para confirmar leitura e reconhecimento dos termos.
+
+- Campo: caixa de seleção da certificação (localizada abaixo do texto "Responsible AI Notice").
+- Ação: clicar na caixa para inserir a marca de seleção (check).
+2025-12-16 22:29:41,928 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\18_Portal_azure_criar_idioma_2.png
+2025-12-16 22:29:42,074 [INFO] Imagem '18_Portal_azure_criar_idioma_2.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:29:42,075 [INFO] Histórico de análises anteriores atualizado com '18_Portal_azure_criar_idioma_2.png'.
+2025-12-16 22:29:46,080 [INFO] Preparando a próxima análise...
+2025-12-16 22:29:46,081 [INFO] Processando imagem 10/35: 19_Portal_azure_validacao_create.png
+2025-12-16 22:29:46,093 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:29:46,093 [INFO] ================================================================================
+2025-12-16 22:29:46,094 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:29:46,094 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:29:46,095 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:29:46,096 [INFO] Timeout: 500s
+2025-12-16 22:29:46,100 [INFO] ================================================================================
+2025-12-16 22:29:51,823 [INFO] 📥 Status: 200
+2025-12-16 22:29:51,826 [INFO] Documentação gerada para '19_Portal_azure_validacao_create.png': ### Confirmar e criar o recurso
+Clicar no botão "Create" na parte inferior da tela para submeter a criação do recurso.
+
+- Botão clicado: "Create" (azul, centralizado na barra inferior).
+- Local: aba "Review + create" do assistente de criação.
+- Ação executada: envia a configuração revisada para iniciar a criação da instância do Language Service.
+2025-12-16 22:29:51,827 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\19_Portal_azure_validacao_create.png
+2025-12-16 22:29:51,935 [INFO] Imagem '19_Portal_azure_validacao_create.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:29:51,935 [INFO] Histórico de análises anteriores atualizado com '19_Portal_azure_validacao_create.png'.
+2025-12-16 22:29:55,940 [INFO] Preparando a próxima análise...
+2025-12-16 22:29:55,940 [INFO] Processando imagem 11/35: 1_acessar_configuracoes.png
+2025-12-16 22:29:55,951 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:29:55,952 [INFO] ================================================================================
+2025-12-16 22:29:55,953 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:29:55,954 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:29:55,954 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:29:55,955 [INFO] Timeout: 500s
+2025-12-16 22:29:55,962 [INFO] ================================================================================
+2025-12-16 22:30:03,897 [INFO] 📥 Status: 200
+2025-12-16 22:30:03,905 [INFO] Documentação gerada para '1_acessar_configuracoes.png': ### Abrir configurações do Speech Studio
+Clicar no ícone de engrenagem (Configurações) no canto superior direito da barra azul superior.
+
+- Local: ícone de engrenagem ao lado dos ícones de sinos e ajuda, canto superior direito.
+- Ação: clicar no ícone destacado em vermelho.
+2025-12-16 22:30:03,906 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\1_acessar_configuracoes.png
+2025-12-16 22:30:04,010 [INFO] Imagem '1_acessar_configuracoes.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:30:04,011 [INFO] Histórico de análises anteriores atualizado com '1_acessar_configuracoes.png'.
+2025-12-16 22:30:08,015 [INFO] Preparando a próxima análise...
+2025-12-16 22:30:08,016 [INFO] Processando imagem 12/35: 20_azure_studio_select_resources.png
+2025-12-16 22:30:08,035 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:30:08,036 [INFO] ================================================================================
+2025-12-16 22:30:08,037 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:30:08,037 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:30:08,038 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:30:08,039 [INFO] Timeout: 500s
+2025-12-16 22:30:08,045 [INFO] ================================================================================
+2025-12-16 22:30:17,540 [INFO] 📥 Status: 200
+2025-12-16 22:30:17,546 [INFO] Documentação gerada para '20_azure_studio_select_resources.png': ### Selecionar recursos do Azure para o Language Studio
+Selecionar o diretório, assinatura e recurso a ser usado pelo Language Studio.
+
+- Azure directory: selecionar "Canal da Cloud".
+- Azure subscription: abrir o campo "Select azure subscription ..." e escolher a assinatura desejada.
+- Resource type: confirmar que está definido como "Language".
+- Resource name: abrir "Select your resource" e selecionar um recurso existente ou criar um novo.
+- Ação final: clicar em "Done" para confirmar (ou "Cancel" para abortar).
+2025-12-16 22:30:17,548 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\20_azure_studio_select_resources.png
+2025-12-16 22:30:17,758 [INFO] Imagem '20_azure_studio_select_resources.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:30:17,758 [INFO] Histórico de análises anteriores atualizado com '20_azure_studio_select_resources.png'.
+2025-12-16 22:30:21,764 [INFO] Preparando a próxima análise...
+2025-12-16 22:30:21,765 [INFO] Processando imagem 13/35: 21_azure_studio_criar_nova_solucao.png
+2025-12-16 22:30:21,780 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:30:21,780 [INFO] ================================================================================
+2025-12-16 22:30:21,781 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:30:21,781 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:30:21,782 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:30:21,782 [INFO] Timeout: 500s
+2025-12-16 22:30:21,790 [INFO] ================================================================================
+2025-12-16 22:30:28,850 [INFO] 📥 Status: 200
+2025-12-16 22:30:28,854 [INFO] Documentação gerada para '21_azure_studio_criar_nova_solucao.png': ### Clicar em "Create new"
+Clicar no botão "Create new" (com seta para baixo) na seção "Recent custom projects you've worked on" para iniciar a criação de um novo projeto personalizado.
+
+- Local: botão "Create new" destacado abaixo do texto de projetos recentes.
+- Ação: clique no botão (pode abrir opções do menu suspenso).
+2025-12-16 22:30:28,856 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\21_azure_studio_criar_nova_solucao.png
+2025-12-16 22:30:29,091 [INFO] Imagem '21_azure_studio_criar_nova_solucao.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:30:29,092 [INFO] Histórico de análises anteriores atualizado com '21_azure_studio_criar_nova_solucao.png'.
+2025-12-16 22:30:29,783 [WARNING] 🚨 Processamento interrompido pelo usuário.
+2025-12-16 22:37:01,031 [INFO] ✅ Configurações validadas com sucesso
+2025-12-16 22:37:01,032 [INFO] SaiDocumentationService inicializado com API key válida
+2025-12-16 22:37:01,032 [INFO] SaiDocumentationService API Rate Limiter: 14 reqs/60s
+2025-12-16 22:37:01,032 [INFO] SaiDocumentationService inicializado.
+2025-12-16 22:37:01,096 [INFO] Prompt carregado com sucesso: Contexto: Você está analisando imagens relacionadas a um passo a passo, para gerar documentação de processos.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações que precisam ser documentadas estão com marcações em vermelho e
+com Setas vermelhas, geralmente são cliques ou processo a ser executado.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-12-16 22:37:01,105 [INFO] Processando imagem 1/22: 22_azure_studio_select_resources_done.png
+2025-12-16 22:37:01,120 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:37:01,120 [INFO] ================================================================================
+2025-12-16 22:37:01,121 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:37:01,121 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:37:01,121 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:37:01,122 [INFO] Timeout: 500s
+2025-12-16 22:37:01,125 [INFO] ================================================================================
+2025-12-16 22:37:03,005 [WARNING] 🚨 Processamento interrompido pelo usuário.
+2025-12-16 22:38:03,078 [INFO] ✅ Configurações validadas com sucesso
+2025-12-16 22:38:03,078 [INFO] SaiDocumentationService inicializado com API key válida
+2025-12-16 22:38:03,078 [INFO] SaiDocumentationService API Rate Limiter: 14 reqs/60s
+2025-12-16 22:38:03,079 [INFO] SaiDocumentationService inicializado.
+2025-12-16 22:38:03,128 [INFO] Prompt carregado com sucesso: Contexto: Você está analisando imagens relacionadas a um passo a passo, para gerar documentação de processos.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações que precisam ser documentadas estão com marcações em vermelho e
+com Setas vermelhas, geralmente são cliques ou processo a ser executado.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-12-16 22:38:03,147 [INFO] Processando imagem 1/35: 10_proximas_etapas_cenarios_cumuns.png
+2025-12-16 22:38:03,166 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:38:03,167 [INFO] ================================================================================
+2025-12-16 22:38:03,167 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:38:03,168 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:38:03,168 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:38:03,169 [INFO] Timeout: 500s
+2025-12-16 22:38:03,175 [INFO] ================================================================================
+2025-12-16 22:38:09,800 [INFO] 📥 Status: 200
+2025-12-16 22:38:09,802 [INFO] Documentação gerada para '10_proximas_etapas_cenarios_cumuns.png': ### Selecionar "Cenários comuns"
+Clicar na opção "Cenários comuns" no menu lateral para abrir a seção correspondente.
+
+- Item selecionado: "Cenários comuns" (destacado em vermelho).
+- Resultado imediato: painel à direita exibe descrições e links de exemplos (por exemplo, "Tente legendar com a conversão de fala em texto" e "Transcrição e análise de call center").
+2025-12-16 22:38:09,803 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\10_proximas_etapas_cenarios_cumuns.png
+2025-12-16 22:38:09,857 [INFO] Imagem '10_proximas_etapas_cenarios_cumuns.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:38:09,858 [INFO] Histórico de análises anteriores atualizado com '10_proximas_etapas_cenarios_cumuns.png'.
+2025-12-16 22:38:13,861 [INFO] Preparando a próxima análise...
+2025-12-16 22:38:13,862 [INFO] Processando imagem 2/35: 11_proximas_etapas_servicos_relacionados.png
+2025-12-16 22:38:13,871 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:38:13,871 [INFO] ================================================================================
+2025-12-16 22:38:13,872 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:38:13,873 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:38:13,874 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:38:13,875 [INFO] Timeout: 500s
+2025-12-16 22:38:13,878 [INFO] ================================================================================
+2025-12-16 22:38:21,820 [INFO] 📥 Status: 200
+2025-12-16 22:38:21,825 [INFO] Documentação gerada para '11_proximas_etapas_servicos_relacionados.png': ### Selecionar "Serviços relacionados"
+Clicar em "Serviços relacionados" no menu lateral para abrir o painel com serviços auxiliares.
+
+- Itens exibidos no painel direito:
+  - Fala Personalizada — link "Iniciar um projeto de Fala Personalizada"
+  - Galeria de Serviço de Voz — link "Explorar a Galeria de Vozes"
+  - Avaliação de Pronúncia — link "Experimente a Avaliação de Pronúncia"
+2025-12-16 22:38:21,827 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\11_proximas_etapas_servicos_relacionados.png
+2025-12-16 22:38:21,959 [INFO] Imagem '11_proximas_etapas_servicos_relacionados.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:38:21,962 [INFO] Histórico de análises anteriores atualizado com '11_proximas_etapas_servicos_relacionados.png'.
+2025-12-16 22:38:25,970 [INFO] Preparando a próxima análise...
+2025-12-16 22:38:25,971 [INFO] Processando imagem 3/35: 12_proximas_etapas_avaliar_preco.png
+2025-12-16 22:38:25,993 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:38:25,994 [INFO] ================================================================================
+2025-12-16 22:38:25,994 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:38:25,995 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:38:25,996 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:38:25,997 [INFO] Timeout: 500s
+2025-12-16 22:38:26,002 [INFO] ================================================================================
+2025-12-16 22:38:32,993 [INFO] 📥 Status: 200
+2025-12-16 22:38:32,995 [INFO] Documentação gerada para '12_proximas_etapas_avaliar_preco.png': ### Selecionar "Avaliar o preço" e abrir opções de cotação
+Clicar em "Avaliar o preço" no menu lateral para abrir o painel de preços.
+
+- Item selecionado: "Avaliar o preço" (menu lateral).
+- No painel direito, visualizar links "Preços dos serviços do Fala do Azure" e "Calculadora de preços do Azure".
+- Clicar no botão azul "Converse com um especialista de vendas" para solicitar cotação ou atendimento comercial.
+2025-12-16 22:38:32,996 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\12_proximas_etapas_avaliar_preco.png
+2025-12-16 22:38:33,064 [INFO] Imagem '12_proximas_etapas_avaliar_preco.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:38:33,065 [INFO] Histórico de análises anteriores atualizado com '12_proximas_etapas_avaliar_preco.png'.
+2025-12-16 22:38:37,070 [INFO] Preparando a próxima análise...
+2025-12-16 22:38:37,071 [INFO] Processando imagem 4/35: 13_proximas_etapas_uso_responsavel_ia.png
+2025-12-16 22:38:37,079 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:38:37,080 [INFO] ================================================================================
+2025-12-16 22:38:37,080 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:38:37,080 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:38:37,081 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:38:37,081 [INFO] Timeout: 500s
+2025-12-16 22:38:37,084 [INFO] ================================================================================
+2025-12-16 22:38:43,027 [INFO] 📥 Status: 200
+2025-12-16 22:38:43,029 [INFO] Documentação gerada para '13_proximas_etapas_uso_responsavel_ia.png': ### Selecionar "Uso responsável da IA"
+Clicar na opção "Uso responsável da IA" no menu lateral para abrir o painel correspondente.
+
+- Item selecionado: "Uso responsável da IA" (destacado).
+- Resultado imediato: painel à direita exibe o título "Uso responsável da IA", descrição sobre compromissos e princípios éticos e links "Uso responsável da IA com os Serviços Cognitivos" e "Princípios de IA da Microsoft".
+2025-12-16 22:38:43,029 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\13_proximas_etapas_uso_responsavel_ia.png
+2025-12-16 22:38:43,092 [INFO] Imagem '13_proximas_etapas_uso_responsavel_ia.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:38:43,092 [INFO] Histórico de análises anteriores atualizado com '13_proximas_etapas_uso_responsavel_ia.png'.
+2025-12-16 22:38:47,096 [INFO] Preparando a próxima análise...
+2025-12-16 22:38:47,097 [INFO] Processando imagem 5/35: 14_Portal_azure_servico_inicial.png
+2025-12-16 22:38:47,106 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:38:47,106 [INFO] ================================================================================
+2025-12-16 22:38:47,107 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:38:47,108 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:38:47,109 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:38:47,110 [INFO] Timeout: 500s
+2025-12-16 22:38:47,114 [INFO] ================================================================================
+2025-12-16 22:38:53,814 [INFO] 📥 Status: 200
+2025-12-16 22:38:53,816 [INFO] Documentação gerada para '14_Portal_azure_servico_inicial.png': ### Selecionar "Azure AI services"
+Clicar no bloco "Azure AI services" localizado na seção "Serviços do Azure" na parte inferior da página.
+2025-12-16 22:38:53,817 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\14_Portal_azure_servico_inicial.png
+2025-12-16 22:38:53,900 [INFO] Imagem '14_Portal_azure_servico_inicial.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:38:53,900 [INFO] Histórico de análises anteriores atualizado com '14_Portal_azure_servico_inicial.png'.
+2025-12-16 22:38:57,907 [INFO] Preparando a próxima análise...
+2025-12-16 22:38:57,907 [INFO] Processando imagem 6/35: 15_Portal_azure_servico_linguagem.png
+2025-12-16 22:38:57,913 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:38:57,913 [INFO] ================================================================================
+2025-12-16 22:38:57,913 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:38:57,914 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:38:57,914 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:38:57,914 [INFO] Timeout: 500s
+2025-12-16 22:38:57,916 [INFO] ================================================================================
+2025-12-16 22:39:05,569 [INFO] 📥 Status: 200
+2025-12-16 22:39:05,571 [INFO] Documentação gerada para '15_Portal_azure_servico_linguagem.png': ### Selecionar "Language Service" e iniciar criação
+Clicar no botão "Create" no bloco "Language Service" destacado em vermelho.
+
+- Item clicado: botão "Create" do tile "Language Service" (seta vermelha aponta para o botão).
+- Resultado imediato esperado: início do fluxo de criação do recurso Language Service.
+2025-12-16 22:39:05,572 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\15_Portal_azure_servico_linguagem.png
+2025-12-16 22:39:05,652 [INFO] Imagem '15_Portal_azure_servico_linguagem.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:39:05,652 [INFO] Histórico de análises anteriores atualizado com '15_Portal_azure_servico_linguagem.png'.
+2025-12-16 22:39:09,657 [INFO] Preparando a próxima análise...
+2025-12-16 22:39:09,658 [INFO] Processando imagem 7/35: 16_Portal_azure_funcoes_criacao.png
+2025-12-16 22:39:09,666 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:39:09,666 [INFO] ================================================================================
+2025-12-16 22:39:09,667 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:39:09,667 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:39:09,668 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:39:09,668 [INFO] Timeout: 500s
+2025-12-16 22:39:09,671 [INFO] ================================================================================
+2025-12-16 22:39:16,651 [INFO] 📥 Status: 200
+2025-12-16 22:39:16,654 [INFO] Documentação gerada para '16_Portal_azure_funcoes_criacao.png': ### Continuar para criar o recurso
+Clicar no botão "Continue to create your resource" para avançar ao passo de criação do recurso.
+
+- Botão clicado: "Continue to create your resource" (azul, canto inferior esquerdo).
+2025-12-16 22:39:16,655 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\16_Portal_azure_funcoes_criacao.png
+2025-12-16 22:39:16,800 [INFO] Imagem '16_Portal_azure_funcoes_criacao.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:39:16,801 [INFO] Histórico de análises anteriores atualizado com '16_Portal_azure_funcoes_criacao.png'.
+2025-12-16 22:39:20,808 [INFO] Preparando a próxima análise...
+2025-12-16 22:39:20,809 [INFO] Processando imagem 8/35: 17_Portal_azure_criar_idioma.png
+2025-12-16 22:39:20,814 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:39:20,814 [INFO] ================================================================================
+2025-12-16 22:39:20,815 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:39:20,815 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:39:20,815 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:39:20,816 [INFO] Timeout: 500s
+2025-12-16 22:39:20,818 [INFO] ================================================================================
+2025-12-16 22:39:48,294 [INFO] 📥 Status: 200
+2025-12-16 22:39:48,300 [INFO] Documentação gerada para '17_Portal_azure_criar_idioma.png': ### Preencher Project Details e Instance Details
+Selecionar assinatura e grupo de recursos e configurar instância do serviço de Language.
+
+- Subscription: selecionar "Assinatura de Plataformas MSDN".
+- Resource group: selecionar "LABAI-900" (ou clicar em "Create new" para criar um novo).
+- Region: escolher "East US".
+- Name: preencher com "idiomalanguage".
+- Pricing tier: selecionar "Free F0 (5K Transactions per 30 days)".
+2025-12-16 22:39:48,302 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\17_Portal_azure_criar_idioma.png
+2025-12-16 22:39:48,429 [INFO] Imagem '17_Portal_azure_criar_idioma.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:39:48,429 [INFO] Histórico de análises anteriores atualizado com '17_Portal_azure_criar_idioma.png'.
+2025-12-16 22:39:52,433 [INFO] Preparando a próxima análise...
+2025-12-16 22:39:52,433 [INFO] Processando imagem 9/35: 18_Portal_azure_criar_idioma_2.png
+2025-12-16 22:39:52,440 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:39:52,441 [INFO] ================================================================================
+2025-12-16 22:39:52,442 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:39:52,446 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:39:52,446 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:39:52,447 [INFO] Timeout: 500s
+2025-12-16 22:39:52,450 [INFO] ================================================================================
+2025-12-16 22:39:59,421 [INFO] 📥 Status: 200
+2025-12-16 22:39:59,423 [INFO] Documentação gerada para '18_Portal_azure_criar_idioma_2.png': ### Marcar confirmação do Responsible AI Notice
+Selecionar a caixa de verificação ao lado do texto "By checking this box I certify that I have reviewed and acknowledge the terms in the Responsible AI Notice." para confirmar concordância.
+
+- Caixa de verificação marcada/selecionada (campo com asterisco indicando obrigatoriedade).
+2025-12-16 22:39:59,423 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\18_Portal_azure_criar_idioma_2.png
+2025-12-16 22:39:59,522 [INFO] Imagem '18_Portal_azure_criar_idioma_2.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:39:59,523 [INFO] Histórico de análises anteriores atualizado com '18_Portal_azure_criar_idioma_2.png'.
+2025-12-16 22:40:03,527 [INFO] Preparando a próxima análise...
+2025-12-16 22:40:03,528 [INFO] Processando imagem 10/35: 19_Portal_azure_validacao_create.png
+2025-12-16 22:40:03,534 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:40:03,535 [INFO] ================================================================================
+2025-12-16 22:40:03,536 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:40:03,536 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:40:03,537 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:40:03,538 [INFO] Timeout: 500s
+2025-12-16 22:40:03,540 [INFO] ================================================================================
+2025-12-16 22:40:10,878 [INFO] 📥 Status: 200
+2025-12-16 22:40:10,883 [INFO] Documentação gerada para '19_Portal_azure_validacao_create.png': ### Clicar em "Create" para criar o recurso
+Clicar no botão azul "Create" na parte inferior da tela para confirmar a criação do recurso Language com as configurações exibidas.
+
+- Configurações visíveis que serão aplicadas:  
+  - Subscription: Assinatura de Plataformas MSDN  
+  - Resource group: LABAI-900  
+  - Region: East US  
+  - Name: idiomalanguage  
+  - Pricing tier: Free F0 (5K Transactions per 30 days)  
+- Network: All networks, including the internet, can access this resource.  
+- Identity type: None
+2025-12-16 22:40:10,885 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\19_Portal_azure_validacao_create.png
+2025-12-16 22:40:11,010 [INFO] Imagem '19_Portal_azure_validacao_create.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:40:11,011 [INFO] Histórico de análises anteriores atualizado com '19_Portal_azure_validacao_create.png'.
+2025-12-16 22:40:15,015 [INFO] Preparando a próxima análise...
+2025-12-16 22:40:15,015 [INFO] Processando imagem 11/35: 1_acessar_configuracoes.png
+2025-12-16 22:40:15,024 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:40:15,025 [INFO] ================================================================================
+2025-12-16 22:40:15,026 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:40:15,027 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:40:15,028 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:40:15,029 [INFO] Timeout: 500s
+2025-12-16 22:40:15,036 [INFO] ================================================================================
+2025-12-16 22:40:22,484 [INFO] 📥 Status: 200
+2025-12-16 22:40:22,487 [INFO] Documentação gerada para '1_acessar_configuracoes.png': ### Selecionar o ícone de configurações (engrenagem)
+Clicar no ícone de engrenagem localizado no canto superior direito da barra azul.
+2025-12-16 22:40:22,488 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\1_acessar_configuracoes.png
+2025-12-16 22:40:22,601 [INFO] Imagem '1_acessar_configuracoes.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:40:22,602 [INFO] Histórico de análises anteriores atualizado com '1_acessar_configuracoes.png'.
+2025-12-16 22:40:26,608 [INFO] Preparando a próxima análise...
+2025-12-16 22:40:26,609 [INFO] Processando imagem 12/35: 20_azure_studio_select_resources.png
+2025-12-16 22:40:26,633 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:40:26,635 [INFO] ================================================================================
+2025-12-16 22:40:26,636 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:40:26,637 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:40:26,638 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:40:26,640 [INFO] Timeout: 500s
+2025-12-16 22:40:26,653 [INFO] ================================================================================
+2025-12-16 22:40:36,322 [INFO] 📥 Status: 200
+2025-12-16 22:40:36,325 [INFO] Documentação gerada para '20_azure_studio_select_resources.png': ### Selecionar recurso do Azure para o Language Studio
+Preencher os campos do diálogo "Select an Azure resource" para associar um recurso ao Language Studio.
+
+- Azure directory: selecionado "Canal da Cloud".
+- Azure subscription: abrir o dropdown "Select azure subscription ..." e escolher uma assinatura existente.
+- Resource type: selecionada a opção "Language".
+- Resource name: abrir o campo "Select your resource" e selecionar um recurso existente ou criar um novo.
+- Observação: botão "Done" aparece desabilitado até que uma subscription e um resource name sejam selecionados; botão "Cancel" disponível para cancelar.
+2025-12-16 22:40:36,327 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\20_azure_studio_select_resources.png
+2025-12-16 22:40:36,517 [INFO] Imagem '20_azure_studio_select_resources.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:40:36,518 [INFO] Histórico de análises anteriores atualizado com '20_azure_studio_select_resources.png'.
+2025-12-16 22:40:40,522 [INFO] Preparando a próxima análise...
+2025-12-16 22:40:40,523 [INFO] Processando imagem 13/35: 21_azure_studio_criar_nova_solucao.png
+2025-12-16 22:40:40,540 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:40:40,540 [INFO] ================================================================================
+2025-12-16 22:40:40,541 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:40:40,541 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:40:40,542 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:40:40,542 [INFO] Timeout: 500s
+2025-12-16 22:40:40,551 [INFO] ================================================================================
+2025-12-16 22:40:48,527 [INFO] 📥 Status: 200
+2025-12-16 22:40:48,532 [INFO] Documentação gerada para '21_azure_studio_criar_nova_solucao.png': ### Clicar em "Create new"
+Clicar no botão "Create new" (com seta para baixo) localizado na seção de projetos recentes para iniciar a criação de um novo projeto personalizado.
+
+- Botão destacado: "Create new" com ícone de dropdown.
+- Ação imediata: clicar no botão para abrir as opções de criação de projeto.
+2025-12-16 22:40:48,533 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\21_azure_studio_criar_nova_solucao.png
+2025-12-16 22:40:48,867 [INFO] Imagem '21_azure_studio_criar_nova_solucao.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:40:48,868 [INFO] Histórico de análises anteriores atualizado com '21_azure_studio_criar_nova_solucao.png'.
+2025-12-16 22:40:52,873 [INFO] Preparando a próxima análise...
+2025-12-16 22:40:52,874 [INFO] Processando imagem 14/35: 22_azure_studio_select_resources_done.png
+2025-12-16 22:40:52,894 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:40:52,895 [INFO] ================================================================================
+2025-12-16 22:40:52,896 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:40:52,896 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:40:52,897 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:40:52,897 [INFO] Timeout: 500s
+2025-12-16 22:40:52,901 [INFO] ================================================================================
+2025-12-16 22:41:00,476 [INFO] 📥 Status: 200
+2025-12-16 22:41:00,478 [INFO] Documentação gerada para '22_azure_studio_select_resources_done.png': ### Confirmar seleção do recurso Azure e concluir
+Clicar no botão "Done" para confirmar o recurso selecionado para o Language Studio.
+
+- Azure directory: "Canal da Cloud"
+- Azure subscription: "Assinatura de Plataformas MSDN"
+- Resource type: "Language"
+- Resource name: "idiomalanguage"
+- Pricing tier exibido: "Free (F0)"
+- Managed identity: "Enabled"
+2025-12-16 22:41:00,478 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\22_azure_studio_select_resources_done.png
+2025-12-16 22:41:00,743 [INFO] Imagem '22_azure_studio_select_resources_done.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:41:00,744 [INFO] Histórico de análises anteriores atualizado com '22_azure_studio_select_resources_done.png'.
+2025-12-16 22:41:04,749 [INFO] Preparando a próxima análise...
+2025-12-16 22:41:04,750 [INFO] Processando imagem 15/35: 23_azure_studio_-recursos_disponiveis.png
+2025-12-16 22:41:04,776 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:41:04,777 [INFO] ================================================================================
+2025-12-16 22:41:04,780 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:41:04,781 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:41:04,782 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:41:04,783 [INFO] Timeout: 500s
+2025-12-16 22:41:04,796 [INFO] ================================================================================
+2025-12-16 22:41:12,470 [INFO] 📥 Status: 200
+2025-12-16 22:41:12,473 [INFO] Documentação gerada para '23_azure_studio_-recursos_disponiveis.png': ### Abrir menu "Create new" e escolher tipo de projeto
+Clicar no botão "Create new" para abrir o menu de tipos de projeto disponíveis e selecionar o tipo desejado.
+
+- Botão clicado: "Create new" (menu dropdown aberto).
+- Opções visíveis no menu:
+  - Conversational language understanding
+  - Orchestration workflow
+  - Custom question answering
+  - Custom text classification
+  - Custom named entity recognition
+  - Custom conversation summarization
+  - Custom abstractive summarization
+2025-12-16 22:41:12,474 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\23_azure_studio_-recursos_disponiveis.png
+2025-12-16 22:41:12,679 [INFO] Imagem '23_azure_studio_-recursos_disponiveis.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:41:12,680 [INFO] Histórico de análises anteriores atualizado com '23_azure_studio_-recursos_disponiveis.png'.
+2025-12-16 22:41:16,683 [INFO] Preparando a próxima análise...
+2025-12-16 22:41:16,685 [INFO] Processando imagem 16/35: 24_azure_studio_-escolha_modelo.png
+2025-12-16 22:41:16,708 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:41:16,711 [INFO] ================================================================================
+2025-12-16 22:41:16,715 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:41:16,716 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:41:16,720 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:41:16,723 [INFO] Timeout: 500s
+2025-12-16 22:41:16,736 [INFO] ================================================================================
+2025-12-16 22:41:26,403 [INFO] 📥 Status: 200
+2025-12-16 22:41:26,406 [INFO] Documentação gerada para '24_azure_studio_-escolha_modelo.png': ### Selecionar "Classify text" e abrir "Analyze sentiment and mine opinions"
+Clicar na aba "Classify text" no menu superior e, em seguida, selecionar o tile "Analyze sentiment and mine opinions".
+
+- Aba clicada: "Classify text" (destacada em vermelho).
+- Tile selecionado: "Analyze sentiment and mine opinions" (seta aponta para o card; botão "Try it out" visível).
+2025-12-16 22:41:26,407 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\24_azure_studio_-escolha_modelo.png
+2025-12-16 22:41:26,716 [INFO] Imagem '24_azure_studio_-escolha_modelo.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:41:26,717 [INFO] Histórico de análises anteriores atualizado com '24_azure_studio_-escolha_modelo.png'.
+2025-12-16 22:41:30,725 [INFO] Preparando a próxima análise...
+2025-12-16 22:41:30,726 [INFO] Processando imagem 17/35: 25_azure_studio_digitar_mensagem.png
+2025-12-16 22:41:30,735 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:41:30,736 [INFO] ================================================================================
+2025-12-16 22:41:30,736 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:41:30,737 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:41:30,737 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:41:30,738 [INFO] Timeout: 500s
+2025-12-16 22:41:30,743 [INFO] ================================================================================
+2025-12-16 22:41:38,647 [INFO] 📥 Status: 200
+2025-12-16 22:41:38,650 [INFO] Documentação gerada para '25_azure_studio_digitar_mensagem.png': ### Selecionar idioma, recurso Azure e inserir texto para análise de sentimento
+- Select text language: escolher "English" no campo de seleção de idioma.
+- Select your Azure resource: selecionar o recurso "idiomalanguage" no dropdown de recursos.
+- Inserir texto no campo principal: colar ou digitar o texto de exemplo no editor de entrada (bloco de texto preenchido com a avaliação do hotel).
+- Options: ativar "Enable opinion mining" alternando o botão para On.
+2025-12-16 22:41:38,650 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\25_azure_studio_digitar_mensagem.png
+2025-12-16 22:41:38,875 [INFO] Imagem '25_azure_studio_digitar_mensagem.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:41:38,875 [INFO] Histórico de análises anteriores atualizado com '25_azure_studio_digitar_mensagem.png'.
+2025-12-16 22:41:42,879 [INFO] Preparando a próxima análise...
+2025-12-16 22:41:42,880 [INFO] Processando imagem 18/35: 26_azure_studio_run_model.png
+2025-12-16 22:41:43,041 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:41:43,042 [INFO] ================================================================================
+2025-12-16 22:41:43,042 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:41:43,043 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:41:43,044 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:41:43,044 [INFO] Timeout: 500s
+2025-12-16 22:41:43,054 [INFO] ================================================================================
+2025-12-16 22:41:50,076 [WARNING] 🚨 Processamento interrompido pelo usuário.
+2025-12-16 22:44:00,180 [INFO] ✅ Configurações validadas com sucesso
+2025-12-16 22:44:00,180 [INFO] SaiDocumentationService inicializado com API key válida
+2025-12-16 22:44:00,181 [INFO] SaiDocumentationService API Rate Limiter: 14 reqs/60s
+2025-12-16 22:44:00,181 [INFO] SaiDocumentationService inicializado.
+2025-12-16 22:44:00,252 [INFO] Prompt carregado com sucesso: Contexto: Você está analisando imagens relacionadas a um passo a passo, para gerar documentação de processos.
+As imagens serão enviadas uma por vez e cada uma possue uma etapa do processo, as ações que precisam ser documentadas estão com marcações em vermelho e
+com Setas vermelhas, geralmente são cliques ou processo a ser executado.
+
+Sua tarefa é fornecer explicações diretas e claras, sem repetições ou frases genéricas, baseando-se no conteúdo da imagem.
+
+📌 Diretrizes para a Resposta
+Se a imagem mostrar um processo ou configuração, explique de forma direta o que está sendo feito.
+
+Se a imagem for sobre análise ou resultado, informe claramente o que foi identificado.
+
+Evite: frases como "A imagem representa" ou qualquer introdução vaga.
+
+💡 Exemplo de Resposta Esperada
+
+### [Título curto e direto relacionado à imagem]
+[ação ou conceito principal], [explicar o processo de forma objetiva].
+
+Se necessário, use marcadores para destacar pontos importantes.
+
+- Objetivo com a resposta do modelo de IA generativa, vou gerar uma documentação do passo a passo que estou executando para concluír um processo.
+  Estou construíndo material de apoio, para disponibilizar no github.
+2025-12-16 22:44:00,265 [INFO] Processando imagem 1/35: 1_acessar_configuracoes.png
+2025-12-16 22:44:00,283 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:44:00,284 [INFO] ================================================================================
+2025-12-16 22:44:00,284 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:44:00,285 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:44:00,285 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:44:00,286 [INFO] Timeout: 500s
+2025-12-16 22:44:00,294 [INFO] ================================================================================
+2025-12-16 22:44:05,671 [INFO] 📥 Status: 200
+2025-12-16 22:44:05,674 [INFO] Documentação gerada para '1_acessar_configuracoes.png': ### Abrir configurações do Speech Studio
+Clicar no ícone de engrenagem (Settings) localizado na barra superior à direita.
+
+- Ícone selecionado: engrenagem destacada em vermelho.
+2025-12-16 22:44:05,675 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\1_acessar_configuracoes.png
+2025-12-16 22:44:05,725 [INFO] Imagem '1_acessar_configuracoes.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:44:05,725 [INFO] Histórico de análises anteriores atualizado com '1_acessar_configuracoes.png'.
+2025-12-16 22:44:09,727 [INFO] Preparando a próxima análise...
+2025-12-16 22:44:09,728 [INFO] Processando imagem 2/35: 2_criar_novo_recurso.png
+2025-12-16 22:44:09,740 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:44:09,741 [INFO] ================================================================================
+2025-12-16 22:44:09,742 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:44:09,743 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:44:09,744 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:44:09,744 [INFO] Timeout: 500s
+2025-12-16 22:44:09,746 [INFO] ================================================================================
+2025-12-16 22:44:16,444 [INFO] 📥 Status: 200
+2025-12-16 22:44:16,446 [INFO] Documentação gerada para '2_criar_novo_recurso.png': ### Clicar em "Criar novo recurso"
+Clicar no botão "+ Criar novo recurso" na aba "Recursos" para iniciar a criação de um recurso do Azure.
+
+- Local: aba "Todos os recursos" dentro de Configurações > Recurso.
+- Botão: "+ Criar novo recurso" (ao lado do campo de pesquisa).
+- Resultado esperado imediato: abertura do fluxo de criação de recurso no Portal/Azure Speech Studio.
+2025-12-16 22:44:16,446 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\2_criar_novo_recurso.png
+2025-12-16 22:44:16,501 [INFO] Imagem '2_criar_novo_recurso.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:44:16,501 [INFO] Histórico de análises anteriores atualizado com '2_criar_novo_recurso.png'.
+2025-12-16 22:44:20,508 [INFO] Preparando a próxima análise...
+2025-12-16 22:44:20,509 [INFO] Processando imagem 3/35: 3_criar_recurso_fala.png
+2025-12-16 22:44:20,518 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:44:20,519 [INFO] ================================================================================
+2025-12-16 22:44:20,519 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:44:20,520 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:44:20,520 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:44:20,521 [INFO] Timeout: 500s
+2025-12-16 22:44:20,522 [INFO] ================================================================================
+2025-12-16 22:44:26,765 [INFO] 📥 Status: 200
+2025-12-16 22:44:26,767 [INFO] Documentação gerada para '3_criar_recurso_fala.png': ### Preencher formulário e criar recurso Fala
+Preencher os campos do formulário de criação do recurso Speech e clicar em "Criar um recurso".
+
+- Nome do novo recurso: test_azure_speech
+- Assinatura: Assinatura do Azure 1
+- Região: Leste dos EUA
+- Tipo de preço: Gratuito F0
+- Grupo de recursos: NetworkWatcherRG
+- Ação final: clicar em "Criar um recurso" para submeter a criação.
+2025-12-16 22:44:26,767 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\3_criar_recurso_fala.png
+2025-12-16 22:44:26,834 [INFO] Imagem '3_criar_recurso_fala.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:44:26,835 [INFO] Histórico de análises anteriores atualizado com '3_criar_recurso_fala.png'.
+2025-12-16 22:44:30,847 [INFO] Preparando a próxima análise...
+2025-12-16 22:44:30,848 [INFO] Processando imagem 4/35: 4_recursos_criados_em_uso.png
+2025-12-16 22:44:30,860 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:44:30,861 [INFO] ================================================================================
+2025-12-16 22:44:30,862 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:44:30,863 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:44:30,865 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:44:30,867 [INFO] Timeout: 500s
+2025-12-16 22:44:30,870 [INFO] ================================================================================
+2025-12-16 22:44:38,247 [INFO] 📥 Status: 200
+2025-12-16 22:44:38,248 [INFO] Documentação gerada para '4_recursos_criados_em_uso.png': ### Selecionar recurso e abrir para uso
+Selecionar o recurso listado e clicar em "Usar o recurso" para abrir/usar esse recurso no Speech Studio.
+
+- Recurso selecionado: aiassistspeech (linha marcada).
+- Botão clicado: "Usar o recurso" (canto inferior esquerdo).
+- Ação alternativa visível: fechar a janela de configurações clicando no botão "X" no canto superior direito.
+2025-12-16 22:44:38,249 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\4_recursos_criados_em_uso.png
+2025-12-16 22:44:38,302 [INFO] Imagem '4_recursos_criados_em_uso.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:44:38,303 [INFO] Histórico de análises anteriores atualizado com '4_recursos_criados_em_uso.png'.
+2025-12-16 22:44:42,308 [INFO] Preparando a próxima análise...
+2025-12-16 22:44:42,309 [INFO] Processando imagem 5/35: 5_selecionar_modelo.png
+2025-12-16 22:44:42,319 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:44:42,320 [INFO] ================================================================================
+2025-12-16 22:44:42,320 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:44:42,321 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:44:42,321 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:44:42,321 [INFO] Timeout: 500s
+2025-12-16 22:44:42,328 [INFO] ================================================================================
+2025-12-16 22:44:50,713 [INFO] 📥 Status: 200
+2025-12-16 22:44:50,716 [INFO] Documentação gerada para '5_selecionar_modelo.png': ### Selecionar "Conversão de fala em texto em tempo real"
+Clicar no cartão "Conversão de fala em texto em tempo real" destacado em vermelho.
+
+- Clicar no link/área "Experimente o Conversão de fala em texto em tempo real" dentro do cartão para iniciar a experiência.
+2025-12-16 22:44:50,717 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\5_selecionar_modelo.png
+2025-12-16 22:44:50,780 [INFO] Imagem '5_selecionar_modelo.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:44:50,780 [INFO] Histórico de análises anteriores atualizado com '5_selecionar_modelo.png'.
+2025-12-16 22:44:54,784 [INFO] Preparando a próxima análise...
+2025-12-16 22:44:54,785 [INFO] Processando imagem 6/35: 6_configuracoes_modelo.png
+2025-12-16 22:44:54,791 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:44:54,791 [INFO] ================================================================================
+2025-12-16 22:44:54,792 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:44:54,792 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:44:54,793 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:44:54,793 [INFO] Timeout: 500s
+2025-12-16 22:44:54,796 [INFO] ================================================================================
+2025-12-16 22:45:03,231 [INFO] 📥 Status: 200
+2025-12-16 22:45:03,234 [INFO] Documentação gerada para '6_configuracoes_modelo.png': ### Selecionar opções da experiência "Conversão de fala em texto em tempo real"
+Selecionar os recursos e configurações para testar a conversão de fala em tempo real.
+
+- Botões disponíveis para abrir material de apoio:
+  - Clicar em "Ver a documentação"
+  - Clicar em "Exibir exemplo de código"
+  - Clicar em "Usar o CLI de Fala"
+- Escolher plataforma de implantação:
+  - Opções visíveis: "Contêiner do Docker" e "Nuvem"
+- Usar com o seu recurso:
+  - Marcar a caixa de reconhecimento de uso do recurso (já marcada na imagem)
+  - Selecionar idioma no campo "Escolher um idioma" (ex.: "Inglês (Estados Unidos)")
+  - Opcional: clicar em "Mostrar as opções avançadas" para acessar configurações adicionais
+2025-12-16 22:45:03,235 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\6_configuracoes_modelo.png
+2025-12-16 22:45:03,372 [INFO] Imagem '6_configuracoes_modelo.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:45:03,373 [INFO] Histórico de análises anteriores atualizado com '6_configuracoes_modelo.png'.
+2025-12-16 22:45:07,379 [INFO] Preparando a próxima análise...
+2025-12-16 22:45:07,380 [INFO] Processando imagem 7/35: 7_playground_modelo.png
+2025-12-16 22:45:07,385 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:45:07,386 [INFO] ================================================================================
+2025-12-16 22:45:07,386 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:45:07,386 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:45:07,387 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:45:07,387 [INFO] Timeout: 500s
+2025-12-16 22:45:07,389 [INFO] ================================================================================
+2025-12-16 22:45:14,722 [INFO] 📥 Status: 200
+2025-12-16 22:45:14,728 [INFO] Documentação gerada para '7_playground_modelo.png': ### Fazer upload ou gravar áudio para teste
+Arrastar e soltar o(s) arquivo(s) de áudio na área indicada ou clicar em "Procurar arquivos..." para selecionar localmente; como alternativa, clicar no ícone de microfone para gravar áudio diretamente.
+
+- Área de envio: "Arraste e solte o(s) arquivo(s) de áudio aqui" ou "Procurar arquivos..."
+- Gravação: botão de microfone para iniciar gravação.
+- Após envio, os arquivos carregados aparecem na caixa "Arquivos de áudio".
+- Os resultados da conversão aparecerão no painel "Resultados de teste" à direita.
+2025-12-16 22:45:14,733 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\7_playground_modelo.png
+2025-12-16 22:45:14,905 [INFO] Imagem '7_playground_modelo.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:45:14,905 [INFO] Histórico de análises anteriores atualizado com '7_playground_modelo.png'.
+2025-12-16 22:45:18,911 [INFO] Preparando a próxima análise...
+2025-12-16 22:45:18,913 [INFO] Processando imagem 8/35: 8_resultado_audio_para_texto.png
+2025-12-16 22:45:18,922 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:45:18,923 [INFO] ================================================================================
+2025-12-16 22:45:18,923 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:45:18,925 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:45:18,926 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:45:18,926 [INFO] Timeout: 500s
+2025-12-16 22:45:18,930 [INFO] ================================================================================
+2025-12-16 22:45:27,570 [INFO] 📥 Status: 200
+2025-12-16 22:45:27,572 [INFO] Documentação gerada para '8_resultado_audio_para_texto.png': ### Selecionar arquivo de áudio carregado
+Clicar no arquivo de áudio listado em "Arquivos de áudio" (Be Simple Past.mp3) para carregar/selecionar o arquivo para teste.
+
+- Arquivo selecionado: Be Simple Past.mp3 (aparece com ícone de status e nome destacado).
+- Resultado imediato: transcrição do áudio exibida no painel "Resultados de teste" na aba "Texto".
+- Informações visíveis no painel de resultados:
+  - Idioma: Inglês (Estados Unidos)
+  - Formato de saída: Detalhado
+  - Duração mostrada: 00:49s
+- Controles disponíveis no painel: botão de reprodução e barra de progresso para ouvir o áudio.
+2025-12-16 22:45:27,573 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\8_resultado_audio_para_texto.png
+2025-12-16 22:45:27,658 [INFO] Imagem '8_resultado_audio_para_texto.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:45:27,658 [INFO] Histórico de análises anteriores atualizado com '8_resultado_audio_para_texto.png'.
+2025-12-16 22:45:31,663 [INFO] Preparando a próxima análise...
+2025-12-16 22:45:31,663 [INFO] Processando imagem 9/35: 9_proximas_etapas_introducao.png
+2025-12-16 22:45:31,676 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:45:31,678 [INFO] ================================================================================
+2025-12-16 22:45:31,680 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:45:31,681 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:45:31,681 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:45:31,682 [INFO] Timeout: 500s
+2025-12-16 22:45:31,693 [INFO] ================================================================================
+2025-12-16 22:45:42,009 [INFO] 📥 Status: 200
+2025-12-16 22:45:42,013 [INFO] Documentação gerada para '9_proximas_etapas_introducao.png': ### Selecionar recurso de Serviço Cognitivo de Fala e abrir início rápido
+Selecionar o recurso de Fala no campo "Recurso de fala" e acessar o material de suporte.
+
+- Campo preenchido: "aiassistspeech (SpeechServices, Leste dos EUA, F0)" selecionado no dropdown "Recurso de fala".
+- Informações visíveis a consultar: Região (eastus), Chave de recurso (oculta) e URL de endpoint (https://eastus.api.cognitive.microsoft.com/).
+- Ações disponíveis:
+  - Clicar em "Abrir o início rápido" para seguir o passo a passo de configuração/exemplos.
+  - Ou clicar em "Veja o código de exemplo no GitHub" para acessar exemplos de código.
+- Opção alternativa: clicar em "Criar um recurso Fala" para criar um novo recurso caso necessário.
+2025-12-16 22:45:42,014 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\9_proximas_etapas_introducao.png
+2025-12-16 22:45:42,150 [INFO] Imagem '9_proximas_etapas_introducao.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:45:42,151 [INFO] Histórico de análises anteriores atualizado com '9_proximas_etapas_introducao.png'.
+2025-12-16 22:45:46,156 [INFO] Preparando a próxima análise...
+2025-12-16 22:45:46,157 [INFO] Processando imagem 10/35: 10_proximas_etapas_cenarios_cumuns.png
+2025-12-16 22:45:46,185 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:45:46,185 [INFO] ================================================================================
+2025-12-16 22:45:46,186 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:45:46,187 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:45:46,188 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:45:46,189 [INFO] Timeout: 500s
+2025-12-16 22:45:46,199 [INFO] ================================================================================
+2025-12-16 22:45:53,140 [INFO] 📥 Status: 200
+2025-12-16 22:45:53,142 [INFO] Documentação gerada para '10_proximas_etapas_cenarios_cumuns.png': ### Selecionar "Cenários comuns"
+Clicar no item de menu "Cenários comuns" na coluna lateral esquerda.
+
+- Item destacado: "Cenários comuns" com contorno vermelho.
+- Resultado imediato visível: painel à direita exibe opções como "Tente legendar com a conversão de fala em texto" e "Transcrição e análise de call center com o Fala e Idioma do Azure".
+2025-12-16 22:45:53,142 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\10_proximas_etapas_cenarios_cumuns.png
+2025-12-16 22:45:53,262 [INFO] Imagem '10_proximas_etapas_cenarios_cumuns.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:45:53,263 [INFO] Histórico de análises anteriores atualizado com '10_proximas_etapas_cenarios_cumuns.png'.
+2025-12-16 22:45:57,266 [INFO] Preparando a próxima análise...
+2025-12-16 22:45:57,266 [INFO] Processando imagem 11/35: 11_proximas_etapas_servicos_relacionados.png
+2025-12-16 22:45:57,275 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:45:57,276 [INFO] ================================================================================
+2025-12-16 22:45:57,276 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:45:57,278 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:45:57,279 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:45:57,279 [INFO] Timeout: 500s
+2025-12-16 22:45:57,283 [INFO] ================================================================================
+2025-12-16 22:46:04,849 [INFO] 📥 Status: 200
+2025-12-16 22:46:04,852 [INFO] Documentação gerada para '11_proximas_etapas_servicos_relacionados.png': ### Selecionar "Serviços relacionados"
+Clicar no item "Serviços relacionados" na coluna lateral esquerda para abrir o painel de serviços associados.
+
+- Painel à direita exibe as opções/links:
+  - Fala Personalizada — link "Iniciar um projeto de Fala Personalizada"
+  - Galeria de Serviço de Voz — link "Explorar a Galeria de Vozes"
+  - Avaliação de Pronúncia — link "Experimente a Avaliação de Pronúncia"
+2025-12-16 22:46:04,853 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\11_proximas_etapas_servicos_relacionados.png
+2025-12-16 22:46:05,005 [INFO] Imagem '11_proximas_etapas_servicos_relacionados.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:46:05,005 [INFO] Histórico de análises anteriores atualizado com '11_proximas_etapas_servicos_relacionados.png'.
+2025-12-16 22:46:09,010 [INFO] Preparando a próxima análise...
+2025-12-16 22:46:09,011 [INFO] Processando imagem 12/35: 12_proximas_etapas_avaliar_preco.png
+2025-12-16 22:46:09,036 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:46:09,038 [INFO] ================================================================================
+2025-12-16 22:46:09,040 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:46:09,041 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:46:09,042 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:46:09,044 [INFO] Timeout: 500s
+2025-12-16 22:46:09,052 [INFO] ================================================================================
+2025-12-16 22:46:15,816 [INFO] 📥 Status: 200
+2025-12-16 22:46:15,819 [INFO] Documentação gerada para '12_proximas_etapas_avaliar_preco.png': ### Selecionar "Avaliar o preço" e abrir opções de cotação
+Clicar no item "Avaliar o preço" na coluna lateral esquerda para exibir o painel de preços à direita.
+
+- Painel exibido: "Preço padrão para fala em texto" com links para "Preços dos serviços do Fala do Azure" e "Calculadora de preços do Azure".
+- Ação disponível e destacada: clicar no botão azul "Converse com um especialista de vendas" para solicitar cotação ou esclarecer dúvidas sobre preços.
+2025-12-16 22:46:15,819 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\12_proximas_etapas_avaliar_preco.png
+2025-12-16 22:46:15,990 [INFO] Imagem '12_proximas_etapas_avaliar_preco.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:46:15,991 [INFO] Histórico de análises anteriores atualizado com '12_proximas_etapas_avaliar_preco.png'.
+2025-12-16 22:46:19,995 [INFO] Preparando a próxima análise...
+2025-12-16 22:46:19,995 [INFO] Processando imagem 13/35: 13_proximas_etapas_uso_responsavel_ia.png
+2025-12-16 22:46:20,005 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:46:20,005 [INFO] ================================================================================
+2025-12-16 22:46:20,006 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:46:20,007 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:46:20,007 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:46:20,008 [INFO] Timeout: 500s
+2025-12-16 22:46:20,014 [INFO] ================================================================================
+2025-12-16 22:46:26,205 [INFO] 📥 Status: 200
+2025-12-16 22:46:26,208 [INFO] Documentação gerada para '13_proximas_etapas_uso_responsavel_ia.png': ### Selecionar "Uso responsável da IA"
+Clicar no item "Uso responsável da IA" na coluna lateral esquerda para abrir o painel com diretrizes de uso responsável.
+
+- Item selecionado: "Uso responsável da IA" (destacado em vermelho).
+- Resultado imediato: painel à direita exibe o título "Uso responsável da IA", texto sobre princípios éticos e dois links:
+  - "Uso responsável da IA com os Serviços Cognitivos"
+  - "Princípios de IA da Microsoft"
+2025-12-16 22:46:26,208 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\13_proximas_etapas_uso_responsavel_ia.png
+2025-12-16 22:46:26,359 [INFO] Imagem '13_proximas_etapas_uso_responsavel_ia.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:46:26,360 [INFO] Histórico de análises anteriores atualizado com '13_proximas_etapas_uso_responsavel_ia.png'.
+2025-12-16 22:46:30,364 [INFO] Preparando a próxima análise...
+2025-12-16 22:46:30,365 [INFO] Processando imagem 14/35: 14_Portal_azure_servico_inicial.png
+2025-12-16 22:46:30,376 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:46:30,377 [INFO] ================================================================================
+2025-12-16 22:46:30,377 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:46:30,378 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:46:30,379 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:46:30,381 [INFO] Timeout: 500s
+2025-12-16 22:46:30,385 [INFO] ================================================================================
+2025-12-16 22:46:36,212 [INFO] 📥 Status: 200
+2025-12-16 22:46:36,216 [INFO] Documentação gerada para '14_Portal_azure_servico_inicial.png': ### Abrir "Azure AI services"
+Clicar no ícone/atalho "Azure AI services" na seção "Serviços do Azure" na parte inferior da página.
+
+- Local: linha de ícones em "Serviços do Azure".
+- Elemento clicado: cartão com o rótulo "Azure AI services" (destacado em vermelho).
+2025-12-16 22:46:36,216 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\14_Portal_azure_servico_inicial.png
+2025-12-16 22:46:36,418 [INFO] Imagem '14_Portal_azure_servico_inicial.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:46:36,419 [INFO] Histórico de análises anteriores atualizado com '14_Portal_azure_servico_inicial.png'.
+2025-12-16 22:46:40,424 [INFO] Preparando a próxima análise...
+2025-12-16 22:46:40,425 [INFO] Processando imagem 15/35: 15_Portal_azure_servico_linguagem.png
+2025-12-16 22:46:40,448 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:46:40,449 [INFO] ================================================================================
+2025-12-16 22:46:40,450 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:46:40,451 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:46:40,452 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:46:40,452 [INFO] Timeout: 500s
+2025-12-16 22:46:40,457 [INFO] ================================================================================
+2025-12-16 22:46:45,151 [INFO] 📥 Status: 200
+2025-12-16 22:46:45,157 [INFO] Documentação gerada para '15_Portal_azure_servico_linguagem.png': ### Criar recurso "Language Service"
+Clicar no botão "Create" dentro do cartão "Language Service".
+
+- Cartão: "Language Service" (Build apps with industry-leading natural language understanding capabilities).
+- Botão clicado: "+ Create" localizado abaixo do título do cartão.
+2025-12-16 22:46:45,158 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\15_Portal_azure_servico_linguagem.png
+2025-12-16 22:46:45,308 [INFO] Imagem '15_Portal_azure_servico_linguagem.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:46:45,309 [INFO] Histórico de análises anteriores atualizado com '15_Portal_azure_servico_linguagem.png'.
+2025-12-16 22:46:49,314 [INFO] Preparando a próxima análise...
+2025-12-16 22:46:49,314 [INFO] Processando imagem 16/35: 16_Portal_azure_funcoes_criacao.png
+2025-12-16 22:46:49,326 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:46:49,326 [INFO] ================================================================================
+2025-12-16 22:46:49,327 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:46:49,327 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:46:49,328 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:46:49,328 [INFO] Timeout: 500s
+2025-12-16 22:46:49,331 [INFO] ================================================================================
+2025-12-16 22:46:57,463 [INFO] 📥 Status: 200
+2025-12-16 22:46:57,466 [INFO] Documentação gerada para '16_Portal_azure_funcoes_criacao.png': ### Continuar para criar o recurso
+Clicar no botão "Continue to create your resource" localizado no canto inferior esquerdo.
+
+- Botão destacado em vermelho com seta indicando ação.
+- Ação imediata: avançar para a próxima etapa do fluxo de criação do recurso.
+2025-12-16 22:46:57,467 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\16_Portal_azure_funcoes_criacao.png
+2025-12-16 22:46:57,679 [INFO] Imagem '16_Portal_azure_funcoes_criacao.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:46:57,680 [INFO] Histórico de análises anteriores atualizado com '16_Portal_azure_funcoes_criacao.png'.
+2025-12-16 22:47:01,684 [INFO] Preparando a próxima análise...
+2025-12-16 22:47:01,685 [INFO] Processando imagem 17/35: 17_Portal_azure_criar_idioma.png
+2025-12-16 22:47:01,707 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:47:01,707 [INFO] ================================================================================
+2025-12-16 22:47:01,707 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:47:01,708 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:47:01,708 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:47:01,709 [INFO] Timeout: 500s
+2025-12-16 22:47:01,713 [INFO] ================================================================================
+2025-12-16 22:47:08,116 [INFO] 📥 Status: 200
+2025-12-16 22:47:08,118 [INFO] Documentação gerada para '17_Portal_azure_criar_idioma.png': ### Preencher detalhes do projeto e da instância
+Selecionar assinatura e grupo de recursos e configurar região, nome e tipo de preço do recurso Language.
+
+- Subscription: escolher "Assinatura de Plataformas MSDN".
+- Resource group: selecionar "LABAI-900" (opção "Create new" disponível).
+- Region: selecionar "East US".
+- Name: inserir "idiomalanguage".
+- Pricing tier: selecionar "Free F0 (5K Transactions per 30 days)".
+2025-12-16 22:47:08,119 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\17_Portal_azure_criar_idioma.png
+2025-12-16 22:47:08,300 [INFO] Imagem '17_Portal_azure_criar_idioma.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:47:08,301 [INFO] Histórico de análises anteriores atualizado com '17_Portal_azure_criar_idioma.png'.
+2025-12-16 22:47:12,306 [INFO] Preparando a próxima análise...
+2025-12-16 22:47:12,307 [INFO] Processando imagem 18/35: 18_Portal_azure_criar_idioma_2.png
+2025-12-16 22:47:12,316 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:47:12,317 [INFO] ================================================================================
+2025-12-16 22:47:12,317 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:47:12,318 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:47:12,318 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:47:12,319 [INFO] Timeout: 500s
+2025-12-16 22:47:12,324 [INFO] ================================================================================
+2025-12-16 22:47:19,358 [INFO] 📥 Status: 200
+2025-12-16 22:47:19,361 [INFO] Documentação gerada para '18_Portal_azure_criar_idioma_2.png': ### Marcar termo de responsabilidade (Responsible AI Notice)
+Marcar a caixa de seleção para certificar que você revisou e reconhece os termos do Responsible AI Notice.
+
+- Caixa marcada: botão de seleção ao lado do texto "By checking this box I certify that I have reviewed and acknowledge the terms in the Responsible AI Notice." (seta vermelha apontando para a caixa).
+2025-12-16 22:47:19,362 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\18_Portal_azure_criar_idioma_2.png
+2025-12-16 22:47:19,520 [INFO] Imagem '18_Portal_azure_criar_idioma_2.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:47:19,520 [INFO] Histórico de análises anteriores atualizado com '18_Portal_azure_criar_idioma_2.png'.
+2025-12-16 22:47:23,524 [INFO] Preparando a próxima análise...
+2025-12-16 22:47:23,524 [INFO] Processando imagem 19/35: 19_Portal_azure_validacao_create.png
+2025-12-16 22:47:23,530 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:47:23,530 [INFO] ================================================================================
+2025-12-16 22:47:23,531 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:47:23,531 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:47:23,531 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:47:23,531 [INFO] Timeout: 500s
+2025-12-16 22:47:23,533 [INFO] ================================================================================
+2025-12-16 22:47:30,064 [INFO] 📥 Status: 200
+2025-12-16 22:47:30,071 [INFO] Documentação gerada para '19_Portal_azure_validacao_create.png': ### Confirmar e criar recurso Language
+Clicar no botão "Create" para submeter a criação do recurso Language.
+
+- Campos exibidos (confirmação antes de criar):
+  - Subscription: Assinatura de Plataformas MSDN
+  - Resource group: LABAI-900
+  - Region: East US
+  - Name: idiomalanguage
+  - Pricing tier: Free F0 (5K Transactions per 30 days)
+- Rede: All networks, including the internet, can access this resource.
+- Identity type: None
+2025-12-16 22:47:30,074 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\19_Portal_azure_validacao_create.png
+2025-12-16 22:47:30,325 [INFO] Imagem '19_Portal_azure_validacao_create.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:47:30,325 [INFO] Histórico de análises anteriores atualizado com '19_Portal_azure_validacao_create.png'.
+2025-12-16 22:47:34,330 [INFO] Preparando a próxima análise...
+2025-12-16 22:47:34,331 [INFO] Processando imagem 20/35: 20_azure_studio_select_resources.png
+2025-12-16 22:47:34,362 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:47:34,363 [INFO] ================================================================================
+2025-12-16 22:47:34,364 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:47:34,365 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:47:34,365 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:47:34,366 [INFO] Timeout: 500s
+2025-12-16 22:47:34,381 [INFO] ================================================================================
+2025-12-16 22:47:42,531 [INFO] 📥 Status: 200
+2025-12-16 22:47:42,535 [INFO] Documentação gerada para '20_azure_studio_select_resources.png': ### Selecionar um recurso do Azure para o Language Studio
+Preencher/selecionar os campos do diálogo "Select an Azure resource" para associar um recurso ao Language Studio.
+
+- Azure directory: selecionado "Canal da Cloud".
+- Azure subscription: campo aberto com placeholder "Select azure subscription ..." (sem assinatura selecionada).
+- Resource type: selecionado "Language".
+- Resource name: dropdown com placeholder "Select your resource" (sem recurso selecionado).
+- Ações disponíveis: botão "Cancel" ativo; botão "Done" desativado até que uma assinatura e/ou recurso sejam selecionados.
+2025-12-16 22:47:42,535 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\20_azure_studio_select_resources.png
+2025-12-16 22:47:42,744 [INFO] Imagem '20_azure_studio_select_resources.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:47:42,744 [INFO] Histórico de análises anteriores atualizado com '20_azure_studio_select_resources.png'.
+2025-12-16 22:47:46,748 [INFO] Preparando a próxima análise...
+2025-12-16 22:47:46,748 [INFO] Processando imagem 21/35: 21_azure_studio_criar_nova_solucao.png
+2025-12-16 22:47:46,762 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:47:46,763 [INFO] ================================================================================
+2025-12-16 22:47:46,763 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:47:46,764 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:47:46,764 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:47:46,765 [INFO] Timeout: 500s
+2025-12-16 22:47:46,773 [INFO] ================================================================================
+2025-12-16 22:47:53,700 [INFO] 📥 Status: 200
+2025-12-16 22:47:53,704 [INFO] Documentação gerada para '21_azure_studio_criar_nova_solucao.png': ### Clicar em "Create new"
+Clicar no botão "Create new" localizado na seção "Recent custom projects you've worked on" para iniciar a criação de um novo projeto.
+
+- Local: botão "Create new" centralizado abaixo do texto informativo.
+- Ação visível: clique no botão (cursor sobre o botão).
+2025-12-16 22:47:53,705 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\21_azure_studio_criar_nova_solucao.png
+2025-12-16 22:47:53,889 [INFO] Imagem '21_azure_studio_criar_nova_solucao.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:47:53,890 [INFO] Histórico de análises anteriores atualizado com '21_azure_studio_criar_nova_solucao.png'.
+2025-12-16 22:47:57,894 [INFO] Preparando a próxima análise...
+2025-12-16 22:47:57,894 [INFO] Processando imagem 22/35: 22_azure_studio_select_resources_done.png
+2025-12-16 22:47:57,903 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:47:57,903 [INFO] ================================================================================
+2025-12-16 22:47:57,903 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:47:57,904 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:47:57,904 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:47:57,905 [INFO] Timeout: 500s
+2025-12-16 22:47:57,908 [INFO] ================================================================================
+2025-12-16 22:48:03,399 [INFO] 📥 Status: 200
+2025-12-16 22:48:03,401 [INFO] Documentação gerada para '22_azure_studio_select_resources_done.png': ### Confirmar seleção do recurso e finalizar
+Clicar no botão "Done" para confirmar o recurso selecionado e associá‑lo ao Language Studio.
+
+- Campos visíveis e já selecionados:
+  - Azure directory: Canal da Cloud
+  - Azure subscription: Assinatura de Plataformas MSDN
+  - Resource type: Language
+  - Resource name: idiomalanguage
+  - Pricing tier: Free (F0)
+  - Managed identity: Enabled
+2025-12-16 22:48:03,402 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\22_azure_studio_select_resources_done.png
+2025-12-16 22:48:03,628 [INFO] Imagem '22_azure_studio_select_resources_done.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:48:03,629 [INFO] Histórico de análises anteriores atualizado com '22_azure_studio_select_resources_done.png'.
+2025-12-16 22:48:07,633 [INFO] Preparando a próxima análise...
+2025-12-16 22:48:07,633 [INFO] Processando imagem 23/35: 23_azure_studio_-recursos_disponiveis.png
+2025-12-16 22:48:07,641 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:48:07,642 [INFO] ================================================================================
+2025-12-16 22:48:07,642 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:48:07,645 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:48:07,647 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:48:07,648 [INFO] Timeout: 500s
+2025-12-16 22:48:07,655 [INFO] ================================================================================
+2025-12-16 22:48:13,182 [INFO] 📥 Status: 200
+2025-12-16 22:48:13,185 [INFO] Documentação gerada para '23_azure_studio_-recursos_disponiveis.png': ### Clicar em "Create new" e selecionar o tipo de projeto
+Clicar no botão "Create new" e escolher a opção "Conversational language understanding" no menu suspenso.
+
+- Botão clicado: "Create new" (menu aberto).
+- Opção selecionada: "Conversational language understanding" (primeira opção do menu).
+2025-12-16 22:48:13,186 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\23_azure_studio_-recursos_disponiveis.png
+2025-12-16 22:48:13,360 [INFO] Imagem '23_azure_studio_-recursos_disponiveis.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:48:13,361 [INFO] Histórico de análises anteriores atualizado com '23_azure_studio_-recursos_disponiveis.png'.
+2025-12-16 22:48:17,364 [INFO] Preparando a próxima análise...
+2025-12-16 22:48:17,365 [INFO] Processando imagem 24/35: 24_azure_studio_-escolha_modelo.png
+2025-12-16 22:48:17,376 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:48:17,376 [INFO] ================================================================================
+2025-12-16 22:48:17,377 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:48:17,377 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:48:17,378 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:48:17,378 [INFO] Timeout: 500s
+2025-12-16 22:48:17,387 [INFO] ================================================================================
+2025-12-16 22:48:26,838 [INFO] 📥 Status: 200
+2025-12-16 22:48:26,842 [INFO] Documentação gerada para '24_azure_studio_-escolha_modelo.png': ### Selecionar "Classify text" e abrir "Analyze sentiment and mine opinions"
+Clicar na aba "Classify text" (destaque superior) e em seguida clicar no cartão "Analyze sentiment and mine opinions".
+
+- Aba selecionada: "Classify text" (botão superior marcado).
+- Cartão escolhido: "Analyze sentiment and mine opinions".
+- Ação no cartão: clicar em "Try it out" para abrir a experiência de análise de sentimento.
+2025-12-16 22:48:26,843 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\24_azure_studio_-escolha_modelo.png
+2025-12-16 22:48:27,360 [INFO] Imagem '24_azure_studio_-escolha_modelo.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:48:27,361 [INFO] Histórico de análises anteriores atualizado com '24_azure_studio_-escolha_modelo.png'.
+2025-12-16 22:48:31,370 [INFO] Preparando a próxima análise...
+2025-12-16 22:48:31,373 [INFO] Processando imagem 25/35: 25_azure_studio_digitar_mensagem.png
+2025-12-16 22:48:31,422 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:48:31,438 [INFO] ================================================================================
+2025-12-16 22:48:31,451 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:48:31,467 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:48:31,470 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:48:31,471 [INFO] Timeout: 500s
+2025-12-16 22:48:31,487 [INFO] ================================================================================
+2025-12-16 22:48:38,925 [INFO] 📥 Status: 200
+2025-12-16 22:48:38,930 [INFO] Documentação gerada para '25_azure_studio_digitar_mensagem.png': ### Selecionar idioma, recurso e inserir texto para análise de sentimento
+Selecionar idioma do texto, escolher o recurso Azure associado e inserir o texto a ser analisado.
+
+- Campo "Select text language": selecionar "English".
+- Campo "Select your Azure resource": selecionar "idiomalanguage".
+- Caixa de texto central: colar ou digitar o texto de entrada (ex.: trecho de avaliação do hotel já preenchido).
+- Opção "Enable opinion mining": confirmar que o toggle está em "On".
+2025-12-16 22:48:38,931 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\25_azure_studio_digitar_mensagem.png
+2025-12-16 22:48:39,386 [INFO] Imagem '25_azure_studio_digitar_mensagem.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:48:39,387 [INFO] Histórico de análises anteriores atualizado com '25_azure_studio_digitar_mensagem.png'.
+2025-12-16 22:48:43,392 [INFO] Preparando a próxima análise...
+2025-12-16 22:48:43,393 [INFO] Processando imagem 26/35: 26_azure_studio_run_model.png
+2025-12-16 22:48:43,405 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:48:43,405 [INFO] ================================================================================
+2025-12-16 22:48:43,406 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:48:43,409 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:48:43,410 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:48:43,411 [INFO] Timeout: 500s
+2025-12-16 22:48:43,419 [INFO] ================================================================================
+2025-12-16 22:48:50,728 [INFO] 📥 Status: 200
+2025-12-16 22:48:50,731 [INFO] Documentação gerada para '26_azure_studio_run_model.png': ### Marcar consentimento de custos e executar a demo
+Marcar a caixa de seleção "I acknowledge that running this demo will incur usage and may incur costs to my Azure resource" e clicar no botão "Run" para iniciar a execução da análise.
+
+- Caixa marcada: confirmação de entendimento sobre possíveis custos (texto ao lado da checkbox).
+- Botão clicado: "Run".
+- Resultado imediato visível: seção "Examine the results" com abas "Result" e "JSON" pronta para exibir os resultados da análise.
+2025-12-16 22:48:50,732 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\26_azure_studio_run_model.png
+2025-12-16 22:48:51,134 [INFO] Imagem '26_azure_studio_run_model.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:48:51,134 [INFO] Histórico de análises anteriores atualizado com '26_azure_studio_run_model.png'.
+2025-12-16 22:48:55,140 [INFO] Preparando a próxima análise...
+2025-12-16 22:48:55,141 [INFO] Processando imagem 27/35: 27_azure_studio_resultado1.png
+2025-12-16 22:48:55,149 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:48:55,150 [INFO] ================================================================================
+2025-12-16 22:48:55,150 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:48:55,151 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:48:55,151 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:48:55,152 [INFO] Timeout: 500s
+2025-12-16 22:48:55,158 [INFO] ================================================================================
+2025-12-16 22:49:06,038 [INFO] 📥 Status: 200
+2025-12-16 22:49:06,040 [INFO] Documentação gerada para '27_azure_studio_resultado1.png': ### Resultado da análise de sentimento do documento
+Documento classificado como "Negative" com os seguintes valores exibidos:
+- Confidence: 0.00%
+- Positive: 0.00%
+- Neutral: 3.00%
+- Negative: 96.00%
+
+- Seção "Sentence 1" com marcações de opinion mining:
+  - Trecho destacado: "Tired hotel with poor service"
+  - Anotações visíveis (labels truncados): caixas e setas azuis apontando para partes da frase, com rótulos iniciando "ass..." e "as... target", indicando extração de aspectos/opiniões relacionados aos termos "hotel" e "service".
+2025-12-16 22:49:06,040 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\27_azure_studio_resultado1.png
+2025-12-16 22:49:06,370 [INFO] Imagem '27_azure_studio_resultado1.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:49:06,371 [INFO] Histórico de análises anteriores atualizado com '27_azure_studio_resultado1.png'.
+2025-12-16 22:49:10,375 [INFO] Preparando a próxima análise...
+2025-12-16 22:49:10,376 [INFO] Processando imagem 28/35: 28_azure_studio_resultado2.png
+2025-12-16 22:49:10,388 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:49:10,390 [INFO] ================================================================================
+2025-12-16 22:49:10,391 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:49:10,392 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:49:10,392 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:49:10,393 [INFO] Timeout: 500s
+2025-12-16 22:49:10,399 [INFO] ================================================================================
+2025-12-16 22:49:20,118 [INFO] 📥 Status: 200
+2025-12-16 22:49:20,121 [INFO] Documentação gerada para '28_azure_studio_resultado2.png': ### Verificar resultado de Sentiment e Opinion Mining
+Confirmar o sentimento da sentença e as opiniões extraídas pelo modelo.
+
+- Sentimento da sentença: Negative; Confidence: 0.00%.
+- Distribuição exibida: Positive 0.00%, Neutral 1.00%, Negative 98.00%.
+- Opiniões extraídas (cards à direita):
+  - Target: hotel — Assessment: Tired (negative, 99.00%).
+  - Target: service — Assessment: poor (negative, 99.00%).
+- Texto original anotado: frase "Tired hotel with poor service" com marcações de aspectos/opiniões.
+- Outras sentenças listadas: "Sentence 2" e "Sentence 3" (itens visíveis para navegação).
+2025-12-16 22:49:20,122 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\28_azure_studio_resultado2.png
+2025-12-16 22:49:20,511 [INFO] Imagem '28_azure_studio_resultado2.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:49:20,511 [INFO] Histórico de análises anteriores atualizado com '28_azure_studio_resultado2.png'.
+2025-12-16 22:49:24,517 [INFO] Preparando a próxima análise...
+2025-12-16 22:49:24,517 [INFO] Processando imagem 29/35: 29_azure_studio_resultado3.png
+2025-12-16 22:49:24,524 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:49:24,525 [INFO] ================================================================================
+2025-12-16 22:49:24,525 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:49:24,525 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:49:24,526 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:49:24,526 [INFO] Timeout: 500s
+2025-12-16 22:49:24,528 [INFO] ================================================================================
+2025-12-16 22:49:31,843 [INFO] 📥 Status: 200
+2025-12-16 22:49:31,847 [INFO] Documentação gerada para '29_azure_studio_resultado3.png': ### Conferir resultados de Sentiment e Opinion Mining
+Confirmar as classificações exibidas pelo modelo no painel de resultados.
+
+- Sentimento do documento/sentença principal: Negative; Confidence: 0.00%.
+- Distribuição de probabilidade: Positive 0.00%, Neutral 1.00%, Negative 98.00%.
+- Opiniões extraídas (cards à direita):
+  - Target: hotel — Assessment: Tired (negative, 99.00%).
+  - Target: service — Assessment: poor (negative, 99.00%).
+- Navegação entre sentenças disponível: "Sentence 2" e "Sentence 3" listadas abaixo.
+2025-12-16 22:49:31,860 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\29_azure_studio_resultado3.png
+2025-12-16 22:49:32,446 [INFO] Imagem '29_azure_studio_resultado3.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:49:32,447 [INFO] Histórico de análises anteriores atualizado com '29_azure_studio_resultado3.png'.
+2025-12-16 22:49:36,453 [INFO] Preparando a próxima análise...
+2025-12-16 22:49:36,454 [INFO] Processando imagem 30/35: 30_azure_studio_resultado4.png
+2025-12-16 22:49:36,465 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:49:36,466 [INFO] ================================================================================
+2025-12-16 22:49:36,467 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:49:36,468 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:49:36,468 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:49:36,469 [INFO] Timeout: 500s
+2025-12-16 22:49:36,475 [INFO] ================================================================================
+2025-12-16 22:49:43,891 [INFO] 📥 Status: 200
+2025-12-16 22:49:43,894 [INFO] Documentação gerada para '30_azure_studio_resultado4.png': ### Identificar aspecto e avaliação extraídos pelo modelo
+Selecionar trecho anotado onde o modelo identificou um target e sua avaliação.
+
+- Target destacado: "internet" (sublinhado/rotulado como target).
+- Avaliação relacionada: label "assessment" apontando para a avaliação do target (seta conectando a label ao termo).
+- Trecho do texto visível próximo às anotações: "The internet didn't work".
+2025-12-16 22:49:43,896 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\30_azure_studio_resultado4.png
+2025-12-16 22:49:44,569 [INFO] Imagem '30_azure_studio_resultado4.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:49:44,570 [INFO] Histórico de análises anteriores atualizado com '30_azure_studio_resultado4.png'.
+2025-12-16 22:49:48,579 [INFO] Preparando a próxima análise...
+2025-12-16 22:49:48,579 [INFO] Processando imagem 31/35: 31_azure_proximos_passos.png
+2025-12-16 22:49:48,587 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:49:48,588 [INFO] ================================================================================
+2025-12-16 22:49:48,588 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:49:48,588 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:49:48,589 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:49:48,589 [INFO] Timeout: 500s
+2025-12-16 22:49:48,594 [INFO] ================================================================================
+2025-12-16 22:49:57,735 [INFO] 📥 Status: 200
+2025-12-16 22:49:57,738 [INFO] Documentação gerada para '31_azure_proximos_passos.png': ### Selecionar recurso de Language e abrir o início rápido
+Selecionar o recurso de Language no campo “Resource for Language service” e acessar o material de suporte.
+
+- Campo selecionado: Resource for Language service = idiomalanguage (dropdown).
+- Informações visíveis:
+  - Region: eastus
+  - Subscription key: chave oculta com ícone para mostrar/copiar
+  - Language endpoint: https://idiomalanguage.cognitiveservices.azure.com/
+- Ações disponíveis:
+  - Clicar em "Open the quick start" para abrir o guia passo a passo.
+  - Opcional: clicar em "View samples on GitHub" para ver exemplos de código.
+2025-12-16 22:49:57,739 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\31_azure_proximos_passos.png
+2025-12-16 22:49:58,084 [INFO] Imagem '31_azure_proximos_passos.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:49:58,084 [INFO] Histórico de análises anteriores atualizado com '31_azure_proximos_passos.png'.
+2025-12-16 22:50:02,088 [INFO] Preparando a próxima análise...
+2025-12-16 22:50:02,088 [INFO] Processando imagem 32/35: 32_azure_analise_codigo.png
+2025-12-16 22:50:02,095 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:50:02,095 [INFO] ================================================================================
+2025-12-16 22:50:02,095 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:50:02,096 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:50:02,096 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:50:02,096 [INFO] Timeout: 500s
+2025-12-16 22:50:02,106 [INFO] ================================================================================
+2025-12-16 22:50:09,322 [INFO] 📥 Status: 200
+2025-12-16 22:50:09,327 [INFO] Documentação gerada para '32_azure_analise_codigo.png': ### Clicar em "Get SDK" para obter o SDK e exemplos de código
+Clicar no botão azul "Get SDK" na seção "1. Get SDK & Code samples" para baixar/abrir o SDK e exemplos de código.
+
+- Botão principal: "Get SDK" (azul, à esquerda de "View samples on GitHub").
+- Opção alternativa visível: botão "View samples on GitHub" (branco) para acessar exemplos no repositório.
+- Informação complementar visível: seção "2. Use the code in your own environment" com instrução sobre uso em ambiente de desenvolvimento e ícone "Copy" no canto inferior direito para copiar trechos de código.
+2025-12-16 22:50:09,329 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\32_azure_analise_codigo.png
+2025-12-16 22:50:09,905 [INFO] Imagem '32_azure_analise_codigo.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:50:09,906 [INFO] Histórico de análises anteriores atualizado com '32_azure_analise_codigo.png'.
+2025-12-16 22:50:13,913 [INFO] Preparando a próxima análise...
+2025-12-16 22:50:13,913 [INFO] Processando imagem 33/35: 33_azure_cobranca.png
+2025-12-16 22:50:13,922 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:50:13,923 [INFO] ================================================================================
+2025-12-16 22:50:13,923 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:50:13,924 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:50:13,924 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:50:13,925 [INFO] Timeout: 500s
+2025-12-16 22:50:13,930 [INFO] ================================================================================
+2025-12-16 22:50:21,484 [INFO] 📥 Status: 200
+2025-12-16 22:50:21,489 [INFO] Documentação gerada para '33_azure_cobranca.png': ### Selecionar "See pricing"
+Clicar no item "See pricing" na coluna lateral esquerda para abrir o painel de preços do serviço Language.
+
+- Painel direito exibido: título "Standard pricing for Language capabilities".
+- Links disponíveis: "Azure Language services pricing" e "Azure pricing calculator".
+- Ação destacada: botão azul "Talk to a sales specialist" para solicitar cotação ou esclarecimentos.
+2025-12-16 22:50:21,491 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\33_azure_cobranca.png
+2025-12-16 22:50:21,872 [INFO] Imagem '33_azure_cobranca.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:50:21,872 [INFO] Histórico de análises anteriores atualizado com '33_azure_cobranca.png'.
+2025-12-16 22:50:25,876 [INFO] Preparando a próxima análise...
+2025-12-16 22:50:25,877 [INFO] Processando imagem 34/35: 34_azure_resposabilidade.png
+2025-12-16 22:50:25,892 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:50:25,893 [INFO] ================================================================================
+2025-12-16 22:50:25,893 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:50:25,894 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:50:25,894 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:50:25,895 [INFO] Timeout: 500s
+2025-12-16 22:50:25,902 [INFO] ================================================================================
+2025-12-16 22:50:34,213 [INFO] 📥 Status: 200
+2025-12-16 22:50:34,216 [INFO] Documentação gerada para '34_azure_resposabilidade.png': ### Selecionar "Responsible use of AI"
+Clicar no item "Responsible use of AI" na coluna lateral esquerda para abrir o painel com diretrizes.
+
+- Painel exibido com o título "Responsible use of AI" e texto descritivo sobre princípios éticos.
+- Links visíveis para consulta:
+  - "Responsible use of AI with Cognitive Services"
+  - "Microsoft's AI principles"
+2025-12-16 22:50:34,217 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\34_azure_resposabilidade.png
+2025-12-16 22:50:34,581 [INFO] Imagem '34_azure_resposabilidade.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:50:34,582 [INFO] Histórico de análises anteriores atualizado com '34_azure_resposabilidade.png'.
+2025-12-16 22:50:38,586 [INFO] Preparando a próxima análise...
+2025-12-16 22:50:38,587 [INFO] Processando imagem 35/35: taxas.png
+2025-12-16 22:50:38,592 [INFO] Enviando requisição de documentação para SAI...
+2025-12-16 22:50:38,592 [INFO] ================================================================================
+2025-12-16 22:50:38,593 [INFO] 🚀 REQUISIÇÃO API SAI - SaiDocumentationService
+2025-12-16 22:50:38,593 [INFO] URL: https://sai-library.saiapplications.com/api/templates/6941fe5ae62abe55742ae842/execute
+2025-12-16 22:50:38,593 [INFO] Template ID: 6941fe5ae62abe55742ae842
+2025-12-16 22:50:38,594 [INFO] Timeout: 500s
+2025-12-16 22:50:38,595 [INFO] ================================================================================
+2025-12-16 22:50:48,100 [INFO] 📥 Status: 200
+2025-12-16 22:50:48,105 [INFO] Documentação gerada para 'taxas.png': ### Visualizar tabela de preços do plano Gratuito (F0)
+Consultar as categorias, funcionalidades e valores oferecidos no plano "Gratuito (F0)" exibidos na tabela.
+
+- Colunas principais mostradas: Categoria, Funcionalidades, Preço.
+- Itens e preços visíveis:
+  - Conversão de Fala em Texto
+    - Funcionalidades: Padrão, Personalizado, Áudio Multicanal de Transcrição de Conversas
+    - Preço: 5 horas de áudio gratuitas por mês (observação de hospedagem de ponto de extremidade e 1 modelo gratuito por mês para a opção Personalizado)
+  - Conversão de Texto em Fala
+    - Funcionalidade: Neural
+    - Preço: 0.5 milhão caracteres gratuitos por mês
+  - Tradução de Fala
+    - Funcionalidade: Padrão
+    - Preço: 5 horas de áudio gratuitas por mês
+  - Reconhecimento do Locutor (por transação)
+    - Funcionalidades: Verificação do Locutor, Identificação do Locutor, Armazenamento do Perfil de Voz
+    - Preço: 10.000 transações gratuitas por mês (cada funcionalidade listada com esse valor)
+- Observações de rodapé visíveis:
+  - Link para consultar a documentação para informações sobre cotas, limites e instruções.
+  - Avisos: modelos não usados são desativados após 7 dias; reconhecimento do locutor é recurso de acesso limitado; horas de áudio gratuitas para conversão de fala em texto são compartilhadas entre os tipos Padrão e Personalizado e não há suporte para Lotes.
+2025-12-16 22:50:48,107 [INFO] Caminho da imagem para o Word: C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\processed_images\taxas.png
+2025-12-16 22:50:48,446 [INFO] Imagem 'taxas.png' removida de 'C:\Users\jfreis\Documents\Bootcamp_Suzano_Azure\azure-ai-sentiment-analysis\src\assets'.
+2025-12-16 22:50:48,446 [INFO] Histórico de análises anteriores atualizado com 'taxas.png'.
+2025-12-16 22:50:52,450 [INFO] Preparando a próxima análise...

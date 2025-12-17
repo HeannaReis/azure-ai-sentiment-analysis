@@ -1,0 +1,142 @@
+[
+    {
+        "image_name": "1_acessar_configuracoes.png",
+        "summary": "### Abrir configura\u00e7\u00f5es do Speech Studio\nClicar no \u00edcone de engrenagem (Settings) localizado na barra superior \u00e0 direita.\n\n- \u00cdcone selecionado: engrenagem destacada em vermelho."
+    },
+    {
+        "image_name": "2_criar_novo_recurso.png",
+        "summary": "### Clicar em \"Criar novo recurso\"\nClicar no bot\u00e3o \"+ Criar novo recurso\" na aba \"Recursos\" para iniciar a cria\u00e7\u00e3o de um recurso do Azure.\n\n- Local: aba \"Todos os recursos\" dentro de Configura\u00e7\u00f5es > Recurso.\n- Bot\u00e3o: \"+ Criar novo recurso\" (ao lado do campo de pesquisa).\n- Resultado esperado imediato: abertura do fluxo de cria\u00e7\u00e3o de recurso no Portal/Azure Speech Studio."
+    },
+    {
+        "image_name": "3_criar_recurso_fala.png",
+        "summary": "### Preencher formul\u00e1rio e criar recurso Fala\nPreencher os campos do formul\u00e1rio de cria\u00e7\u00e3o do recurso Speech e clicar em \"Criar um recurso\".\n\n- Nome do novo recurso: test_azure_speech\n- Assinatura: Assinatura do Azure 1\n- Regi\u00e3o: Leste dos EUA\n- Tipo de pre\u00e7o: Gratuito F0\n- Grupo de recursos: NetworkWatcherRG\n- A\u00e7\u00e3o final: clicar em \"Criar um recurso\" para submeter a cria\u00e7\u00e3o."
+    },
+    {
+        "image_name": "4_recursos_criados_em_uso.png",
+        "summary": "### Selecionar recurso e abrir para uso\nSelecionar o recurso listado e clicar em \"Usar o recurso\" para abrir/usar esse recurso no Speech Studio.\n\n- Recurso selecionado: aiassistspeech (linha marcada).\n- Bot\u00e3o clicado: \"Usar o recurso\" (canto inferior esquerdo).\n- A\u00e7\u00e3o alternativa vis\u00edvel: fechar a janela de configura\u00e7\u00f5es clicando no bot\u00e3o \"X\" no canto superior direito."
+    },
+    {
+        "image_name": "5_selecionar_modelo.png",
+        "summary": "### Selecionar \"Convers\u00e3o de fala em texto em tempo real\"\nClicar no cart\u00e3o \"Convers\u00e3o de fala em texto em tempo real\" destacado em vermelho.\n\n- Clicar no link/\u00e1rea \"Experimente o Convers\u00e3o de fala em texto em tempo real\" dentro do cart\u00e3o para iniciar a experi\u00eancia."
+    },
+    {
+        "image_name": "6_configuracoes_modelo.png",
+        "summary": "### Selecionar op\u00e7\u00f5es da experi\u00eancia \"Convers\u00e3o de fala em texto em tempo real\"\nSelecionar os recursos e configura\u00e7\u00f5es para testar a convers\u00e3o de fala em tempo real.\n\n- Bot\u00f5es dispon\u00edveis para abrir material de apoio:\n  - Clicar em \"Ver a documenta\u00e7\u00e3o\"\n  - Clicar em \"Exibir exemplo de c\u00f3digo\"\n  - Clicar em \"Usar o CLI de Fala\"\n- Escolher plataforma de implanta\u00e7\u00e3o:\n  - Op\u00e7\u00f5es vis\u00edveis: \"Cont\u00eainer do Docker\" e \"Nuvem\"\n- Usar com o seu recurso:\n  - Marcar a caixa de reconhecimento de uso do recurso (j\u00e1 marcada na imagem)\n  - Selecionar idioma no campo \"Escolher um idioma\" (ex.: \"Ingl\u00eas (Estados Unidos)\")\n  - Opcional: clicar em \"Mostrar as op\u00e7\u00f5es avan\u00e7adas\" para acessar configura\u00e7\u00f5es adicionais"
+    },
+    {
+        "image_name": "7_playground_modelo.png",
+        "summary": "### Fazer upload ou gravar \u00e1udio para teste\nArrastar e soltar o(s) arquivo(s) de \u00e1udio na \u00e1rea indicada ou clicar em \"Procurar arquivos...\" para selecionar localmente; como alternativa, clicar no \u00edcone de microfone para gravar \u00e1udio diretamente.\n\n- \u00c1rea de envio: \"Arraste e solte o(s) arquivo(s) de \u00e1udio aqui\" ou \"Procurar arquivos...\"\n- Grava\u00e7\u00e3o: bot\u00e3o de microfone para iniciar grava\u00e7\u00e3o.\n- Ap\u00f3s envio, os arquivos carregados aparecem na caixa \"Arquivos de \u00e1udio\".\n- Os resultados da convers\u00e3o aparecer\u00e3o no painel \"Resultados de teste\" \u00e0 direita."
+    },
+    {
+        "image_name": "8_resultado_audio_para_texto.png",
+        "summary": "### Selecionar arquivo de \u00e1udio carregado\nClicar no arquivo de \u00e1udio listado em \"Arquivos de \u00e1udio\" (Be Simple Past.mp3) para carregar/selecionar o arquivo para teste.\n\n- Arquivo selecionado: Be Simple Past.mp3 (aparece com \u00edcone de status e nome destacado).\n- Resultado imediato: transcri\u00e7\u00e3o do \u00e1udio exibida no painel \"Resultados de teste\" na aba \"Texto\".\n- Informa\u00e7\u00f5es vis\u00edveis no painel de resultados:\n  - Idioma: Ingl\u00eas (Estados Unidos)\n  - Formato de sa\u00edda: Detalhado\n  - Dura\u00e7\u00e3o mostrada: 00:49s\n- Controles dispon\u00edveis no painel: bot\u00e3o de reprodu\u00e7\u00e3o e barra de progresso para ouvir o \u00e1udio."
+    },
+    {
+        "image_name": "9_proximas_etapas_introducao.png",
+        "summary": "### Selecionar recurso de Servi\u00e7o Cognitivo de Fala e abrir in\u00edcio r\u00e1pido\nSelecionar o recurso de Fala no campo \"Recurso de fala\" e acessar o material de suporte.\n\n- Campo preenchido: \"aiassistspeech (SpeechServices, Leste dos EUA, F0)\" selecionado no dropdown \"Recurso de fala\".\n- Informa\u00e7\u00f5es vis\u00edveis a consultar: Regi\u00e3o (eastus), Chave de recurso (oculta) e URL de endpoint (https://eastus.api.cognitive.microsoft.com/).\n- A\u00e7\u00f5es dispon\u00edveis:\n  - Clicar em \"Abrir o in\u00edcio r\u00e1pido\" para seguir o passo a passo de configura\u00e7\u00e3o/exemplos.\n  - Ou clicar em \"Veja o c\u00f3digo de exemplo no GitHub\" para acessar exemplos de c\u00f3digo.\n- Op\u00e7\u00e3o alternativa: clicar em \"Criar um recurso Fala\" para criar um novo recurso caso necess\u00e1rio."
+    },
+    {
+        "image_name": "10_proximas_etapas_cenarios_cumuns.png",
+        "summary": "### Selecionar \"Cen\u00e1rios comuns\"\nClicar no item de menu \"Cen\u00e1rios comuns\" na coluna lateral esquerda.\n\n- Item destacado: \"Cen\u00e1rios comuns\" com contorno vermelho.\n- Resultado imediato vis\u00edvel: painel \u00e0 direita exibe op\u00e7\u00f5es como \"Tente legendar com a convers\u00e3o de fala em texto\" e \"Transcri\u00e7\u00e3o e an\u00e1lise de call center com o Fala e Idioma do Azure\"."
+    },
+    {
+        "image_name": "11_proximas_etapas_servicos_relacionados.png",
+        "summary": "### Selecionar \"Servi\u00e7os relacionados\"\nClicar no item \"Servi\u00e7os relacionados\" na coluna lateral esquerda para abrir o painel de servi\u00e7os associados.\n\n- Painel \u00e0 direita exibe as op\u00e7\u00f5es/links:\n  - Fala Personalizada \u2014 link \"Iniciar um projeto de Fala Personalizada\"\n  - Galeria de Servi\u00e7o de Voz \u2014 link \"Explorar a Galeria de Vozes\"\n  - Avalia\u00e7\u00e3o de Pron\u00fancia \u2014 link \"Experimente a Avalia\u00e7\u00e3o de Pron\u00fancia\""
+    },
+    {
+        "image_name": "12_proximas_etapas_avaliar_preco.png",
+        "summary": "### Selecionar \"Avaliar o pre\u00e7o\" e abrir op\u00e7\u00f5es de cota\u00e7\u00e3o\nClicar no item \"Avaliar o pre\u00e7o\" na coluna lateral esquerda para exibir o painel de pre\u00e7os \u00e0 direita.\n\n- Painel exibido: \"Pre\u00e7o padr\u00e3o para fala em texto\" com links para \"Pre\u00e7os dos servi\u00e7os do Fala do Azure\" e \"Calculadora de pre\u00e7os do Azure\".\n- A\u00e7\u00e3o dispon\u00edvel e destacada: clicar no bot\u00e3o azul \"Converse com um especialista de vendas\" para solicitar cota\u00e7\u00e3o ou esclarecer d\u00favidas sobre pre\u00e7os."
+    },
+    {
+        "image_name": "13_proximas_etapas_uso_responsavel_ia.png",
+        "summary": "### Selecionar \"Uso respons\u00e1vel da IA\"\nClicar no item \"Uso respons\u00e1vel da IA\" na coluna lateral esquerda para abrir o painel com diretrizes de uso respons\u00e1vel.\n\n- Item selecionado: \"Uso respons\u00e1vel da IA\" (destacado em vermelho).\n- Resultado imediato: painel \u00e0 direita exibe o t\u00edtulo \"Uso respons\u00e1vel da IA\", texto sobre princ\u00edpios \u00e9ticos e dois links:\n  - \"Uso respons\u00e1vel da IA com os Servi\u00e7os Cognitivos\"\n  - \"Princ\u00edpios de IA da Microsoft\""
+    },
+    {
+        "image_name": "14_Portal_azure_servico_inicial.png",
+        "summary": "### Abrir \"Azure AI services\"\nClicar no \u00edcone/atalho \"Azure AI services\" na se\u00e7\u00e3o \"Servi\u00e7os do Azure\" na parte inferior da p\u00e1gina.\n\n- Local: linha de \u00edcones em \"Servi\u00e7os do Azure\".\n- Elemento clicado: cart\u00e3o com o r\u00f3tulo \"Azure AI services\" (destacado em vermelho)."
+    },
+    {
+        "image_name": "15_Portal_azure_servico_linguagem.png",
+        "summary": "### Criar recurso \"Language Service\"\nClicar no bot\u00e3o \"Create\" dentro do cart\u00e3o \"Language Service\".\n\n- Cart\u00e3o: \"Language Service\" (Build apps with industry-leading natural language understanding capabilities).\n- Bot\u00e3o clicado: \"+ Create\" localizado abaixo do t\u00edtulo do cart\u00e3o."
+    },
+    {
+        "image_name": "16_Portal_azure_funcoes_criacao.png",
+        "summary": "### Continuar para criar o recurso\nClicar no bot\u00e3o \"Continue to create your resource\" localizado no canto inferior esquerdo.\n\n- Bot\u00e3o destacado em vermelho com seta indicando a\u00e7\u00e3o.\n- A\u00e7\u00e3o imediata: avan\u00e7ar para a pr\u00f3xima etapa do fluxo de cria\u00e7\u00e3o do recurso."
+    },
+    {
+        "image_name": "17_Portal_azure_criar_idioma.png",
+        "summary": "### Preencher detalhes do projeto e da inst\u00e2ncia\nSelecionar assinatura e grupo de recursos e configurar regi\u00e3o, nome e tipo de pre\u00e7o do recurso Language.\n\n- Subscription: escolher \"Assinatura de Plataformas MSDN\".\n- Resource group: selecionar \"LABAI-900\" (op\u00e7\u00e3o \"Create new\" dispon\u00edvel).\n- Region: selecionar \"East US\".\n- Name: inserir \"idiomalanguage\".\n- Pricing tier: selecionar \"Free F0 (5K Transactions per 30 days)\"."
+    },
+    {
+        "image_name": "18_Portal_azure_criar_idioma_2.png",
+        "summary": "### Marcar termo de responsabilidade (Responsible AI Notice)\nMarcar a caixa de sele\u00e7\u00e3o para certificar que voc\u00ea revisou e reconhece os termos do Responsible AI Notice.\n\n- Caixa marcada: bot\u00e3o de sele\u00e7\u00e3o ao lado do texto \"By checking this box I certify that I have reviewed and acknowledge the terms in the Responsible AI Notice.\" (seta vermelha apontando para a caixa)."
+    },
+    {
+        "image_name": "19_Portal_azure_validacao_create.png",
+        "summary": "### Confirmar e criar recurso Language\nClicar no bot\u00e3o \"Create\" para submeter a cria\u00e7\u00e3o do recurso Language.\n\n- Campos exibidos (confirma\u00e7\u00e3o antes de criar):\n  - Subscription: Assinatura de Plataformas MSDN\n  - Resource group: LABAI-900\n  - Region: East US\n  - Name: idiomalanguage\n  - Pricing tier: Free F0 (5K Transactions per 30 days)\n- Rede: All networks, including the internet, can access this resource.\n- Identity type: None"
+    },
+    {
+        "image_name": "20_azure_studio_select_resources.png",
+        "summary": "### Selecionar um recurso do Azure para o Language Studio\nPreencher/selecionar os campos do di\u00e1logo \"Select an Azure resource\" para associar um recurso ao Language Studio.\n\n- Azure directory: selecionado \"Canal da Cloud\".\n- Azure subscription: campo aberto com placeholder \"Select azure subscription ...\" (sem assinatura selecionada).\n- Resource type: selecionado \"Language\".\n- Resource name: dropdown com placeholder \"Select your resource\" (sem recurso selecionado).\n- A\u00e7\u00f5es dispon\u00edveis: bot\u00e3o \"Cancel\" ativo; bot\u00e3o \"Done\" desativado at\u00e9 que uma assinatura e/ou recurso sejam selecionados."
+    },
+    {
+        "image_name": "21_azure_studio_criar_nova_solucao.png",
+        "summary": "### Clicar em \"Create new\"\nClicar no bot\u00e3o \"Create new\" localizado na se\u00e7\u00e3o \"Recent custom projects you've worked on\" para iniciar a cria\u00e7\u00e3o de um novo projeto.\n\n- Local: bot\u00e3o \"Create new\" centralizado abaixo do texto informativo.\n- A\u00e7\u00e3o vis\u00edvel: clique no bot\u00e3o (cursor sobre o bot\u00e3o)."
+    },
+    {
+        "image_name": "22_azure_studio_select_resources_done.png",
+        "summary": "### Confirmar sele\u00e7\u00e3o do recurso e finalizar\nClicar no bot\u00e3o \"Done\" para confirmar o recurso selecionado e associ\u00e1\u2011lo ao Language Studio.\n\n- Campos vis\u00edveis e j\u00e1 selecionados:\n  - Azure directory: Canal da Cloud\n  - Azure subscription: Assinatura de Plataformas MSDN\n  - Resource type: Language\n  - Resource name: idiomalanguage\n  - Pricing tier: Free (F0)\n  - Managed identity: Enabled"
+    },
+    {
+        "image_name": "23_azure_studio_-recursos_disponiveis.png",
+        "summary": "### Clicar em \"Create new\" e selecionar o tipo de projeto\nClicar no bot\u00e3o \"Create new\" e escolher a op\u00e7\u00e3o \"Conversational language understanding\" no menu suspenso.\n\n- Bot\u00e3o clicado: \"Create new\" (menu aberto).\n- Op\u00e7\u00e3o selecionada: \"Conversational language understanding\" (primeira op\u00e7\u00e3o do menu)."
+    },
+    {
+        "image_name": "24_azure_studio_-escolha_modelo.png",
+        "summary": "### Selecionar \"Classify text\" e abrir \"Analyze sentiment and mine opinions\"\nClicar na aba \"Classify text\" (destaque superior) e em seguida clicar no cart\u00e3o \"Analyze sentiment and mine opinions\".\n\n- Aba selecionada: \"Classify text\" (bot\u00e3o superior marcado).\n- Cart\u00e3o escolhido: \"Analyze sentiment and mine opinions\".\n- A\u00e7\u00e3o no cart\u00e3o: clicar em \"Try it out\" para abrir a experi\u00eancia de an\u00e1lise de sentimento."
+    },
+    {
+        "image_name": "25_azure_studio_digitar_mensagem.png",
+        "summary": "### Selecionar idioma, recurso e inserir texto para an\u00e1lise de sentimento\nSelecionar idioma do texto, escolher o recurso Azure associado e inserir o texto a ser analisado.\n\n- Campo \"Select text language\": selecionar \"English\".\n- Campo \"Select your Azure resource\": selecionar \"idiomalanguage\".\n- Caixa de texto central: colar ou digitar o texto de entrada (ex.: trecho de avalia\u00e7\u00e3o do hotel j\u00e1 preenchido).\n- Op\u00e7\u00e3o \"Enable opinion mining\": confirmar que o toggle est\u00e1 em \"On\"."
+    },
+    {
+        "image_name": "26_azure_studio_run_model.png",
+        "summary": "### Marcar consentimento de custos e executar a demo\nMarcar a caixa de sele\u00e7\u00e3o \"I acknowledge that running this demo will incur usage and may incur costs to my Azure resource\" e clicar no bot\u00e3o \"Run\" para iniciar a execu\u00e7\u00e3o da an\u00e1lise.\n\n- Caixa marcada: confirma\u00e7\u00e3o de entendimento sobre poss\u00edveis custos (texto ao lado da checkbox).\n- Bot\u00e3o clicado: \"Run\".\n- Resultado imediato vis\u00edvel: se\u00e7\u00e3o \"Examine the results\" com abas \"Result\" e \"JSON\" pronta para exibir os resultados da an\u00e1lise."
+    },
+    {
+        "image_name": "27_azure_studio_resultado1.png",
+        "summary": "### Resultado da an\u00e1lise de sentimento do documento\nDocumento classificado como \"Negative\" com os seguintes valores exibidos:\n- Confidence: 0.00%\n- Positive: 0.00%\n- Neutral: 3.00%\n- Negative: 96.00%\n\n- Se\u00e7\u00e3o \"Sentence 1\" com marca\u00e7\u00f5es de opinion mining:\n  - Trecho destacado: \"Tired hotel with poor service\"\n  - Anota\u00e7\u00f5es vis\u00edveis (labels truncados): caixas e setas azuis apontando para partes da frase, com r\u00f3tulos iniciando \"ass...\" e \"as... target\", indicando extra\u00e7\u00e3o de aspectos/opini\u00f5es relacionados aos termos \"hotel\" e \"service\"."
+    },
+    {
+        "image_name": "28_azure_studio_resultado2.png",
+        "summary": "### Verificar resultado de Sentiment e Opinion Mining\nConfirmar o sentimento da senten\u00e7a e as opini\u00f5es extra\u00eddas pelo modelo.\n\n- Sentimento da senten\u00e7a: Negative; Confidence: 0.00%.\n- Distribui\u00e7\u00e3o exibida: Positive 0.00%, Neutral 1.00%, Negative 98.00%.\n- Opini\u00f5es extra\u00eddas (cards \u00e0 direita):\n  - Target: hotel \u2014 Assessment: Tired (negative, 99.00%).\n  - Target: service \u2014 Assessment: poor (negative, 99.00%).\n- Texto original anotado: frase \"Tired hotel with poor service\" com marca\u00e7\u00f5es de aspectos/opini\u00f5es.\n- Outras senten\u00e7as listadas: \"Sentence 2\" e \"Sentence 3\" (itens vis\u00edveis para navega\u00e7\u00e3o)."
+    },
+    {
+        "image_name": "29_azure_studio_resultado3.png",
+        "summary": "### Conferir resultados de Sentiment e Opinion Mining\nConfirmar as classifica\u00e7\u00f5es exibidas pelo modelo no painel de resultados.\n\n- Sentimento do documento/senten\u00e7a principal: Negative; Confidence: 0.00%.\n- Distribui\u00e7\u00e3o de probabilidade: Positive 0.00%, Neutral 1.00%, Negative 98.00%.\n- Opini\u00f5es extra\u00eddas (cards \u00e0 direita):\n  - Target: hotel \u2014 Assessment: Tired (negative, 99.00%).\n  - Target: service \u2014 Assessment: poor (negative, 99.00%).\n- Navega\u00e7\u00e3o entre senten\u00e7as dispon\u00edvel: \"Sentence 2\" e \"Sentence 3\" listadas abaixo."
+    },
+    {
+        "image_name": "30_azure_studio_resultado4.png",
+        "summary": "### Identificar aspecto e avalia\u00e7\u00e3o extra\u00eddos pelo modelo\nSelecionar trecho anotado onde o modelo identificou um target e sua avalia\u00e7\u00e3o.\n\n- Target destacado: \"internet\" (sublinhado/rotulado como target).\n- Avalia\u00e7\u00e3o relacionada: label \"assessment\" apontando para a avalia\u00e7\u00e3o do target (seta conectando a label ao termo).\n- Trecho do texto vis\u00edvel pr\u00f3ximo \u00e0s anota\u00e7\u00f5es: \"The internet didn't work\"."
+    },
+    {
+        "image_name": "31_azure_proximos_passos.png",
+        "summary": "### Selecionar recurso de Language e abrir o in\u00edcio r\u00e1pido\nSelecionar o recurso de Language no campo \u201cResource for Language service\u201d e acessar o material de suporte.\n\n- Campo selecionado: Resource for Language service = idiomalanguage (dropdown).\n- Informa\u00e7\u00f5es vis\u00edveis:\n  - Region: eastus\n  - Subscription key: chave oculta com \u00edcone para mostrar/copiar\n  - Language endpoint: https://idiomalanguage.cognitiveservices.azure.com/\n- A\u00e7\u00f5es dispon\u00edveis:\n  - Clicar em \"Open the quick start\" para abrir o guia passo a passo.\n  - Opcional: clicar em \"View samples on GitHub\" para ver exemplos de c\u00f3digo."
+    },
+    {
+        "image_name": "32_azure_analise_codigo.png",
+        "summary": "### Clicar em \"Get SDK\" para obter o SDK e exemplos de c\u00f3digo\nClicar no bot\u00e3o azul \"Get SDK\" na se\u00e7\u00e3o \"1. Get SDK & Code samples\" para baixar/abrir o SDK e exemplos de c\u00f3digo.\n\n- Bot\u00e3o principal: \"Get SDK\" (azul, \u00e0 esquerda de \"View samples on GitHub\").\n- Op\u00e7\u00e3o alternativa vis\u00edvel: bot\u00e3o \"View samples on GitHub\" (branco) para acessar exemplos no reposit\u00f3rio.\n- Informa\u00e7\u00e3o complementar vis\u00edvel: se\u00e7\u00e3o \"2. Use the code in your own environment\" com instru\u00e7\u00e3o sobre uso em ambiente de desenvolvimento e \u00edcone \"Copy\" no canto inferior direito para copiar trechos de c\u00f3digo."
+    },
+    {
+        "image_name": "33_azure_cobranca.png",
+        "summary": "### Selecionar \"See pricing\"\nClicar no item \"See pricing\" na coluna lateral esquerda para abrir o painel de pre\u00e7os do servi\u00e7o Language.\n\n- Painel direito exibido: t\u00edtulo \"Standard pricing for Language capabilities\".\n- Links dispon\u00edveis: \"Azure Language services pricing\" e \"Azure pricing calculator\".\n- A\u00e7\u00e3o destacada: bot\u00e3o azul \"Talk to a sales specialist\" para solicitar cota\u00e7\u00e3o ou esclarecimentos."
+    },
+    {
+        "image_name": "34_azure_resposabilidade.png",
+        "summary": "### Selecionar \"Responsible use of AI\"\nClicar no item \"Responsible use of AI\" na coluna lateral esquerda para abrir o painel com diretrizes.\n\n- Painel exibido com o t\u00edtulo \"Responsible use of AI\" e texto descritivo sobre princ\u00edpios \u00e9ticos.\n- Links vis\u00edveis para consulta:\n  - \"Responsible use of AI with Cognitive Services\"\n  - \"Microsoft's AI principles\""
+    },
+    {
+        "image_name": "taxas.png",
+        "summary": "### Visualizar tabela de pre\u00e7os do plano Gratuito (F0)\nConsultar as categorias, funcionalidades e valores oferecidos no plano \"Gratuito (F0)\" exibidos na tabela.\n\n- Colunas principais mostradas: Categoria, Funcionalidades, Pre\u00e7o.\n- Itens e pre\u00e7os vis\u00edveis:\n  - Convers\u00e3o de Fala em Texto\n    - Funcionalidades: Padr\u00e3o, Personalizado, \u00c1udio Multicanal de Transcri\u00e7\u00e3o de Conversas\n    - Pre\u00e7o: 5 horas de \u00e1udio gratuitas por m\u00eas (observa\u00e7\u00e3o de hospedagem de ponto de extremidade e 1 modelo gratuito por m\u00eas para a op\u00e7\u00e3o Personalizado)\n  - Convers\u00e3o de Texto em Fala\n    - Funcionalidade: Neural\n    - Pre\u00e7o: 0.5 milh\u00e3o caracteres gratuitos por m\u00eas\n  - Tradu\u00e7\u00e3o de Fala\n    - Funcionalidade: Padr\u00e3o\n    - Pre\u00e7o: 5 horas de \u00e1udio gratuitas por m\u00eas\n  - Reconhecimento do Locutor (por transa\u00e7\u00e3o)\n    - Funcionalidades: Verifica\u00e7\u00e3o do Locutor, Identifica\u00e7\u00e3o do Locutor, Armazenamento do Perfil de Voz\n    - Pre\u00e7o: 10.000 transa\u00e7\u00f5es gratuitas por m\u00eas (cada funcionalidade listada com esse valor)\n- Observa\u00e7\u00f5es de rodap\u00e9 vis\u00edveis:\n  - Link para consultar a documenta\u00e7\u00e3o para informa\u00e7\u00f5es sobre cotas, limites e instru\u00e7\u00f5es.\n  - Avisos: modelos n\u00e3o usados s\u00e3o desativados ap\u00f3s 7 dias; reconhecimento do locutor \u00e9 recurso de acesso limitado; horas de \u00e1udio gratuitas para convers\u00e3o de fala em texto s\u00e3o compartilhadas entre os tipos Padr\u00e3o e Personalizado e n\u00e3o h\u00e1 suporte para Lotes."
+    }
+]

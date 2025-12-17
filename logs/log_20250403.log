@@ -1,4 +1,0 @@
-2025-04-03 00:20:49,114 [INFO] Modelo Gemini 'gemini-2.0-flash-exp' inicializado com sucesso.
-2025-04-03 00:20:57,053 [INFO] AFC is enabled with max remote calls: 10.
-2025-04-03 00:21:03,484 [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp-image-generation:generateContent "HTTP/1.1 200 OK"
-2025-04-03 00:21:05,917 [INFO] AFC remote call 1 is done.

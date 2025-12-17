@@ -1,3 +1,5 @@
+# src/services/markdown_service.py
+
 import os
 from config.config import Config
 
@@ -7,7 +9,7 @@ class MarkdownService:
 
     def add_image_summary(self, image_name, summary):
         """Adiciona uma nova imagem e resumo ao conteúdo do Markdown."""
-        image_path = f"/processed_images/{image_name}"  # Caminho relativo
+        image_path = f"processed_images/{image_name}"
         markdown_entry = f"## Imagem: {image_name}\n![{image_name}]({image_path})\n\n{summary}\n"
         self.content.append(markdown_entry)
 
